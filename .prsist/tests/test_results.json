@@ -1,0 +1,212 @@
+{
+  "test_summary": {
+    "total_tests": 28,
+    "passed": 26,
+    "failed": 2,
+    "success_rate": 92.85714285714286
+  },
+  "test_results": {
+    "t": {
+      "description": "Test system",
+      "success": false,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[TEST] Testing Memory System...\n[FAIL] Tests failed: 2025-08-24 14:50:26,235 - root - INFO - Memory manager initialized\n2025-08-24 14:50:26,236 - root - INFO - Memory system validation passed\n2025-08-24 14:50:26,238 - root - INFO - Starting new memory session\n2025-08-24 14:50:26,856 - root - INFO - Started new session: 250db0fd-affd-4653-b4b2-ae52e772aac4\n2025-08-24 14:50:26,856 - root - INFO - Memory session started: 250db0fd-affd-4653-b4b2-ae52e772aac4\n2025-08-24 14:50:27,352 - root - INFO - Created checkpoint: test_checkpoint\n2025-08-24 14:50:27,358 - root - INFO - Ended session: 250db0fd-affd-4653-b4b2-ae52e772aac4\n2025-08-24 14:50:27,358 - root - INFO - Memory session ended successfully\n\n--------------------------------------------------\n[DONE] 0/1 commands completed successfully\n",
+        "stderr": "",
+        "returncode": 0,
+        "error": "Expected pattern '[PASS]' not found in output"
+      }
+    },
+    "s": {
+      "description": "Session status",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[STATUS] Session Status...\n  Active Session: c389e9fc...\n  Tools Used: 2\n  Files Modified: 0\n  Duration: 0 minutes\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:27,568 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "c": {
+      "description": "Context (what Claude sees)",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[CONTEXT] Current Context...\n  Context Length: 8420 characters\n  Lines: 195\n  Preview:\n    # Project Context\n    **Project Root:** D:\\Projects\\Dev\\Memory\n    **Timestamp:** 2025-08-24T14:50:27.805153\n    **Git Branch:** main\n    **Git Hash:** e1fde5cf\n    ... and 190 more lines\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:27,805 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "r": {
+      "description": "Recent sessions",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[RECENT] Recent Sessions...\n  - 250db0fd: Light activity (1 tools)\n  - c389e9fc: File reading (2 tools)\n  - 75806571: Light activity (1 tools)\n  - d7fc8f29: Commands (1 tools)\n  - 112ba413: Light activity (1 tools)\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:28,267 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "h": {
+      "description": "Health check",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[HEALTH] Health Check...\n[PASS] System healthy\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:28,690 - root - INFO - Memory manager initialized\n2025-08-24 14:50:28,691 - root - INFO - Memory system validation passed\n",
+        "returncode": 0
+      }
+    },
+    "m": {
+      "description": "Memory stats",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[STATS] Memory Stats...\n  Total Sessions: 84\n  Database Size: 1.94 MB\n  Active Session: c389e9fc...\n  Project Root: D:\\Projects\\Dev\\Memory\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:28,920 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "v": {
+      "description": "Validate system",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[VALIDATE] System Validation...\n  System Valid: True\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:29,103 - root - INFO - Memory manager initialized\n2025-08-24 14:50:29,103 - root - INFO - Memory system validation passed\n",
+        "returncode": 0
+      }
+    },
+    "n": {
+      "description": "New session (start)",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[NEW] Starting New Session...\nSession context (optional): [PASS] New session started: 9bb5a0f9...\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:29,287 - root - INFO - Memory manager initialized\n2025-08-24 14:50:29,289 - root - INFO - Starting new memory session\n2025-08-24 14:50:29,742 - root - INFO - Started new session: 9bb5a0f9-7658-41e6-9ea0-f36cf32a47e5\n2025-08-24 14:50:29,742 - root - INFO - Memory session started: 9bb5a0f9-7658-41e6-9ea0-f36cf32a47e5\n",
+        "returncode": 0
+      }
+    },
+    "e": {
+      "description": "End session",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[END] Ending Session...\n[PASS] Session ended and archived\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:29,989 - root - INFO - Memory manager initialized\n2025-08-24 14:50:29,995 - root - INFO - Ended session: 9bb5a0f9-7658-41e6-9ea0-f36cf32a47e5\n2025-08-24 14:50:29,995 - root - INFO - Memory session ended successfully\n",
+        "returncode": 0
+      }
+    },
+    "k": {
+      "description": "Checkpoint (create)",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[CHECKPOINT] Creating Checkpoint...\nCheckpoint name (optional): [PASS] Checkpoint created: auto\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:30,181 - root - INFO - Memory manager initialized\n2025-08-24 14:50:30,404 - root - INFO - Created checkpoint: checkpoint_20250824_145030\n",
+        "returncode": 0
+      }
+    },
+    "x": {
+      "description": "Export session data",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[EXPORT] Exporting Session Data...\n[PASS] Session exported to session_export_c389e9fc.json\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:30,598 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "f": {
+      "description": "Feature log (interactive)",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[FEATURE] Feature Logging...\nFeature name: [ERROR] Feature name required\n--------------------------------------------------\n[DONE] 0/1 commands completed successfully\n",
+        "stderr": "",
+        "returncode": 0
+      }
+    },
+    "p": {
+      "description": "Project memory (add)",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[PROJECT] Project Memory...\nEnter information to add to project memory: [ERROR] Content required\n--------------------------------------------------\n[DONE] 0/1 commands completed successfully\n",
+        "stderr": "",
+        "returncode": 0
+      }
+    },
+    "d": {
+      "description": "Add decision",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[DECISION] Add Decision...\nDecision title: [ERROR] Decision title required\n--------------------------------------------------\n[DONE] 0/1 commands completed successfully\n",
+        "stderr": "",
+        "returncode": 0
+      }
+    },
+    "z": {
+      "description": "Cleanup old data",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[CLEANUP] Cleaning Up Old Data...\nRetention days (default 30): [PASS] Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:31,144 - root - INFO - Memory manager initialized\n2025-08-24 14:50:31,150 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}\n2025-08-24 14:50:31,150 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}\n",
+        "returncode": 0
+      }
+    },
+    "a": {
+      "description": "All core checks",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 7 command(s)\n--------------------------------------------------\n[TEST] Testing Memory System...\n[FAIL] Tests failed: 2025-08-24 14:50:31,446 - root - INFO - Memory manager initialized\n2025-08-24 14:50:31,447 - root - INFO - Memory system validation passed\n2025-08-24 14:50:31,449 - root - INFO - Starting new memory session\n2025-08-24 14:50:32,006 - root - INFO - Started new session: 291df29c-6794-4df9-bb99-35b1a4d8e89e\n2025-08-24 14:50:32,007 - root - INFO - Memory session started: 291df29c-6794-4df9-bb99-35b1a4d8e89e\n2025-08-24 14:50:32,544 - root - INFO - Created checkpoint: test_checkpoint\n2025-08-24 14:50:32,549 - root - INFO - Ended session: 291df29c-6794-4df9-bb99-35b1a4d8e89e\n2025-08-24 14:50:32,549 - root - INFO - Memory session ended successfully\n\n\n[STATUS] Session Status...\n  Active Session: c389e9fc...\n  Tools Used: 2\n  Files Modified: 0\n  Duration: 0 minutes\n\n[CONTEXT] Current Context...\n  Context Length: 8420 characters\n  Lines: 195\n  Preview:\n    # Project Context\n    **Project Root:** D:\\Projects\\Dev\\Memory\n    **Timestamp:** 2025-08-24T14:50:32.660457\n    **Git Branch:** main\n    **Git Hash:** e1fde5cf\n    ... and 190 more lines\n\n[HEALTH] Health Check...\n[PASS] System healthy\n\n[RECENT] Recent Sessions...\n  - 291df29c: Light activity (1 tools)\n  - 9bb5a0f9: Empty session\n  - 250db0fd: Light activity (1 tools)\n  - c389e9fc: File reading (2 tools)\n  - 75806571: Light activity (1 tools)\n\n[STATS] Memory Stats...\n  Total Sessions: 86\n  Database Size: 1.96 MB\n  Active Session: c389e9fc...\n  Project Root: D:\\Projects\\Dev\\Memory\n\n[VALIDATE] System Validation...\n  System Valid: True\n--------------------------------------------------\n[DONE] 6/7 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:32,652 - root - INFO - Memory manager initialized\n2025-08-24 14:50:32,660 - root - INFO - Memory manager initialized\n2025-08-24 14:50:32,921 - root - INFO - Memory manager initialized\n2025-08-24 14:50:32,928 - root - INFO - Memory system validation passed\n2025-08-24 14:50:32,934 - root - INFO - Memory manager initialized\n2025-08-24 14:50:33,245 - root - INFO - Memory manager initialized\n2025-08-24 14:50:33,251 - root - INFO - Memory manager initialized\n2025-08-24 14:50:33,252 - root - INFO - Memory system validation passed\n",
+        "returncode": 0
+      }
+    },
+    "l": {
+      "description": "List commands",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 1 command(s)\n--------------------------------------------------\n[HELP] Prsist Memory System Commands:\n\n  Core Operations:\n  -t  Test system\n  -s  Status/session info\n  -c  Context (what Claude sees)\n  -r  Recent sessions\n  -h  Health check\n  -m  Memory stats\n  -v  Validate system\n\n  Session Management:\n  -n  New session (start)\n  -e  End session\n  -k  Checkpoint (create)\n  -x  Export session data\n\n  Data Management:\n  -f  Feature log (interactive)\n  -p  Project memory (add)\n  -d  Decisions (add decision)\n  -z  Cleanup old data\n\n  Shortcuts:\n  -a  All core checks (equivalent to -tschrmv)\n  -l  List commands (this help)\n\nExamples:\n  prsist -t      (test system)\n  prsist -hm     (health + memory stats)\n  prsist -tsc    (test + status + context)\n  prsist -a      (run all core checks)\n  prsist -nf     (new session + feature log)\n--------------------------------------------------\n[DONE] 1/1 commands completed successfully\n",
+        "stderr": "",
+        "returncode": 0
+      }
+    },
+    "hm": {
+      "description": "Health + Memory stats",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 2 command(s)\n--------------------------------------------------\n[HEALTH] Health Check...\n[PASS] System healthy\n\n[STATS] Memory Stats...\n  Total Sessions: 86\n  Database Size: 1.96 MB\n  Active Session: c389e9fc...\n  Project Root: D:\\Projects\\Dev\\Memory\n--------------------------------------------------\n[DONE] 2/2 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:33,545 - root - INFO - Memory manager initialized\n2025-08-24 14:50:33,549 - root - INFO - Memory system validation passed\n2025-08-24 14:50:33,558 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "tsc": {
+      "description": "Test + Status + Context",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 3 command(s)\n--------------------------------------------------\n[TEST] Testing Memory System...\n[FAIL] Tests failed: 2025-08-24 14:50:33,841 - root - INFO - Memory manager initialized\n2025-08-24 14:50:33,842 - root - INFO - Memory system validation passed\n2025-08-24 14:50:33,843 - root - INFO - Starting new memory session\n2025-08-24 14:50:34,417 - root - INFO - Started new session: 13066738-b3f3-4c3a-8034-6255686093c4\n2025-08-24 14:50:34,418 - root - INFO - Memory session started: 13066738-b3f3-4c3a-8034-6255686093c4\n2025-08-24 14:50:34,924 - root - INFO - Created checkpoint: test_checkpoint\n2025-08-24 14:50:34,929 - root - INFO - Ended session: 13066738-b3f3-4c3a-8034-6255686093c4\n2025-08-24 14:50:34,929 - root - INFO - Memory session ended successfully\n\n\n[STATUS] Session Status...\n  Active Session: c389e9fc...\n  Tools Used: 2\n  Files Modified: 0\n  Duration: 0 minutes\n\n[CONTEXT] Current Context...\n  Context Length: 8420 characters\n  Lines: 195\n  Preview:\n    # Project Context\n    **Project Root:** D:\\Projects\\Dev\\Memory\n    **Timestamp:** 2025-08-24T14:50:35.068284\n    **Git Branch:** main\n    **Git Hash:** e1fde5cf\n    ... and 190 more lines\n--------------------------------------------------\n[DONE] 2/3 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:35,060 - root - INFO - Memory manager initialized\n2025-08-24 14:50:35,068 - root - INFO - Memory manager initialized\n",
+        "returncode": 0
+      }
+    },
+    "rv": {
+      "description": "Recent + Validate",
+      "success": true,
+      "result": {
+        "success": true,
+        "stdout": "[RUN] Prsist Memory: Running 2 command(s)\n--------------------------------------------------\n[RECENT] Recent Sessions...\n  - 13066738: Light activity (1 tools)\n  - 291df29c: Light activity (1 tools)\n  - 9bb5a0f9: Empty session\n  - 250db0fd: Light activity (1 tools)\n  - c389e9fc: File reading (2 tools)\n\n[VALIDATE] System Validation...\n  System Valid: True\n--------------------------------------------------\n[DONE] 2/2 commands completed successfully\n",
+        "stderr": "2025-08-24 14:50:35,531 - root - INFO - Memory manager initialized\n2025-08-24 14:50:35,793 - root - INFO - Memory manager initialized\n2025-08-24 14:50:35,795 - root - INFO - Memory system validation passed\n",
+        "returncode": 0
+      }
+    }
+  },
+  "timestamp": "1756059218.0713136"
+}

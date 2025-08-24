@@ -1,0 +1,81 @@
+{
+  "name": "auto_checkpoint_write",
+  "timestamp": "2025-08-24T17:11:19.356235",
+  "session_id": "45e0c3ee-c28b-4c5a-acba-e888073b197f",
+  "git_info": {
+    "branch": "main",
+    "hash": "e1fde5cf",
+    "dirty": true
+  },
+  "session_state": {
+    "id": "45e0c3ee-c28b-4c5a-acba-e888073b197f",
+    "created_at": "2025-08-24T17:07:03.465574",
+    "updated_at": "2025-08-24T17:11:19.351244",
+    "project_path": "D:\\Projects\\Dev\\Memory",
+    "git_info": {
+      "branch": "main",
+      "hash": "e1fde5cf",
+      "dirty": true
+    },
+    "context_data": {
+      "last_tool_used": "Write",
+      "last_tool_time": "2025-08-24T17:11:19.350238",
+      "tool_count": 1
+    },
+    "status": "active",
+    "tool_usage": [
+      {
+        "tool_name": "Bash",
+        "timestamp": "2025-08-24T17:10:39.896597",
+        "input_data": {
+          "command": "ls -la .claude/",
+          "description": "List contents of .claude directory"
+        },
+        "output_data": "{'stdout': 'total 12\\ndrwxr-xr-x 1 fabien 197610   0 Aug 24 13:32 .\\ndrwxr-xr-x 1 fabien 197610   0 Aug 24 14:50 ..\\ndrwxr-xr-x 1 fabien 197610   0 Aug 19 13:17 agents\\ndrwxr-xr-x 1 fabien 197610   0 Aug 19 13:21 commands\\n-rw-r--r-- 1 fabien 197610 803 Aug 24 13:32 settings.local.json\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
+        "execution_time_ms": 0,
+        "success": true
+      },
+      {
+        "tool_name": "Read",
+        "timestamp": "2025-08-24T17:10:44.977695",
+        "input_data": {
+          "file_path": "D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json"
+        },
+        "output_data": "{'type': 'text', 'file': {'filePath': 'D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json', 'content': '{\\n  \"permissions\": {\\n    \"allow\": [\\n      \"Bash(node:*)\",\\n      \"WebSearch\",\\n      \"WebFetch(domain:arxiv.org)\",\\n      \"Bash(python:*)\",\\n      \"Bash(cat:*)\",\\n      \"Bash(time python:*)\",\\n      \"WebFetch(domain:docs.anthropic.com)\",\\n      \"Bash(mkdir:*)\",\\n      \"Bash(grep:*)\",\\n      \"Bash(tree:*)\"\\n    ],\\n    \"deny\": [],\\n    \"ask\": []\\n  },\\n  \"hooks\": {\\n    \"SessionStart\": [\\n      {\\n        \"hooks\": [\\n          {\\n            \"type\": \"command\",\\n            \"command\": \"python .prsist/hooks/SessionStart.py\"\\n          }\\n        ]\\n      }\\n    ],\\n    \"PostToolUse\": [\\n      {\\n        \"matcher\": \"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\",\\n        \"hooks\": [\\n          {\\n            \"type\": \"command\",\\n            \"command\": \"python .prsist/hooks/PostToolUse.py\"\\n          }\\n        ]\\n      }\\n    ]\\n  }\\n}', 'numLines': 41, 'startLine': 1, 'totalLines': 41}}",
+        "execution_time_ms": 0,
+        "success": true
+      },
+      {
+        "tool_name": "Read",
+        "timestamp": "2025-08-24T17:10:51.588634",
+        "input_data": {
+          "file_path": "C:\\Users\\fabie\\.claude\\settings.json"
+        },
+        "output_data": "{'type': 'text', 'file': {'filePath': 'C:\\\\Users\\\\fabie\\\\.claude\\\\settings.json', 'content': '{\\n  \"hooks\": {\\n    \"session_start\": [\\n      {\\n        \"name\": \"prsist_memory_integration\",\\n        \"command\": \"python \\\\\".prsist/bin/claude-integration.py\\\\\"\",\\n        \"description\": \"Auto-start Prsist memory system for Claude Code sessions\",\\n        \"timeout\": 10000,\\n        \"continue_on_error\": true\\n      }\\n    ],\\n    \"post_tool_use\": [\\n      {\\n        \"name\": \"prsist_track_tool_usage\",\\n        \"command\": \"python \\\\\".prsist/hooks/PostToolUse.py\\\\\"\",\\n        \"description\": \"Track tool usage in memory system\",\\n        \"timeout\": 3000,\\n        \"continue_on_error\": true\\n      }\\n    ],\\n    \"post_command\": [\\n      {\\n        \"name\": \"prsist_update_context\",\\n        \"command\": \"python \\\\\".prsist/hooks/claude-context-injector.py\\\\\"\",\\n        \"description\": \"Update context after commands\",\\n        \"timeout\": 3000,\\n        \"continue_on_error\": true\\n      }\\n    ]\\n  }\\n}', 'numLines': 31, 'startLine': 1, 'totalLines': 31}}",
+        "execution_time_ms": 0,
+        "success": true
+      },
+      {
+        "tool_name": "Write",
+        "timestamp": "2025-08-24T17:11:19.342348",
+        "input_data": {
+          "file_path": "C:\\Users\\fabie\\.claude\\settings.json",
+          "content": "{\n  \"hooks\": {\n    \"session_start\": [\n      {\n        \"name\": \"prsist_memory_integration\",\n        \"command\": \"python \\\".prsist/bin/claude-integration.py\\\"\",\n        \"description\": \"Auto-start Prsist memory system for Claude Code sessions\",\n        \"timeout\": 10000,\n        \"continue_on_error\": true\n      }\n    ],\n    \"post_tool_use\": [\n      {\n        \"name\": \"prsist_track_tool_usage\",\n        \"command\": \"python \\\".prsist/hooks/PostToolUse.py\\\"\",\n        \"description\": \"Track tool usage in memory system\",\n        \"timeout\": 3000,\n        \"continue_on_error\": true\n      }\n    ],\n    \"post_command\": [\n      {\n        \"name\": \"prsist_update_context\",\n        \"command\": \"python \\\".prsist/hooks/claude-context-injector.py\\\"\",\n        \"description\": \"Update context after commands\",\n        \"timeout\": 3000,\n        \"continue_on_error\": true\n      }\n    ]\n  }\n}"
+        },
+        "output_data": "{'type': 'update', 'filePath': 'C:\\\\Users\\\\fabie\\\\.claude\\\\settings.json', 'content': '{\\n  \"hooks\": {\\n    \"session_start\": [\\n      {\\n        \"name\": \"prsist_memory_integration\",\\n        \"command\": \"python \\\\\".prsist/bin/claude-integration.py\\\\\"\",\\n        \"description\": \"Auto-start Prsist memory system for Claude Code sessions\",\\n        \"timeout\": 10000,\\n        \"continue_on_error\": true\\n      }\\n    ],\\n    \"post_tool_use\": [\\n      {\\n        \"name\": \"prsist_track_tool_usage\",\\n        \"command\": \"python \\\\\".prsist/hooks/PostToolUse.py\\\\\"\",\\n        \"description\": \"Track tool usage in memory system\",\\n        \"timeout\": 3000,\\n        \"continue_on_error\": true\\n      }\\n    ],\\n    \"post_command\": [\\n      {\\n        \"name\": \"prsist_update_context\",\\n        \"command\": \"python \\\\\".prsist/hooks/claude-context-injector.py\\\\\"\",\\n        \"description\": \"Update context after commands\",\\n        \"timeout\": 3000,\\n        \"continue_on_error\": true\\n      }\\n    ]\\n  }\\n}', 'structuredPatch': []}",
+        "execution_time_ms": 0,
+        "success": true
+      }
+    ],
+    "file_interactions": [
+      {
+        "file_path": "C:\\Users\\fabie\\.claude\\settings.json",
+        "action_type": "write",
+        "timestamp": "2025-08-24T17:11:19.347230",
+        "content_hash": "f33e3e52eff0ffe9008e95093aa101c93125550693504184ac7e234b6484ecc6",
+        "line_changes": null
+      }
+    ],
+    "checkpoints": []
+  }
+}

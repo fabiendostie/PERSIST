@@ -1,0 +1,337 @@
+# Phase 4 Optimization Configuration
+# KV-Cache optimization, AI filtering, sync, and analytics settings
+
+memory_system:
+  version: "4.0"
+  
+  # KV-Cache optimization settings
+  optimization:
+    kv_cache:
+      enabled: true
+      max_cache_size_mb: 500
+      prefix_detection: true
+      cache_strategy: "lru"  # lru, size, age, value
+      compression: true
+      auto_cleanup: true
+      cleanup_threshold: 0.9  # Cleanup when 90% full
+      
+      # Prefix extraction settings
+      prefix_extraction:
+        min_tokens: 50
+        max_tokens: 4000
+        optimal_tokens: 500
+        similarity_threshold: 0.8
+        
+      # Caching strategies
+      caching_strategies:
+        always_cache_frequency: 5      # Cache if used 5+ times
+        conditional_cache_frequency: 2  # Conditionally cache if used 2+ times
+        never_cache_frequency: 1       # Don't cache single-use items
+        
+      # Cache budget allocation by content type
+      budget_allocation:
+        system_content: 0.4      # 40% for system prompts, configs
+        templates: 0.3           # 30% for templates and patterns
+        documentation: 0.2       # 20% for documentation
+        dynamic_content: 0.1     # 10% for dynamic content
+        
+      # Performance tuning
+      performance:
+        embedding_cache_size: 10000
+        async_processing: true
+        batch_size: 100
+        processing_interval_ms: 1000
+    
+    # AI-powered context filtering
+    ai_filtering:
+      enabled: true
+      model: "microsoft/deberta-v3-base"
+      relevance_threshold: 0.6
+      attention_pruning: true
+      batch_size: 32
+      max_content_length: 1000
+      
+      # Filtering strategies
+      filtering_strategies:
+        zero_shot_classification: true
+        keyword_relevance: true
+        semantic_similarity: true
+        attention_weights: true
+        
+      # Content type weights for relevance
+      content_type_weights:
+        current_task: 1.0
+        recent_files: 0.8
+        error_context: 0.9
+        system_prompts: 0.7
+        documentation: 0.6
+        historical_data: 0.4
+        
+      # Pruning settings
+      pruning:
+        enabled: true
+        target_reduction: 0.3  # Reduce context by 30%
+        preserve_critical: true
+        minimum_relevance: 0.3
+        context_window_optimization: true
+    
+    # Performance monitoring and optimization
+    performance:
+      auto_optimization: true
+      monitoring_interval: 60  # seconds
+      optimization_triggers:
+        hit_rate_threshold: 0.5
+        cost_reduction_threshold: 0.3
+        storage_utilization_threshold: 0.8
+        
+      alert_thresholds:
+        memory_mb: 200
+        latency_ms: 2000
+        cache_hit_rate: 0.5
+        error_rate: 0.1
+        
+      # Automatic optimizations
+      auto_optimizations:
+        cache_cleanup: true
+        strategy_adjustment: true
+        budget_reallocation: true
+        pattern_reanalysis: true
+
+  # Portable sync mechanisms
+  sync:
+    enabled: true
+    strategy: "git"  # git, rsync, cloud
+    conflict_resolution: "auto"  # auto, manual, use_newer, use_local
+    sync_interval: 300  # 5 minutes
+    compression: true
+    incremental: true
+    
+    # Git-based sync settings
+    git_sync:
+      repository_path: ".prsist-sync"
+      remote_url: ""  # Set this for actual sync
+      branch: "memory-sync"
+      auto_commit: true
+      commit_message_template: "Memory sync: {timestamp}"
+      
+    # Cross-platform compatibility
+    cross_platform:
+      xdg_compliance: true
+      path_normalization: true
+      encoding_standardization: true
+      
+    # Conflict resolution strategies
+    conflict_resolution_strategies:
+      content_modification: "auto_merge"  # auto_merge, use_newer, manual
+      deletion_modification: "keep_modified"
+      concurrent_additions: "merge_both"
+      
+    # Sync optimization
+    optimization:
+      delta_sync: true
+      compression_level: 6
+      batch_operations: true
+      background_sync: true
+
+  # Advanced analytics and insights
+  analytics:
+    enabled: true
+    retention_days: 90
+    report_generation: "weekly"  # daily, weekly, monthly
+    insights_ml: true
+    dashboard_port: 8080
+    
+    # Metrics collection
+    metrics_collection:
+      session_analytics: true
+      productivity_metrics: true
+      memory_efficiency: true
+      usage_patterns: true
+      performance_trends: true
+      
+    # Insight generation
+    insight_generation:
+      pattern_detection: true
+      anomaly_detection: true
+      trend_analysis: true
+      recommendation_engine: true
+      predictive_analytics: false  # Experimental
+      
+    # Dashboard settings
+    dashboard:
+      enabled: true
+      real_time_updates: true
+      data_refresh_interval: 30  # seconds
+      chart_types: ["line", "bar", "pie", "heatmap"]
+      export_formats: ["pdf", "csv", "json"]
+      
+    # Report settings
+    reporting:
+      automated_reports: true
+      email_reports: false
+      slack_integration: false
+      custom_queries: true
+
+  # Advanced features
+  advanced:
+    sparse_attention: true
+    token_pruning: true
+    progressive_loading: true
+    predictive_caching: true
+    
+    # Sparse attention settings
+    sparse_attention_config:
+      focus_area_weight: 1.0
+      important_content_weight: 0.8
+      background_content_weight: 0.5
+      reference_content_weight: 0.1
+      
+    # Token pruning settings
+    token_pruning_config:
+      enabled: true
+      target_ratio: 0.7  # Keep 70% of tokens
+      importance_threshold: 0.4
+      preserve_structure: true
+      
+    # Progressive loading settings
+    progressive_loading_config:
+      enabled: true
+      initial_load_ratio: 0.3
+      expansion_threshold: 0.8
+      max_expansions: 5
+      
+    # Predictive caching settings
+    predictive_caching_config:
+      enabled: false  # Experimental
+      prediction_horizon: 3600  # 1 hour
+      confidence_threshold: 0.7
+      cache_preload: true
+
+# Service configuration for Phase 4
+services:
+  # KV-Cache manager service
+  kv_cache_manager:
+    enabled: true
+    auto_restart: true
+    restart_delay_seconds: 5
+    max_restart_attempts: 3
+    health_check_interval: 30
+    
+  # AI context filter service
+  ai_context_filter:
+    enabled: true
+    auto_restart: true
+    model_load_timeout: 120
+    processing_timeout: 30
+    batch_processing: true
+    
+  # Sync manager service
+  sync_manager:
+    enabled: true
+    auto_restart: true
+    sync_retry_attempts: 3
+    sync_timeout_seconds: 300
+    conflict_detection: true
+    
+  # Analytics engine service
+  analytics_engine:
+    enabled: true
+    auto_restart: true
+    data_processing_interval: 300  # 5 minutes
+    insight_generation_interval: 3600  # 1 hour
+    cleanup_interval: 86400  # 24 hours
+    
+  # Performance monitor service (enhanced)
+  performance_monitor:
+    enabled: true
+    auto_restart: true
+    metric_collection_interval: 60
+    alert_evaluation_interval: 30
+    optimization_check_interval: 300
+
+# Security and compliance
+security:
+  # Data encryption
+  encryption:
+    cache_encryption: false  # Set to true for sensitive data
+    sync_encryption: false
+    analytics_data_encryption: false
+    
+  # Access control
+  access_control:
+    cache_access_validation: true
+    sync_permissions: "user_only"
+    analytics_access: "local_only"
+    
+  # Privacy settings
+  privacy:
+    anonymize_analytics: false
+    data_retention_enforcement: true
+    personal_data_filtering: false
+
+# Integration settings
+integration:
+  # External services
+  external_services:
+    webhook_notifications: false
+    api_integrations: false
+    export_capabilities: true
+    
+  # Cloud services (optional)
+  cloud_services:
+    aws_integration: false
+    gcp_integration: false
+    azure_integration: false
+    
+  # Development tools
+  development_tools:
+    vscode_extension: false
+    jetbrains_plugin: false
+    cli_tools: true
+
+# Experimental features
+experimental:
+  # Machine learning enhancements
+  ml_enhancements:
+    neural_caching: false
+    deep_pattern_recognition: false
+    reinforcement_learning_optimization: false
+    
+  # Advanced optimization
+  advanced_optimization:
+    genetic_algorithm_tuning: false
+    multi_objective_optimization: false
+    adaptive_strategies: false
+    
+  # Future features
+  future_features:
+    distributed_caching: false
+    real_time_collaboration: false
+    ai_assisted_debugging: false
+
+# Logging and debugging
+logging:
+  level: "INFO"
+  
+  # Component-specific logging
+  components:
+    kv_cache_manager: "INFO"
+    ai_context_filter: "INFO"
+    sync_manager: "INFO"
+    analytics_engine: "INFO"
+    prefix_optimizer: "INFO"
+    cache_analyzer: "INFO"
+    
+  # Performance logging
+  performance_logging:
+    optimization_operations: true
+    cache_performance: true
+    sync_operations: true
+    analytics_processing: true
+    
+  # Debug logging
+  debug_logging:
+    cache_hits_misses: false
+    filter_decisions: false
+    sync_conflicts: true
+    optimization_decisions: true

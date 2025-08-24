@@ -1,0 +1,77 @@
+# Lefthook configuration for Prsist Memory System
+# Git hook management for automated memory tracking and correlation
+
+# Pre-commit: Capture development context before commit
+pre-commit:
+  parallel: true
+  commands:
+    memory-capture:
+      glob: "*.{js,ts,py,go,md,yaml,json,tsx,jsx,vue,php,rb,java,cpp,c,h,hpp,cs,rs,kt,swift,scala}"
+      run: python .prsist/hooks/git-memory-capture.py {staged_files}
+      stage_fixed: false
+      fail_text: "Memory capture failed - commit will proceed but memory may be incomplete"
+
+# Post-commit: Correlate commit with memory system
+post-commit:
+  commands:
+    memory-correlate:
+      run: python .prsist/hooks/git-memory-correlate.py {commit_sha}
+      stage_fixed: true
+      fail_text: "Memory correlation failed - commit successful but memory tracking incomplete"
+
+# Pre-push: Synchronize memory before pushing
+pre-push:
+  commands:
+    memory-sync:
+      run: python .prsist/hooks/git-memory-sync.py {branch}
+      fail_text: "Memory sync failed - push will proceed but memory may be out of sync"
+
+# Post-merge: Update memory context after merge
+post-merge:
+  commands:
+    memory-update:
+      run: python .prsist/hooks/git-memory-update.py merge {branch}
+      stage_fixed: true
+      fail_text: "Memory update after merge failed - manual sync may be required"
+
+# Post-checkout: Switch memory context when changing branches
+post-checkout:
+  commands:
+    context-switch:
+      run: python .prsist/hooks/git-context-switch.py {branch}
+      fail_text: "Context switch failed - memory may not reflect current branch state"
+
+# Post-rewrite: Handle rebases and amends
+post-rewrite:
+  commands:
+    memory-rewrite:
+      run: python .prsist/hooks/git-memory-rewrite.py {rewritten_list}
+      fail_text: "Memory rewrite handling failed"
+
+# Prepare-commit-msg: Enhance commit messages with memory context
+prepare-commit-msg:
+  commands:
+    enhance-commit-msg:
+      run: python .prsist/hooks/git-enhance-commit-msg.py {commit_msg_file} {commit_source} {commit_sha}
+      fail_text: "Commit message enhancement failed - using original message"
+
+# Configuration
+assert_lefthook_installed: true
+colors: true
+no_tty: false
+
+# Skip patterns for performance
+skip_output:
+  - meta
+  - success
+
+# Only run on specific file types to improve performance  
+exclude_tags:
+  - merge
+  - rebase
+
+# Timeout settings
+remote:
+  git_url: "{remote_url}"
+  ref: "{push_branch}"
+  config: .lefthook-remote.yml

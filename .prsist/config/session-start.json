@@ -1,0 +1,68 @@
+{
+  "$schema": "./session-schema.json",
+  "auto_start": true,
+  "claude_code_integration": {
+    "enabled": true,
+    "auto_launch": true,
+    "context_injection": true,
+    "transparent_mode": true,
+    "session_metadata": {
+      "tool": "claude-code",
+      "session_type": "interactive_coding",
+      "auto_created": true
+    }
+  },
+  "startup_hooks": {
+    "pre_session": [
+      {
+        "name": "system_health_check",
+        "script": "python .prsist/hooks/health-check.py",
+        "required": false,
+        "timeout_seconds": 5
+      }
+    ],
+    "post_session": [
+      {
+        "name": "context_preparation",
+        "script": "python .prsist/hooks/SessionStart.py",
+        "required": true,
+        "timeout_seconds": 10
+      }
+    ],
+    "context_hooks": [
+      {
+        "name": "claude_context_injection",
+        "script": "python .prsist/hooks/claude-context-injector.py",
+        "required": false,
+        "timeout_seconds": 3
+      }
+    ]
+  },
+  "context_settings": {
+    "auto_inject": true,
+    "context_file": ".prsist/context/claude-context.md",
+    "max_context_length": 8000,
+    "include_recent_sessions": true,
+    "include_project_memory": true,
+    "include_git_context": true,
+    "update_frequency": "on_tool_use"
+  },
+  "transparency_settings": {
+    "silent_startup": true,
+    "hide_memory_operations": true,
+    "minimal_user_feedback": true,
+    "background_operations": true
+  },
+  "performance": {
+    "lazy_loading": true,
+    "cache_context": true,
+    "async_operations": true,
+    "timeout_fallback": true
+  },
+  "error_handling": {
+    "graceful_fallback": true,
+    "continue_without_memory": true,
+    "log_errors": true,
+    "user_notification_level": "errors_only"
+  }
+}

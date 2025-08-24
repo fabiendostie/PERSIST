@@ -1,0 +1,460 @@
+# Prsist Memory System Phase 3 Configuration
+# Enhanced configuration for advanced features
+
+memory_system:
+  version: "3.0"
+  
+  # Core system settings
+  core:
+    database_path: ".prsist/storage/sessions.db"
+    knowledge_db_path: ".prsist/storage/knowledge.db"
+    log_level: "INFO"
+    debug_mode: false
+    max_sessions: 1000
+    session_timeout_hours: 24
+  
+  # Advanced Phase 3 features
+  advanced_features:
+    file_watching: true
+    dynamic_context: true
+    relevance_scoring: true
+    knowledge_persistence: true
+    auto_compression: true
+    cross_session_learning: true
+    performance_monitoring: true
+  
+  # Context management configuration
+  context_management:
+    max_context_tokens: 75000
+    compression_threshold: 0.95
+    relevance_threshold: 0.6
+    auto_compression_enabled: true
+    context_cache_ttl_minutes: 5
+    
+    expansion_triggers:
+      - file_complexity
+      - error_patterns
+      - architectural_decisions
+      - related_sessions
+      - pattern_matching
+    
+    compression_strategies:
+      hierarchical:
+        enabled: true
+        preserve_critical: true
+        phases: ["completed", "background", "reference"]
+      
+      temporal:
+        enabled: true
+        cutoff_hours: 24
+        keep_recent_files: 10
+      
+      importance:
+        enabled: true
+        min_importance_score: 0.3
+        max_related_sessions: 3
+
+# File watching configuration
+file_watching:
+  enabled: true
+  
+  # Watch paths and patterns
+  watch_paths:
+    - "src/**/*"
+    - "docs/**/*"
+    - "bmad-core/**/*"
+    - "expansion-packs/**/*"
+    - "tools/**/*"
+    - "*.{js,ts,py,md,yaml,json}"
+  
+  ignored_patterns:
+    - "/(^|[\\/\\\\])\\."  # dotfiles
+    - "/node_modules/"
+    - "/\\.git/"
+    - "/dist|build|output/"
+    - "/\\.(log|tmp|cache)$/"
+    - "/.prsist/"
+    - "/\\.vscode/"
+    - "/\\.idea/"
+    - "/__pycache__/"
+    - "/\\.pytest_cache/"
+    - "/coverage/"
+    - "/\\.coverage"
+  
+  # Performance settings
+  performance:
+    debounce_ms: 300
+    batch_size: 50
+    max_queue_size: 1000
+    stability_threshold: 300
+    poll_interval: 100
+  
+  # Memory triggers
+  memory_triggers:
+    code_files: ["js", "ts", "py", "go", "java", "cpp", "cs", "rs", "rb", "php"]
+    config_files: ["yaml", "json", "toml", "ini", "cfg"]
+    doc_files: ["md", "rst", "txt"]
+    ignore_files: ["log", "tmp", "cache", "lock"]
+  
+  # Relevance scoring for file types
+  relevance_scoring:
+    file_type_weights:
+      python: 0.8
+      javascript: 0.8
+      typescript: 0.8
+      go: 0.7
+      java: 0.7
+      cpp: 0.7
+      csharp: 0.7
+      rust: 0.7
+      ruby: 0.6
+      php: 0.6
+      markdown: 0.6
+      yaml: 0.7
+      json: 0.6
+      toml: 0.5
+      ini: 0.4
+    
+    directory_weights:
+      src: 0.8
+      lib: 0.7
+      app: 0.7
+      core: 0.8
+      bmad-core: 0.9
+      docs: 0.6
+      config: 0.6
+      test: 0.4
+      tests: 0.4
+      spec: 0.4
+      node_modules: 0.0
+      build: 0.1
+      dist: 0.1
+    
+    change_type_weights:
+      add: 0.8
+      change: 0.6
+      delete: 0.4
+      add_dir: 0.3
+      delete_dir: 0.2
+    
+    special_patterns:
+      readme: 0.8
+      changelog: 0.7
+      todo: 0.6
+      config: 0.6
+      package: 0.6
+      requirements: 0.7
+      test: 0.5
+      spec: 0.5
+
+# Memory relevance scoring system
+relevance_scoring:
+  enabled: true
+  
+  # Scoring weights (must sum to 1.0)
+  weights:
+    recency: 0.3
+    importance: 0.25
+    similarity: 0.25
+    role_relevance: 0.2
+  
+  # Embedding model configuration
+  embedding_model:
+    name: "all-MiniLM-L6-v2"
+    fallback_to_keywords: true
+    cache_embeddings: true
+    max_cache_size: 10000
+  
+  # Scoring thresholds
+  thresholds:
+    minimum_relevance: 0.3
+    high_relevance: 0.7
+    context_inclusion: 0.6
+    cross_session_link: 0.5
+  
+  # Recency decay settings
+  recency:
+    half_life_hours: 24
+    decay_rate: 0.029  # ln(2)/24
+    max_age_days: 30
+
+# Knowledge persistence configuration
+knowledge_persistence:
+  enabled: true
+  
+  # Pattern detection settings
+  pattern_detection:
+    enabled: true
+    min_frequency: 2
+    confidence_threshold: 0.5
+    pattern_types:
+      - code
+      - workflow
+      - decision
+      - problem
+  
+  # Decision tracking
+  decision_tracking:
+    enabled: true
+    auto_extract: true
+    min_confidence: 0.6
+    track_alternatives: true
+    track_outcomes: true
+  
+  # Cross-session learning
+  cross_session_learning:
+    enabled: true
+    relationship_threshold: 0.5
+    max_relationships_per_session: 10
+    learning_window_days: 30
+  
+  # Knowledge maintenance
+  maintenance:
+    knowledge_decay_days: 90
+    cleanup_interval_hours: 24
+    min_usage_count: 1
+    consolidation_enabled: true
+
+# Service configuration
+services:
+  # File watcher service
+  file_watcher:
+    enabled: true
+    auto_restart: true
+    restart_delay_seconds: 5
+    max_restart_attempts: 3
+    health_check_interval: 30
+  
+  # Context injection service
+  context_injector:
+    enabled: true
+    auto_restart: true
+    just_in_time: true
+    progressive_expansion: true
+    background_processing: true
+    injection_interval_seconds: 10
+  
+  # Knowledge manager service
+  knowledge_manager:
+    enabled: true
+    auto_restart: true
+    pattern_analysis: true
+    decision_tracking: true
+    background_extraction: true
+    extraction_interval_seconds: 300
+  
+  # Performance monitor service
+  performance_monitor:
+    enabled: true
+    auto_restart: true
+    metric_collection_interval: 60
+    alert_thresholds:
+      memory_usage_mb: 500
+      queue_size: 800
+      error_rate: 0.1
+      response_time_ms: 5000
+
+# Performance optimization settings
+performance:
+  # Async processing
+  async_processing: true
+  thread_pool_size: 4
+  queue_max_size: 1000
+  background_sync_interval: 300  # 5 minutes
+  
+  # Memory management
+  memory:
+    cache_size_mb: 100
+    auto_cleanup: true
+    cleanup_interval_minutes: 30
+    max_context_snapshots_per_session: 10
+  
+  # Database optimization
+  database:
+    connection_pool_size: 5
+    query_timeout_seconds: 30
+    batch_insert_size: 100
+    vacuum_interval_hours: 24
+  
+  # File watching optimization
+  file_watching:
+    debounce_ms: 300
+    batch_processing: true
+    max_batch_size: 100
+    processing_interval_ms: 5000
+
+# Memory integration settings
+memory_integration:
+  # Context injection settings
+  context_injection:
+    update_threshold: 0.3  # Minimum relevance to trigger update
+    context_invalidation_threshold: 0.6
+    session_impact_threshold: 0.5
+    
+    auto_refresh:
+      enabled: true
+      high_impact_threshold: 0.8
+      refresh_delay_ms: 1000
+    
+    batch_processing:
+      enabled: true
+      max_batch_size: 100
+      processing_interval_ms: 5000
+  
+  # Relevance management
+  relevance_management:
+    auto_update: true
+    boost_duration_hours: 24
+    decay_enabled: true
+    cleanup_expired: true
+  
+  # Cross-session features
+  cross_session:
+    relationship_detection: true
+    knowledge_sharing: true
+    pattern_propagation: true
+    collaborative_learning: true
+
+# Monitoring and alerting
+monitoring:
+  enabled: true
+  
+  # Health checks
+  health_checks:
+    enabled: true
+    interval_seconds: 60
+    timeout_seconds: 30
+    
+  # Service monitoring
+  service_monitoring:
+    heartbeat_interval: 30
+    health_check_interval: 60
+    service_timeout: 120
+    auto_restart_failed: true
+  
+  # Performance monitoring
+  performance_monitoring:
+    enabled: true
+    metrics:
+      watch_events: true
+      processing_times: true
+      queue_sizes: true
+      error_rates: true
+      memory_usage: true
+      context_sizes: true
+  
+  # Alerting
+  alerts:
+    enabled: true
+    
+    thresholds:
+      queue_size_warning: 500
+      queue_size_critical: 800
+      processing_time_warning: 5000  # 5 seconds
+      error_rate_warning: 0.1  # 10% error rate
+      memory_usage_warning: 400  # 400MB
+      memory_usage_critical: 500  # 500MB
+    
+    notification:
+      log_alerts: true
+      console_alerts: true
+
+# Security settings
+security:
+  # Input validation
+  input_validation:
+    enabled: true
+    max_file_path_length: 1000
+    allowed_file_extensions: ["py", "js", "ts", "md", "yaml", "json", "toml", "ini"]
+    sanitize_inputs: true
+  
+  # Path security
+  path_security:
+    prevent_traversal: true
+    allowed_base_paths: ["."]
+    block_system_paths: true
+  
+  # Data protection
+  data_protection:
+    encrypt_sensitive_data: false  # Set to true in production
+    hash_file_contents: true
+    anonymize_user_data: false
+
+# Logging configuration
+logging:
+  level: "INFO"
+  
+  # Component-specific logging
+  components:
+    file_watcher: "INFO"
+    context_manager: "INFO"
+    relevance_scorer: "INFO"
+    knowledge_manager: "INFO"
+    change_analyzer: "INFO"
+    orchestrator: "INFO"
+  
+  # Git operations logging
+  git_operations:
+    log_hook_execution: true
+    log_correlation_results: true
+    log_performance_metrics: true
+  
+  # File operations logging
+  file_operations:
+    log_file_changes: true
+    log_relevance_updates: true
+    log_context_injections: false  # Can be verbose
+  
+  # Performance logging
+  performance_logging:
+    log_slow_operations: true
+    slow_operation_threshold_ms: 1000
+    log_memory_usage: true
+    log_queue_stats: true
+
+# Development and debugging
+development:
+  debug_mode: false
+  
+  # Testing configuration
+  testing:
+    mock_file_watcher: false
+    mock_embeddings: false
+    fast_timeouts: false
+    verbose_logging: false
+  
+  # Debug features
+  debug_features:
+    dump_context: false
+    trace_relevance_scoring: false
+    log_all_file_changes: false
+    profile_performance: false
+  
+  # Experimental features
+  experimental:
+    advanced_pattern_detection: false
+    predictive_context_loading: false
+    machine_learning_scoring: false
+
+# Integration settings
+integration:
+  # Prsist System integration
+  bmad_method:
+    enabled: true
+    agent_memory_integration: true
+    template_updates: true
+    workflow_integration: true
+    documentation_generation: true
+  
+  # Claude Code integration
+  claude_code:
+    hook_integration: true
+    context_injection: true
+    tool_tracking: true
+    git_awareness: true
+  
+  # External services
+  external_services:
+    webhook_notifications: false
+    api_integrations: false
+    export_capabilities: true

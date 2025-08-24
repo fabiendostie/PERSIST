@@ -1,0 +1,333 @@
+
+=== PostToolUse Hook Called at 2025-08-19 13:39:58.378022 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"python .prsist/prsist.py -h","description":"Run memory system health check with help flag"},"tool_response":{"stdout":"[RUN] Prsist Memory: Running 1 command(s)\r\n--------------------------------------------------\r\n[HEALTH] Health Check...\r\n[PASS] System healthy\r\n--------------------------------------------------\r\n[DONE] 1/1 commands completed successfully\r\n2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized\r\n2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed\r","stderr":"","interrupted":false,"isImage":false}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "python .prsist/prsist.py -h",
+    "description": "Run memory system health check with help flag"
+  },
+  "tool_response": {
+    "stdout": "[RUN] Prsist Memory: Running 1 command(s)\r\n--------------------------------------------------\r\n[HEALTH] Health Check...\r\n[PASS] System healthy\r\n--------------------------------------------------\r\n[DONE] 1/1 commands completed successfully\r\n2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized\r\n2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed\r",
+    "stderr": "",
+    "interrupted": false,
+    "isImage": false
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:40:38.935908 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"python .prsist/prsist.py -r","description":"Display recent memory sessions"},"tool_response":{"stdout":"[RUN] Prsist Memory: Running 1 command(s)\r\n--------------------------------------------------\r\n[RECENT] Recent Sessions...\r\n  Unknown - 8c9adc68\r\n  Unknown - 6a195e05\r\n  Unknown - 9f2ccf81\r\n  Unknown - ce6b7a6e\r\n  Unknown - 7426016c\r\n--------------------------------------------------\r\n[DONE] 1/1 commands completed successfully\r\n2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized\r","stderr":"","interrupted":false,"isImage":false}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "python .prsist/prsist.py -r",
+    "description": "Display recent memory sessions"
+  },
+  "tool_response": {
+    "stdout": "[RUN] Prsist Memory: Running 1 command(s)\r\n--------------------------------------------------\r\n[RECENT] Recent Sessions...\r\n  Unknown - 8c9adc68\r\n  Unknown - 6a195e05\r\n  Unknown - 9f2ccf81\r\n  Unknown - ce6b7a6e\r\n  Unknown - 7426016c\r\n--------------------------------------------------\r\n[DONE] 1/1 commands completed successfully\r\n2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized\r",
+    "stderr": "",
+    "interrupted": false,
+    "isImage": false
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:41:13.161007 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Read","tool_input":{"file_path":"D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json"},"tool_response":{"type":"text","file":{"filePath":"D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json","content":"{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(node:*)\",\n      \"WebSearch\",\n      \"WebFetch(domain:arxiv.org)\",\n      \"Bash(python:*)\",\n      \"Bash(cat:*)\",\n      \"Bash(time python:*)\",\n      \"WebFetch(domain:docs.anthropic.com)\",\n      \"Bash(mkdir:*)\",\n      \"Bash(grep:*)\"\n    ],\n    \"deny\": [],\n    \"ask\": []\n  },\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/SessionStart.py\"\n          }\n        ]\n      }\n    ],\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"\n          }\n        ]\n      }\n    ]\n  }\n}","numLines":40,"startLine":1,"totalLines":40}}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json"
+  },
+  "tool_response": {
+    "type": "text",
+    "file": {
+      "filePath": "D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json",
+      "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(node:*)\",\n      \"WebSearch\",\n      \"WebFetch(domain:arxiv.org)\",\n      \"Bash(python:*)\",\n      \"Bash(cat:*)\",\n      \"Bash(time python:*)\",\n      \"WebFetch(domain:docs.anthropic.com)\",\n      \"Bash(mkdir:*)\",\n      \"Bash(grep:*)\"\n    ],\n    \"deny\": [],\n    \"ask\": []\n  },\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/SessionStart.py\"\n          }\n        ]\n      }\n    ],\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+      "numLines": 40,
+      "startLine": 1,
+      "totalLines": 40
+    }
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:41:16.438565 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Read","tool_input":{"file_path":"D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse-debug.py"},"tool_response":{"type":"text","file":{"filePath":"D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse-debug.py","content":"#!/usr/bin/env python3\n\"\"\"\nDebug version of PostToolUse Hook\nLogs all input to help diagnose issues\n\"\"\"\n\nimport sys\nimport json\nimport os\nfrom pathlib import Path\nfrom datetime import datetime\n\ndef main():\n    \"\"\"Debug hook - log everything we receive\"\"\"\n    \n    # Log to a debug file\n    debug_file = Path(__file__).parent.parent / \"debug-hook-calls.log\"\n    \n    with open(debug_file, \"a\") as f:\n        f.write(f\"\\n=== PostToolUse Hook Called at {datetime.now()} ===\\n\")\n        \n        # Log environment variables\n        f.write(\"Environment variables:\\n\")\n        for key, value in os.environ.items():\n            if 'CLAUDE' in key.upper():\n                f.write(f\"  {key} = {value}\\n\")\n        \n        # Log stdin content\n        f.write(\"\\nSTDIN content:\\n\")\n        if not sys.stdin.isatty():\n            stdin_content = sys.stdin.read()\n            f.write(f\"Raw: {stdin_content}\\n\")\n            \n            try:\n                data = json.loads(stdin_content) if stdin_content.strip() else {}\n                f.write(f\"Parsed JSON: {json.dumps(data, indent=2)}\\n\")\n            except json.JSONDecodeError as e:\n                f.write(f\"JSON Parse Error: {e}\\n\")\n        else:\n            f.write(\"No stdin data (TTY mode)\\n\")\n        \n        # Log command line args\n        f.write(f\"\\nCommand line args: {sys.argv}\\n\")\n        f.write(\"=== End Hook Call ===\\n\\n\")\n    \n    # Return success\n    print(json.dumps({\"status\": \"success\", \"message\": \"Debug hook executed\"}))\n    return 0\n\nif __name__ == \"__main__\":\n    sys.exit(main())","numLines":51,"startLine":1,"totalLines":51}}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse-debug.py"
+  },
+  "tool_response": {
+    "type": "text",
+    "file": {
+      "filePath": "D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse-debug.py",
+      "content": "#!/usr/bin/env python3\n\"\"\"\nDebug version of PostToolUse Hook\nLogs all input to help diagnose issues\n\"\"\"\n\nimport sys\nimport json\nimport os\nfrom pathlib import Path\nfrom datetime import datetime\n\ndef main():\n    \"\"\"Debug hook - log everything we receive\"\"\"\n    \n    # Log to a debug file\n    debug_file = Path(__file__).parent.parent / \"debug-hook-calls.log\"\n    \n    with open(debug_file, \"a\") as f:\n        f.write(f\"\\n=== PostToolUse Hook Called at {datetime.now()} ===\\n\")\n        \n        # Log environment variables\n        f.write(\"Environment variables:\\n\")\n        for key, value in os.environ.items():\n            if 'CLAUDE' in key.upper():\n                f.write(f\"  {key} = {value}\\n\")\n        \n        # Log stdin content\n        f.write(\"\\nSTDIN content:\\n\")\n        if not sys.stdin.isatty():\n            stdin_content = sys.stdin.read()\n            f.write(f\"Raw: {stdin_content}\\n\")\n            \n            try:\n                data = json.loads(stdin_content) if stdin_content.strip() else {}\n                f.write(f\"Parsed JSON: {json.dumps(data, indent=2)}\\n\")\n            except json.JSONDecodeError as e:\n                f.write(f\"JSON Parse Error: {e}\\n\")\n        else:\n            f.write(\"No stdin data (TTY mode)\\n\")\n        \n        # Log command line args\n        f.write(f\"\\nCommand line args: {sys.argv}\\n\")\n        f.write(\"=== End Hook Call ===\\n\\n\")\n    \n    # Return success\n    print(json.dumps({\"status\": \"success\", \"message\": \"Debug hook executed\"}))\n    return 0\n\nif __name__ == \"__main__\":\n    sys.exit(main())",
+      "numLines": 51,
+      "startLine": 1,
+      "totalLines": 51
+    }
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:41:20.272315 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Read","tool_input":{"file_path":"D:\\Projects\\Dev\\Memory\\.prsist\\debug-hook-calls.log"},"tool_response":{"type":"text","file":{"filePath":"D:\\Projects\\Dev\\Memory\\.prsist\\debug-hook-calls.log","content":"\n=== PostToolUse Hook Called at 2025-08-19 13:39:58.378022 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"python .prsist/prsist.py -h\",\"description\":\"Run memory system health check with help flag\"},\"tool_response\":{\"stdout\":\"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[HEALTH] Health Check...\\r\\n[PASS] System healthy\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized\\r\\n2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed\\r\",\"stderr\":\"\",\"interrupted\":false,\"isImage\":false}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Bash\",\n  \"tool_input\": {\n    \"command\": \"python .prsist/prsist.py -h\",\n    \"description\": \"Run memory system health check with help flag\"\n  },\n  \"tool_response\": {\n    \"stdout\": \"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[HEALTH] Health Check...\\r\\n[PASS] System healthy\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized\\r\\n2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed\\r\",\n    \"stderr\": \"\",\n    \"interrupted\": false,\n    \"isImage\": false\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n\n=== PostToolUse Hook Called at 2025-08-19 13:40:38.935908 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"python .prsist/prsist.py -r\",\"description\":\"Display recent memory sessions\"},\"tool_response\":{\"stdout\":\"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[RECENT] Recent Sessions...\\r\\n  Unknown - 8c9adc68\\r\\n  Unknown - 6a195e05\\r\\n  Unknown - 9f2ccf81\\r\\n  Unknown - ce6b7a6e\\r\\n  Unknown - 7426016c\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized\\r\",\"stderr\":\"\",\"interrupted\":false,\"isImage\":false}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Bash\",\n  \"tool_input\": {\n    \"command\": \"python .prsist/prsist.py -r\",\n    \"description\": \"Display recent memory sessions\"\n  },\n  \"tool_response\": {\n    \"stdout\": \"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[RECENT] Recent Sessions...\\r\\n  Unknown - 8c9adc68\\r\\n  Unknown - 6a195e05\\r\\n  Unknown - 9f2ccf81\\r\\n  Unknown - ce6b7a6e\\r\\n  Unknown - 7426016c\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized\\r\",\n    \"stderr\": \"\",\n    \"interrupted\": false,\n    \"isImage\": false\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n\n=== PostToolUse Hook Called at 2025-08-19 13:41:13.161007 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Read\",\"tool_input\":{\"file_path\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\"},\"tool_response\":{\"type\":\"text\",\"file\":{\"filePath\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\",\"content\":\"{\\n  \\\"permissions\\\": {\\n    \\\"allow\\\": [\\n      \\\"Bash(node:*)\\\",\\n      \\\"WebSearch\\\",\\n      \\\"WebFetch(domain:arxiv.org)\\\",\\n      \\\"Bash(python:*)\\\",\\n      \\\"Bash(cat:*)\\\",\\n      \\\"Bash(time python:*)\\\",\\n      \\\"WebFetch(domain:docs.anthropic.com)\\\",\\n      \\\"Bash(mkdir:*)\\\",\\n      \\\"Bash(grep:*)\\\"\\n    ],\\n    \\\"deny\\\": [],\\n    \\\"ask\\\": []\\n  },\\n  \\\"hooks\\\": {\\n    \\\"SessionStart\\\": [\\n      {\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/SessionStart.py\\\"\\n          }\\n        ]\\n      }\\n    ],\\n    \\\"PostToolUse\\\": [\\n      {\\n        \\\"matcher\\\": \\\"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\\\",\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/PostToolUse-debug.py\\\"\\n          }\\n        ]\\n      }\\n    ]\\n  }\\n}\",\"numLines\":40,\"startLine\":1,\"totalLines\":40}}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Read\",\n  \"tool_input\": {\n    \"file_path\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\"\n  },\n  \"tool_response\": {\n    \"type\": \"text\",\n    \"file\": {\n      \"filePath\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\",\n      \"content\": \"{\\n  \\\"permissions\\\": {\\n    \\\"allow\\\": [\\n      \\\"Bash(node:*)\\\",\\n      \\\"WebSearch\\\",\\n      \\\"WebFetch(domain:arxiv.org)\\\",\\n      \\\"Bash(python:*)\\\",\\n      \\\"Bash(cat:*)\\\",\\n      \\\"Bash(time python:*)\\\",\\n      \\\"WebFetch(domain:docs.anthropic.com)\\\",\\n      \\\"Bash(mkdir:*)\\\",\\n      \\\"Bash(grep:*)\\\"\\n    ],\\n    \\\"deny\\\": [],\\n    \\\"ask\\\": []\\n  },\\n  \\\"hooks\\\": {\\n    \\\"SessionStart\\\": [\\n      {\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/SessionStart.py\\\"\\n          }\\n        ]\\n      }\\n    ],\\n    \\\"PostToolUse\\\": [\\n      {\\n        \\\"matcher\\\": \\\"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\\\",\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/PostToolUse-debug.py\\\"\\n          }\\n        ]\\n      }\\n    ]\\n  }\\n}\",\n      \"numLines\": 40,\n      \"startLine\": 1,\n      \"totalLines\": 40\n    }\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n\n=== PostToolUse Hook Called at 2025-08-19 13:41:16.438565 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Read\",\"tool_input\":{\"file_path\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\"},\"tool_response\":{\"type\":\"text\",\"file\":{\"filePath\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\",\"content\":\"#!/usr/bin/env python3\\n\\\"\\\"\\\"\\nDebug version of PostToolUse Hook\\nLogs all input to help diagnose issues\\n\\\"\\\"\\\"\\n\\nimport sys\\nimport json\\nimport os\\nfrom pathlib import Path\\nfrom datetime import datetime\\n\\ndef main():\\n    \\\"\\\"\\\"Debug hook - log everything we receive\\\"\\\"\\\"\\n    \\n    # Log to a debug file\\n    debug_file = Path(__file__).parent.parent / \\\"debug-hook-calls.log\\\"\\n    \\n    with open(debug_file, \\\"a\\\") as f:\\n        f.write(f\\\"\\\\n=== PostToolUse Hook Called at {datetime.now()} ===\\\\n\\\")\\n        \\n        # Log environment variables\\n        f.write(\\\"Environment variables:\\\\n\\\")\\n        for key, value in os.environ.items():\\n            if 'CLAUDE' in key.upper():\\n                f.write(f\\\"  {key} = {value}\\\\n\\\")\\n        \\n        # Log stdin content\\n        f.write(\\\"\\\\nSTDIN content:\\\\n\\\")\\n        if not sys.stdin.isatty():\\n            stdin_content = sys.stdin.read()\\n            f.write(f\\\"Raw: {stdin_content}\\\\n\\\")\\n            \\n            try:\\n                data = json.loads(stdin_content) if stdin_content.strip() else {}\\n                f.write(f\\\"Parsed JSON: {json.dumps(data, indent=2)}\\\\n\\\")\\n            except json.JSONDecodeError as e:\\n                f.write(f\\\"JSON Parse Error: {e}\\\\n\\\")\\n        else:\\n            f.write(\\\"No stdin data (TTY mode)\\\\n\\\")\\n        \\n        # Log command line args\\n        f.write(f\\\"\\\\nCommand line args: {sys.argv}\\\\n\\\")\\n        f.write(\\\"=== End Hook Call ===\\\\n\\\\n\\\")\\n    \\n    # Return success\\n    print(json.dumps({\\\"status\\\": \\\"success\\\", \\\"message\\\": \\\"Debug hook executed\\\"}))\\n    return 0\\n\\nif __name__ == \\\"__main__\\\":\\n    sys.exit(main())\",\"numLines\":51,\"startLine\":1,\"totalLines\":51}}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Read\",\n  \"tool_input\": {\n    \"file_path\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\"\n  },\n  \"tool_response\": {\n    \"type\": \"text\",\n    \"file\": {\n      \"filePath\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\",\n      \"content\": \"#!/usr/bin/env python3\\n\\\"\\\"\\\"\\nDebug version of PostToolUse Hook\\nLogs all input to help diagnose issues\\n\\\"\\\"\\\"\\n\\nimport sys\\nimport json\\nimport os\\nfrom pathlib import Path\\nfrom datetime import datetime\\n\\ndef main():\\n    \\\"\\\"\\\"Debug hook - log everything we receive\\\"\\\"\\\"\\n    \\n    # Log to a debug file\\n    debug_file = Path(__file__).parent.parent / \\\"debug-hook-calls.log\\\"\\n    \\n    with open(debug_file, \\\"a\\\") as f:\\n        f.write(f\\\"\\\\n=== PostToolUse Hook Called at {datetime.now()} ===\\\\n\\\")\\n        \\n        # Log environment variables\\n        f.write(\\\"Environment variables:\\\\n\\\")\\n        for key, value in os.environ.items():\\n            if 'CLAUDE' in key.upper():\\n                f.write(f\\\"  {key} = {value}\\\\n\\\")\\n        \\n        # Log stdin content\\n        f.write(\\\"\\\\nSTDIN content:\\\\n\\\")\\n        if not sys.stdin.isatty():\\n            stdin_content = sys.stdin.read()\\n            f.write(f\\\"Raw: {stdin_content}\\\\n\\\")\\n            \\n            try:\\n                data = json.loads(stdin_content) if stdin_content.strip() else {}\\n                f.write(f\\\"Parsed JSON: {json.dumps(data, indent=2)}\\\\n\\\")\\n            except json.JSONDecodeError as e:\\n                f.write(f\\\"JSON Parse Error: {e}\\\\n\\\")\\n        else:\\n            f.write(\\\"No stdin data (TTY mode)\\\\n\\\")\\n        \\n        # Log command line args\\n        f.write(f\\\"\\\\nCommand line args: {sys.argv}\\\\n\\\")\\n        f.write(\\\"=== End Hook Call ===\\\\n\\\\n\\\")\\n    \\n    # Return success\\n    print(json.dumps({\\\"status\\\": \\\"success\\\", \\\"message\\\": \\\"Debug hook executed\\\"}))\\n    return 0\\n\\nif __name__ == \\\"__main__\\\":\\n    sys.exit(main())\",\n      \"numLines\": 51,\n      \"startLine\": 1,\n      \"totalLines\": 51\n    }\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n","numLines":127,"startLine":1,"totalLines":127}}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "D:\\Projects\\Dev\\Memory\\.prsist\\debug-hook-calls.log"
+  },
+  "tool_response": {
+    "type": "text",
+    "file": {
+      "filePath": "D:\\Projects\\Dev\\Memory\\.prsist\\debug-hook-calls.log",
+      "content": "\n=== PostToolUse Hook Called at 2025-08-19 13:39:58.378022 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"python .prsist/prsist.py -h\",\"description\":\"Run memory system health check with help flag\"},\"tool_response\":{\"stdout\":\"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[HEALTH] Health Check...\\r\\n[PASS] System healthy\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized\\r\\n2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed\\r\",\"stderr\":\"\",\"interrupted\":false,\"isImage\":false}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Bash\",\n  \"tool_input\": {\n    \"command\": \"python .prsist/prsist.py -h\",\n    \"description\": \"Run memory system health check with help flag\"\n  },\n  \"tool_response\": {\n    \"stdout\": \"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[HEALTH] Health Check...\\r\\n[PASS] System healthy\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized\\r\\n2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed\\r\",\n    \"stderr\": \"\",\n    \"interrupted\": false,\n    \"isImage\": false\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n\n=== PostToolUse Hook Called at 2025-08-19 13:40:38.935908 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"python .prsist/prsist.py -r\",\"description\":\"Display recent memory sessions\"},\"tool_response\":{\"stdout\":\"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[RECENT] Recent Sessions...\\r\\n  Unknown - 8c9adc68\\r\\n  Unknown - 6a195e05\\r\\n  Unknown - 9f2ccf81\\r\\n  Unknown - ce6b7a6e\\r\\n  Unknown - 7426016c\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized\\r\",\"stderr\":\"\",\"interrupted\":false,\"isImage\":false}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Bash\",\n  \"tool_input\": {\n    \"command\": \"python .prsist/prsist.py -r\",\n    \"description\": \"Display recent memory sessions\"\n  },\n  \"tool_response\": {\n    \"stdout\": \"[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[RECENT] Recent Sessions...\\r\\n  Unknown - 8c9adc68\\r\\n  Unknown - 6a195e05\\r\\n  Unknown - 9f2ccf81\\r\\n  Unknown - ce6b7a6e\\r\\n  Unknown - 7426016c\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized\\r\",\n    \"stderr\": \"\",\n    \"interrupted\": false,\n    \"isImage\": false\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n\n=== PostToolUse Hook Called at 2025-08-19 13:41:13.161007 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Read\",\"tool_input\":{\"file_path\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\"},\"tool_response\":{\"type\":\"text\",\"file\":{\"filePath\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\",\"content\":\"{\\n  \\\"permissions\\\": {\\n    \\\"allow\\\": [\\n      \\\"Bash(node:*)\\\",\\n      \\\"WebSearch\\\",\\n      \\\"WebFetch(domain:arxiv.org)\\\",\\n      \\\"Bash(python:*)\\\",\\n      \\\"Bash(cat:*)\\\",\\n      \\\"Bash(time python:*)\\\",\\n      \\\"WebFetch(domain:docs.anthropic.com)\\\",\\n      \\\"Bash(mkdir:*)\\\",\\n      \\\"Bash(grep:*)\\\"\\n    ],\\n    \\\"deny\\\": [],\\n    \\\"ask\\\": []\\n  },\\n  \\\"hooks\\\": {\\n    \\\"SessionStart\\\": [\\n      {\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/SessionStart.py\\\"\\n          }\\n        ]\\n      }\\n    ],\\n    \\\"PostToolUse\\\": [\\n      {\\n        \\\"matcher\\\": \\\"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\\\",\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/PostToolUse-debug.py\\\"\\n          }\\n        ]\\n      }\\n    ]\\n  }\\n}\",\"numLines\":40,\"startLine\":1,\"totalLines\":40}}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Read\",\n  \"tool_input\": {\n    \"file_path\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\"\n  },\n  \"tool_response\": {\n    \"type\": \"text\",\n    \"file\": {\n      \"filePath\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.claude\\\\settings.local.json\",\n      \"content\": \"{\\n  \\\"permissions\\\": {\\n    \\\"allow\\\": [\\n      \\\"Bash(node:*)\\\",\\n      \\\"WebSearch\\\",\\n      \\\"WebFetch(domain:arxiv.org)\\\",\\n      \\\"Bash(python:*)\\\",\\n      \\\"Bash(cat:*)\\\",\\n      \\\"Bash(time python:*)\\\",\\n      \\\"WebFetch(domain:docs.anthropic.com)\\\",\\n      \\\"Bash(mkdir:*)\\\",\\n      \\\"Bash(grep:*)\\\"\\n    ],\\n    \\\"deny\\\": [],\\n    \\\"ask\\\": []\\n  },\\n  \\\"hooks\\\": {\\n    \\\"SessionStart\\\": [\\n      {\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/SessionStart.py\\\"\\n          }\\n        ]\\n      }\\n    ],\\n    \\\"PostToolUse\\\": [\\n      {\\n        \\\"matcher\\\": \\\"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\\\",\\n        \\\"hooks\\\": [\\n          {\\n            \\\"type\\\": \\\"command\\\",\\n            \\\"command\\\": \\\"python .prsist/hooks/PostToolUse-debug.py\\\"\\n          }\\n        ]\\n      }\\n    ]\\n  }\\n}\",\n      \"numLines\": 40,\n      \"startLine\": 1,\n      \"totalLines\": 40\n    }\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n\n=== PostToolUse Hook Called at 2025-08-19 13:41:16.438565 ===\nEnvironment variables:\n  CLAUDE_CODE_ENTRYPOINT = cli\n  CLAUDE_CODE_SSE_PORT = 37330\n  CLAUDE_PROJECT_DIR = D:\\Projects\\Dev\\Memory\n\nSTDIN content:\nRaw: {\"session_id\":\"f9289410-670a-4c04-a8a7-adaf24257f6a\",\"transcript_path\":\"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\"cwd\":\"D:\\\\Projects\\\\Dev\\\\Memory\",\"hook_event_name\":\"PostToolUse\",\"tool_name\":\"Read\",\"tool_input\":{\"file_path\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\"},\"tool_response\":{\"type\":\"text\",\"file\":{\"filePath\":\"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\",\"content\":\"#!/usr/bin/env python3\\n\\\"\\\"\\\"\\nDebug version of PostToolUse Hook\\nLogs all input to help diagnose issues\\n\\\"\\\"\\\"\\n\\nimport sys\\nimport json\\nimport os\\nfrom pathlib import Path\\nfrom datetime import datetime\\n\\ndef main():\\n    \\\"\\\"\\\"Debug hook - log everything we receive\\\"\\\"\\\"\\n    \\n    # Log to a debug file\\n    debug_file = Path(__file__).parent.parent / \\\"debug-hook-calls.log\\\"\\n    \\n    with open(debug_file, \\\"a\\\") as f:\\n        f.write(f\\\"\\\\n=== PostToolUse Hook Called at {datetime.now()} ===\\\\n\\\")\\n        \\n        # Log environment variables\\n        f.write(\\\"Environment variables:\\\\n\\\")\\n        for key, value in os.environ.items():\\n            if 'CLAUDE' in key.upper():\\n                f.write(f\\\"  {key} = {value}\\\\n\\\")\\n        \\n        # Log stdin content\\n        f.write(\\\"\\\\nSTDIN content:\\\\n\\\")\\n        if not sys.stdin.isatty():\\n            stdin_content = sys.stdin.read()\\n            f.write(f\\\"Raw: {stdin_content}\\\\n\\\")\\n            \\n            try:\\n                data = json.loads(stdin_content) if stdin_content.strip() else {}\\n                f.write(f\\\"Parsed JSON: {json.dumps(data, indent=2)}\\\\n\\\")\\n            except json.JSONDecodeError as e:\\n                f.write(f\\\"JSON Parse Error: {e}\\\\n\\\")\\n        else:\\n            f.write(\\\"No stdin data (TTY mode)\\\\n\\\")\\n        \\n        # Log command line args\\n        f.write(f\\\"\\\\nCommand line args: {sys.argv}\\\\n\\\")\\n        f.write(\\\"=== End Hook Call ===\\\\n\\\\n\\\")\\n    \\n    # Return success\\n    print(json.dumps({\\\"status\\\": \\\"success\\\", \\\"message\\\": \\\"Debug hook executed\\\"}))\\n    return 0\\n\\nif __name__ == \\\"__main__\\\":\\n    sys.exit(main())\",\"numLines\":51,\"startLine\":1,\"totalLines\":51}}}\nParsed JSON: {\n  \"session_id\": \"f9289410-670a-4c04-a8a7-adaf24257f6a\",\n  \"transcript_path\": \"C:\\\\Users\\\\fabie\\\\.claude\\\\projects\\\\D--Projects-Dev-Memory\\\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl\",\n  \"cwd\": \"D:\\\\Projects\\\\Dev\\\\Memory\",\n  \"hook_event_name\": \"PostToolUse\",\n  \"tool_name\": \"Read\",\n  \"tool_input\": {\n    \"file_path\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\"\n  },\n  \"tool_response\": {\n    \"type\": \"text\",\n    \"file\": {\n      \"filePath\": \"D:\\\\Projects\\\\Dev\\\\Memory\\\\.prsist\\\\hooks\\\\PostToolUse-debug.py\",\n      \"content\": \"#!/usr/bin/env python3\\n\\\"\\\"\\\"\\nDebug version of PostToolUse Hook\\nLogs all input to help diagnose issues\\n\\\"\\\"\\\"\\n\\nimport sys\\nimport json\\nimport os\\nfrom pathlib import Path\\nfrom datetime import datetime\\n\\ndef main():\\n    \\\"\\\"\\\"Debug hook - log everything we receive\\\"\\\"\\\"\\n    \\n    # Log to a debug file\\n    debug_file = Path(__file__).parent.parent / \\\"debug-hook-calls.log\\\"\\n    \\n    with open(debug_file, \\\"a\\\") as f:\\n        f.write(f\\\"\\\\n=== PostToolUse Hook Called at {datetime.now()} ===\\\\n\\\")\\n        \\n        # Log environment variables\\n        f.write(\\\"Environment variables:\\\\n\\\")\\n        for key, value in os.environ.items():\\n            if 'CLAUDE' in key.upper():\\n                f.write(f\\\"  {key} = {value}\\\\n\\\")\\n        \\n        # Log stdin content\\n        f.write(\\\"\\\\nSTDIN content:\\\\n\\\")\\n        if not sys.stdin.isatty():\\n            stdin_content = sys.stdin.read()\\n            f.write(f\\\"Raw: {stdin_content}\\\\n\\\")\\n            \\n            try:\\n                data = json.loads(stdin_content) if stdin_content.strip() else {}\\n                f.write(f\\\"Parsed JSON: {json.dumps(data, indent=2)}\\\\n\\\")\\n            except json.JSONDecodeError as e:\\n                f.write(f\\\"JSON Parse Error: {e}\\\\n\\\")\\n        else:\\n            f.write(\\\"No stdin data (TTY mode)\\\\n\\\")\\n        \\n        # Log command line args\\n        f.write(f\\\"\\\\nCommand line args: {sys.argv}\\\\n\\\")\\n        f.write(\\\"=== End Hook Call ===\\\\n\\\\n\\\")\\n    \\n    # Return success\\n    print(json.dumps({\\\"status\\\": \\\"success\\\", \\\"message\\\": \\\"Debug hook executed\\\"}))\\n    return 0\\n\\nif __name__ == \\\"__main__\\\":\\n    sys.exit(main())\",\n      \"numLines\": 51,\n      \"startLine\": 1,\n      \"totalLines\": 51\n    }\n  }\n}\n\nCommand line args: ['.prsist/hooks/PostToolUse-debug.py']\n=== End Hook Call ===\n\n",
+      "numLines": 127,
+      "startLine": 1,
+      "totalLines": 127
+    }
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:41:28.406319 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Read","tool_input":{"file_path":"D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse.py"},"tool_response":{"type":"text","file":{"filePath":"D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse.py","content":"#!/usr/bin/env python3\n\"\"\"\nPostToolUse Hook for Prsist Memory System\nTracks tool usage and updates memory after each tool execution\n\"\"\"\n\nimport sys\nimport json\nimport os\nfrom pathlib import Path\nfrom datetime import datetime\n\n# Add parent directory to path to import memory system\nmemory_dir = Path(__file__).parent.parent\nsys.path.insert(0, str(memory_dir))\n\ndef main():\n    \"\"\"Log tool usage and update memory system\"\"\"\n    try:\n        # Import memory system\n        from memory_manager import MemoryManager\n        \n        # Get hook data from stdin (Claude Code sends JSON)\n        hook_data = {}\n        if not sys.stdin.isatty():\n            try:\n                stdin_content = sys.stdin.read().strip()\n                if stdin_content:\n                    hook_data = json.loads(stdin_content)\n            except json.JSONDecodeError as e:\n                # Log the error but don't fail\n                hook_data = {\"error\": f\"JSON decode error: {e}\"}\n        \n        # Extract tool information from Claude Code hook data\n        tool_name = hook_data.get(\"tool_name\", \"unknown\")\n        tool_input = hook_data.get(\"tool_input\", {})\n        tool_response = hook_data.get(\"tool_response\", {})\n        session_id = hook_data.get(\"session_id\", \"unknown\")\n        cwd = hook_data.get(\"cwd\", os.getcwd())\n        \n        # Determine success from tool_response\n        success = True\n        if isinstance(tool_response, dict):\n            success = not bool(tool_response.get(\"error\"))\n        \n        # Extract file path for file operations\n        file_path = None\n        if isinstance(tool_input, dict):\n            file_path = tool_input.get(\"file_path\") or tool_input.get(\"notebook_path\")\n        \n        # Initialize memory manager\n        memory = MemoryManager()\n        \n        # Log tool usage with Claude Code data\n        memory.log_tool_usage(\n            tool_name=tool_name,\n            input_data=tool_input,\n            output_data=str(tool_response),\n            success=success,\n            execution_time_ms=0  # Claude Code doesn't provide timing\n        )\n        \n        # Log file interaction if this was a file operation\n        if file_path and tool_name in [\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"]:\n            memory.log_file_interaction(\n                file_path=file_path,\n                action_type=tool_name.lower(),\n                line_changes=None  # Could be enhanced to track actual changes\n            )\n        \n        # Update session with tool usage information\n        context_updates = {\n            \"last_tool_used\": tool_name,\n            \"last_tool_time\": datetime.now().isoformat(),\n            \"tool_count\": 1  # This will be aggregated by session tracker\n        }\n        \n        memory.update_session_context(context_updates)\n        \n        # Optional: Create checkpoint for significant tools\n        significant_tools = [\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"]\n        if tool_name in significant_tools:\n            memory.create_checkpoint(f\"auto_checkpoint_{tool_name.lower()}\")\n        \n        # Return success status\n        output = {\n            \"status\": \"success\",\n            \"message\": f\"Tool usage logged: {tool_name}\",\n            \"session_updated\": True,\n            \"tool_logged\": tool_name\n        }\n        \n        print(json.dumps(output, indent=2))\n        return 0\n        \n    except Exception as e:\n        # Graceful fallback if memory system fails\n        error_output = {\n            \"status\": \"error\", \n            \"message\": f\"Memory update failed: {str(e)}\",\n            \"session_updated\": False\n        }\n        print(json.dumps(error_output, indent=2))\n        return 1\n\nif __name__ == \"__main__\":\n    sys.exit(main())","numLines":107,"startLine":1,"totalLines":107}}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Read",
+  "tool_input": {
+    "file_path": "D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse.py"
+  },
+  "tool_response": {
+    "type": "text",
+    "file": {
+      "filePath": "D:\\Projects\\Dev\\Memory\\.prsist\\hooks\\PostToolUse.py",
+      "content": "#!/usr/bin/env python3\n\"\"\"\nPostToolUse Hook for Prsist Memory System\nTracks tool usage and updates memory after each tool execution\n\"\"\"\n\nimport sys\nimport json\nimport os\nfrom pathlib import Path\nfrom datetime import datetime\n\n# Add parent directory to path to import memory system\nmemory_dir = Path(__file__).parent.parent\nsys.path.insert(0, str(memory_dir))\n\ndef main():\n    \"\"\"Log tool usage and update memory system\"\"\"\n    try:\n        # Import memory system\n        from memory_manager import MemoryManager\n        \n        # Get hook data from stdin (Claude Code sends JSON)\n        hook_data = {}\n        if not sys.stdin.isatty():\n            try:\n                stdin_content = sys.stdin.read().strip()\n                if stdin_content:\n                    hook_data = json.loads(stdin_content)\n            except json.JSONDecodeError as e:\n                # Log the error but don't fail\n                hook_data = {\"error\": f\"JSON decode error: {e}\"}\n        \n        # Extract tool information from Claude Code hook data\n        tool_name = hook_data.get(\"tool_name\", \"unknown\")\n        tool_input = hook_data.get(\"tool_input\", {})\n        tool_response = hook_data.get(\"tool_response\", {})\n        session_id = hook_data.get(\"session_id\", \"unknown\")\n        cwd = hook_data.get(\"cwd\", os.getcwd())\n        \n        # Determine success from tool_response\n        success = True\n        if isinstance(tool_response, dict):\n            success = not bool(tool_response.get(\"error\"))\n        \n        # Extract file path for file operations\n        file_path = None\n        if isinstance(tool_input, dict):\n            file_path = tool_input.get(\"file_path\") or tool_input.get(\"notebook_path\")\n        \n        # Initialize memory manager\n        memory = MemoryManager()\n        \n        # Log tool usage with Claude Code data\n        memory.log_tool_usage(\n            tool_name=tool_name,\n            input_data=tool_input,\n            output_data=str(tool_response),\n            success=success,\n            execution_time_ms=0  # Claude Code doesn't provide timing\n        )\n        \n        # Log file interaction if this was a file operation\n        if file_path and tool_name in [\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"]:\n            memory.log_file_interaction(\n                file_path=file_path,\n                action_type=tool_name.lower(),\n                line_changes=None  # Could be enhanced to track actual changes\n            )\n        \n        # Update session with tool usage information\n        context_updates = {\n            \"last_tool_used\": tool_name,\n            \"last_tool_time\": datetime.now().isoformat(),\n            \"tool_count\": 1  # This will be aggregated by session tracker\n        }\n        \n        memory.update_session_context(context_updates)\n        \n        # Optional: Create checkpoint for significant tools\n        significant_tools = [\"Write\", \"Edit\", \"MultiEdit\", \"NotebookEdit\"]\n        if tool_name in significant_tools:\n            memory.create_checkpoint(f\"auto_checkpoint_{tool_name.lower()}\")\n        \n        # Return success status\n        output = {\n            \"status\": \"success\",\n            \"message\": f\"Tool usage logged: {tool_name}\",\n            \"session_updated\": True,\n            \"tool_logged\": tool_name\n        }\n        \n        print(json.dumps(output, indent=2))\n        return 0\n        \n    except Exception as e:\n        # Graceful fallback if memory system fails\n        error_output = {\n            \"status\": \"error\", \n            \"message\": f\"Memory update failed: {str(e)}\",\n            \"session_updated\": False\n        }\n        print(json.dumps(error_output, indent=2))\n        return 1\n\nif __name__ == \"__main__\":\n    sys.exit(main())",
+      "numLines": 107,
+      "startLine": 1,
+      "totalLines": 107
+    }
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:41:46.236242 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Edit","tool_input":{"file_path":"D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json","old_string":"            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"","new_string":"            \"command\": \"python .prsist/hooks/PostToolUse.py\""},"tool_response":{"filePath":"D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json","oldString":"            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"","newString":"            \"command\": \"python .prsist/hooks/PostToolUse.py\"","originalFile":"{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(node:*)\",\n      \"WebSearch\",\n      \"WebFetch(domain:arxiv.org)\",\n      \"Bash(python:*)\",\n      \"Bash(cat:*)\",\n      \"Bash(time python:*)\",\n      \"WebFetch(domain:docs.anthropic.com)\",\n      \"Bash(mkdir:*)\",\n      \"Bash(grep:*)\"\n    ],\n    \"deny\": [],\n    \"ask\": []\n  },\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/SessionStart.py\"\n          }\n        ]\n      }\n    ],\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"\n          }\n        ]\n      }\n    ]\n  }\n}","structuredPatch":[{"oldStart":31,"oldLines":7,"newStart":31,"newLines":7,"lines":["         \"hooks\": [","           {","             \"type\": \"command\",","-            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"","+            \"command\": \"python .prsist/hooks/PostToolUse.py\"","           }","         ]","       }"]}],"userModified":false,"replaceAll":false}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Edit",
+  "tool_input": {
+    "file_path": "D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json",
+    "old_string": "            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"",
+    "new_string": "            \"command\": \"python .prsist/hooks/PostToolUse.py\""
+  },
+  "tool_response": {
+    "filePath": "D:\\Projects\\Dev\\Memory\\.claude\\settings.local.json",
+    "oldString": "            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"",
+    "newString": "            \"command\": \"python .prsist/hooks/PostToolUse.py\"",
+    "originalFile": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(node:*)\",\n      \"WebSearch\",\n      \"WebFetch(domain:arxiv.org)\",\n      \"Bash(python:*)\",\n      \"Bash(cat:*)\",\n      \"Bash(time python:*)\",\n      \"WebFetch(domain:docs.anthropic.com)\",\n      \"Bash(mkdir:*)\",\n      \"Bash(grep:*)\"\n    ],\n    \"deny\": [],\n    \"ask\": []\n  },\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/SessionStart.py\"\n          }\n        ]\n      }\n    ],\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write|Edit|MultiEdit|Read|Bash|NotebookEdit\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"\n          }\n        ]\n      }\n    ]\n  }\n}",
+    "structuredPatch": [
+      {
+        "oldStart": 31,
+        "oldLines": 7,
+        "newStart": 31,
+        "newLines": 7,
+        "lines": [
+          "         \"hooks\": [",
+          "           {",
+          "             \"type\": \"command\",",
+          "-            \"command\": \"python .prsist/hooks/PostToolUse-debug.py\"",
+          "+            \"command\": \"python .prsist/hooks/PostToolUse.py\"",
+          "           }",
+          "         ]",
+          "       }"
+        ]
+      }
+    ],
+    "userModified": false,
+    "replaceAll": false
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:42:01.425670 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"echo \"Testing memory hook integration\"","description":"Test production PostToolUse hook"},"tool_response":{"stdout":"Testing memory hook integration\r","stderr":"","interrupted":false,"isImage":false}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "echo \"Testing memory hook integration\"",
+    "description": "Test production PostToolUse hook"
+  },
+  "tool_response": {
+    "stdout": "Testing memory hook integration\r",
+    "stderr": "",
+    "interrupted": false,
+    "isImage": false
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:42:14.474997 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"python .prsist/prsist.py --list-tools","description":"Check if tools are being logged to memory"},"tool_response":{"stdout":"[RUN] Prsist Memory: Running 6 command(s)\r\n--------------------------------------------------\r\n[ERROR] Unknown command: --\r\n\r\n[HELP] Prsist Memory System Commands:\r\n\r\n  Core Operations:\r\n  -t  Test system\r\n  -s  Status/session info\r\n  -c  Context (what Claude sees)\r\n  -r  Recent sessions\r\n  -h  Health check\r\n  -m  Memory stats\r\n  -v  Validate system\r\n\r\n  Session Management:\r\n  -n  New session (start)\r\n  -e  End session\r\n  -k  Checkpoint (create)\r\n  -x  Export session data\r\n\r\n  Data Management:\r\n  -f  Feature log (interactive)\r\n  -p  Project memory (add)\r\n  -d  Decisions (add decision)\r\n  -z  Cleanup old data\r\n\r\n  Shortcuts:\r\n  -a  All core checks (equivalent to -tschrmv)\r\n  -l  List commands (this help)\r\n\r\nExamples:\r\n  prsist -t      (test system)\r\n  prsist -hm     (health + memory stats)\r\n  prsist -tsc    (test + status + context)\r\n  prsist -a      (run all core checks)\r\n  prsist -nf     (new session + feature log)\r\n[ERROR] Unknown command: -i\r\n\r\n[STATUS] Session Status...\r\n  Active Session: 8c9adc68...\r\n  Tools Used: 0\r\n  Files Modified: 0\r\n  Duration: 0 minutes\r\n\r\n[TEST] Testing Memory System...\r\n[FAIL] Tests failed: 2025-08-19 13:42:12,391 - root - INFO - Memory manager initialized\r\n2025-08-19 13:42:12,392 - root - INFO - Memory system validation passed\r\n2025-08-19 13:42:12,393 - root - INFO - Starting new memory session\r\n2025-08-19 13:42:13,173 - root - INFO - Started new session: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be\r\n2025-08-19 13:42:13,173 - root - INFO - Memory session started: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be\r\n2025-08-19 13:42:13,833 - root - INFO - Created checkpoint: test_checkpoint\r\n2025-08-19 13:42:13,844 - root - INFO - Ended session: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be\r\n2025-08-19 13:42:13,844 - root - INFO - Memory session ended successfully\r\n\r\n[ERROR] Unknown command: -o\r\n--------------------------------------------------\r\n[DONE] 2/6 commands completed successfully\r\n2025-08-19 13:42:12,156 - root - INFO - Memory manager initialized\r","stderr":"","interrupted":false,"isImage":false}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "python .prsist/prsist.py --list-tools",
+    "description": "Check if tools are being logged to memory"
+  },
+  "tool_response": {
+    "stdout": "[RUN] Prsist Memory: Running 6 command(s)\r\n--------------------------------------------------\r\n[ERROR] Unknown command: --\r\n\r\n[HELP] Prsist Memory System Commands:\r\n\r\n  Core Operations:\r\n  -t  Test system\r\n  -s  Status/session info\r\n  -c  Context (what Claude sees)\r\n  -r  Recent sessions\r\n  -h  Health check\r\n  -m  Memory stats\r\n  -v  Validate system\r\n\r\n  Session Management:\r\n  -n  New session (start)\r\n  -e  End session\r\n  -k  Checkpoint (create)\r\n  -x  Export session data\r\n\r\n  Data Management:\r\n  -f  Feature log (interactive)\r\n  -p  Project memory (add)\r\n  -d  Decisions (add decision)\r\n  -z  Cleanup old data\r\n\r\n  Shortcuts:\r\n  -a  All core checks (equivalent to -tschrmv)\r\n  -l  List commands (this help)\r\n\r\nExamples:\r\n  prsist -t      (test system)\r\n  prsist -hm     (health + memory stats)\r\n  prsist -tsc    (test + status + context)\r\n  prsist -a      (run all core checks)\r\n  prsist -nf     (new session + feature log)\r\n[ERROR] Unknown command: -i\r\n\r\n[STATUS] Session Status...\r\n  Active Session: 8c9adc68...\r\n  Tools Used: 0\r\n  Files Modified: 0\r\n  Duration: 0 minutes\r\n\r\n[TEST] Testing Memory System...\r\n[FAIL] Tests failed: 2025-08-19 13:42:12,391 - root - INFO - Memory manager initialized\r\n2025-08-19 13:42:12,392 - root - INFO - Memory system validation passed\r\n2025-08-19 13:42:12,393 - root - INFO - Starting new memory session\r\n2025-08-19 13:42:13,173 - root - INFO - Started new session: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be\r\n2025-08-19 13:42:13,173 - root - INFO - Memory session started: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be\r\n2025-08-19 13:42:13,833 - root - INFO - Created checkpoint: test_checkpoint\r\n2025-08-19 13:42:13,844 - root - INFO - Ended session: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be\r\n2025-08-19 13:42:13,844 - root - INFO - Memory session ended successfully\r\n\r\n[ERROR] Unknown command: -o\r\n--------------------------------------------------\r\n[DONE] 2/6 commands completed successfully\r\n2025-08-19 13:42:12,156 - root - INFO - Memory manager initialized\r",
+    "stderr": "",
+    "interrupted": false,
+    "isImage": false
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+
+
+=== PostToolUse Hook Called at 2025-08-19 13:42:24.814093 ===
+Environment variables:
+  CLAUDE_CODE_ENTRYPOINT = cli
+  CLAUDE_CODE_SSE_PORT = 37330
+  CLAUDE_PROJECT_DIR = D:\Projects\Dev\Memory
+
+STDIN content:
+Raw: {"session_id":"f9289410-670a-4c04-a8a7-adaf24257f6a","transcript_path":"C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl","cwd":"D:\\Projects\\Dev\\Memory","hook_event_name":"PostToolUse","tool_name":"Bash","tool_input":{"command":"python .prsist/prsist.py -s","description":"Check session status and tool count"},"tool_response":{"stdout":"[RUN] Prsist Memory: Running 1 command(s)\r\n--------------------------------------------------\r\n[STATUS] Session Status...\r\n  Active Session: 8c9adc68...\r\n  Tools Used: 0\r\n  Files Modified: 0\r\n  Duration: 0 minutes\r\n--------------------------------------------------\r\n[DONE] 1/1 commands completed successfully\r\n2025-08-19 13:42:23,995 - root - INFO - Memory manager initialized\r","stderr":"","interrupted":false,"isImage":false}}
+Parsed JSON: {
+  "session_id": "f9289410-670a-4c04-a8a7-adaf24257f6a",
+  "transcript_path": "C:\\Users\\fabie\\.claude\\projects\\D--Projects-Dev-Memory\\f9289410-670a-4c04-a8a7-adaf24257f6a.jsonl",
+  "cwd": "D:\\Projects\\Dev\\Memory",
+  "hook_event_name": "PostToolUse",
+  "tool_name": "Bash",
+  "tool_input": {
+    "command": "python .prsist/prsist.py -s",
+    "description": "Check session status and tool count"
+  },
+  "tool_response": {
+    "stdout": "[RUN] Prsist Memory: Running 1 command(s)\r\n--------------------------------------------------\r\n[STATUS] Session Status...\r\n  Active Session: 8c9adc68...\r\n  Tools Used: 0\r\n  Files Modified: 0\r\n  Duration: 0 minutes\r\n--------------------------------------------------\r\n[DONE] 1/1 commands completed successfully\r\n2025-08-19 13:42:23,995 - root - INFO - Memory manager initialized\r",
+    "stderr": "",
+    "interrupted": false,
+    "isImage": false
+  }
+}
+
+Command line args: ['.prsist/hooks/PostToolUse-debug.py']
+=== End Hook Call ===
+

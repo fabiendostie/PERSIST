@@ -1,0 +1,118 @@
+file_watching:
+  enabled: true
+  watch_paths:
+    - "src/**/*"
+    - "docs/**/*"
+    - "bmad-core/**/*"
+    - "*.{js,ts,py,md,yaml,json}"
+    - "expansion-packs/**/*"
+    - "tools/**/*"
+  
+  ignored_patterns:
+    - "/(^|[\\/\\\\])\\."  # dotfiles
+    - "/node_modules/"
+    - "/\\.git/"
+    - "/dist|build|output/"
+    - "/\\.(log|tmp|cache)$/"
+    - "/.prsist/"
+    - "/\\.vscode/"
+    - "/\\.idea/"
+    - "/__pycache__/"
+    - "/\\.pytest_cache/"
+    - "/coverage/"
+    - "/\\.coverage"
+  
+  performance:
+    debounce_ms: 300
+    batch_size: 50
+    max_queue_size: 1000
+    stability_threshold: 300
+    poll_interval: 100
+  
+  memory_triggers:
+    code_files: ["js", "ts", "py", "go", "java", "cpp", "cs", "rs", "rb", "php"]
+    config_files: ["yaml", "json", "toml", "ini", "cfg"]
+    doc_files: ["md", "rst", "txt"]
+    ignore_files: ["log", "tmp", "cache", "lock"]
+  
+  relevance_scoring:
+    file_type_weights:
+      python: 0.8
+      javascript: 0.8
+      typescript: 0.8
+      go: 0.7
+      java: 0.7
+      cpp: 0.7
+      csharp: 0.7
+      rust: 0.7
+      ruby: 0.6
+      php: 0.6
+      markdown: 0.6
+      yaml: 0.7
+      json: 0.6
+      toml: 0.5
+      ini: 0.4
+    
+    directory_weights:
+      src: 0.8
+      lib: 0.7
+      app: 0.7
+      core: 0.8
+      bmad-core: 0.9
+      docs: 0.6
+      config: 0.6
+      test: 0.4
+      tests: 0.4
+      spec: 0.4
+      node_modules: 0.0
+      build: 0.1
+      dist: 0.1
+    
+    change_type_weights:
+      add: 0.8
+      change: 0.6
+      delete: 0.4
+      add_dir: 0.3
+      delete_dir: 0.2
+    
+    special_patterns:
+      readme: 0.8
+      changelog: 0.7
+      todo: 0.6
+      config: 0.6
+      package: 0.6
+      requirements: 0.7
+      test: 0.5
+      spec: 0.5
+
+# Memory system integration settings
+memory_integration:
+  update_threshold: 0.3  # Minimum relevance score to trigger memory update
+  context_invalidation_threshold: 0.6  # Threshold for context invalidation
+  session_impact_threshold: 0.5  # Threshold for session impact calculation
+  
+  auto_refresh:
+    enabled: true
+    high_impact_threshold: 0.8
+    refresh_delay_ms: 1000  # Delay before triggering refresh
+  
+  batch_processing:
+    enabled: true
+    max_batch_size: 100
+    processing_interval_ms: 5000  # Process batches every 5 seconds
+
+# Performance monitoring
+monitoring:
+  enabled: true
+  log_level: "INFO"
+  metrics:
+    watch_events: true
+    processing_times: true
+    queue_sizes: true
+    error_rates: true
+  
+  alerts:
+    queue_size_warning: 500
+    queue_size_critical: 800
+    processing_time_warning: 5000  # 5 seconds
+    error_rate_warning: 0.1  # 10% error rate

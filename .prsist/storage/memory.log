@@ -1,0 +1,1656 @@
+2025-08-18 22:17:37,910 - root - INFO - Memory manager initialized
+2025-08-18 22:17:37,912 - root - INFO - Memory system validation passed
+2025-08-18 22:17:37,913 - root - INFO - Starting new memory session
+2025-08-18 22:17:38,301 - root - INFO - Started new session: a02f4d0b-1509-477e-9fd3-92ebdd710e0f
+2025-08-18 22:17:38,301 - root - INFO - Memory session started: a02f4d0b-1509-477e-9fd3-92ebdd710e0f
+2025-08-18 22:17:38,657 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:17:38,662 - root - INFO - Ended session: a02f4d0b-1509-477e-9fd3-92ebdd710e0f
+2025-08-18 22:17:38,663 - root - INFO - Memory session ended successfully
+2025-08-18 22:22:41,890 - root - INFO - Memory manager initialized
+2025-08-18 22:22:41,891 - root - INFO - Memory system validation passed
+2025-08-18 22:22:41,897 - root - INFO - Starting new memory session
+2025-08-18 22:22:42,268 - root - INFO - Started new session: 85d2b6a7-8167-41b5-93cf-77eb6257cdb7
+2025-08-18 22:22:42,268 - root - INFO - Memory session started: 85d2b6a7-8167-41b5-93cf-77eb6257cdb7
+2025-08-18 22:22:42,602 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:22:42,607 - root - INFO - Ended session: 85d2b6a7-8167-41b5-93cf-77eb6257cdb7
+2025-08-18 22:22:42,607 - root - INFO - Memory session ended successfully
+2025-08-18 22:24:15,597 - root - INFO - Memory manager initialized
+2025-08-18 22:24:15,597 - root - INFO - Memory system validation passed
+2025-08-18 22:24:15,605 - root - INFO - Starting new memory session
+2025-08-18 22:24:16,907 - root - INFO - Started new session: c66d4720-5cbc-4337-94ec-6b62b3e4866f
+2025-08-18 22:24:16,907 - root - INFO - Memory session started: c66d4720-5cbc-4337-94ec-6b62b3e4866f
+2025-08-18 22:24:18,139 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:24:18,148 - root - INFO - Ended session: c66d4720-5cbc-4337-94ec-6b62b3e4866f
+2025-08-18 22:24:18,148 - root - INFO - Memory session ended successfully
+2025-08-18 22:24:44,134 - root - INFO - Memory manager initialized
+2025-08-18 22:24:44,140 - root - INFO - Memory system validation passed
+2025-08-18 22:24:44,144 - root - INFO - Starting new memory session
+2025-08-18 22:24:45,533 - root - INFO - Started new session: 9896eaff-6f26-4ab6-968f-4624a2a723fa
+2025-08-18 22:24:45,535 - root - INFO - Memory session started: 9896eaff-6f26-4ab6-968f-4624a2a723fa
+2025-08-18 22:24:46,796 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:24:46,805 - root - INFO - Ended session: 9896eaff-6f26-4ab6-968f-4624a2a723fa
+2025-08-18 22:24:46,805 - root - INFO - Memory session ended successfully
+2025-08-18 22:24:47,144 - root - INFO - Memory manager initialized
+2025-08-18 22:24:47,152 - root - ERROR - CLI bridge error for command 'health_check': 'MemoryManager' object has no attribute 'health_check'
+2025-08-18 22:24:47,542 - root - INFO - Memory manager initialized
+2025-08-18 22:25:07,408 - root - INFO - Memory manager initialized
+2025-08-18 22:25:07,409 - root - INFO - Memory system validation passed
+2025-08-18 22:25:07,418 - root - INFO - Starting new memory session
+2025-08-18 22:25:08,658 - root - INFO - Started new session: 71247b77-d5e3-4c17-beba-f12f39d0e777
+2025-08-18 22:25:08,658 - root - INFO - Memory session started: 71247b77-d5e3-4c17-beba-f12f39d0e777
+2025-08-18 22:25:09,921 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:25:09,940 - root - INFO - Ended session: 71247b77-d5e3-4c17-beba-f12f39d0e777
+2025-08-18 22:25:09,940 - root - INFO - Memory session ended successfully
+2025-08-18 22:25:26,491 - root - INFO - Memory manager initialized
+2025-08-18 22:25:26,495 - root - INFO - Memory system validation passed
+2025-08-18 22:25:26,495 - root - INFO - Starting new memory session
+2025-08-18 22:25:27,724 - root - INFO - Started new session: e9ab6dde-d828-41c2-b3b9-87b84e05077b
+2025-08-18 22:25:27,724 - root - INFO - Memory session started: e9ab6dde-d828-41c2-b3b9-87b84e05077b
+2025-08-18 22:25:28,926 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:25:28,934 - root - INFO - Ended session: e9ab6dde-d828-41c2-b3b9-87b84e05077b
+2025-08-18 22:25:28,934 - root - INFO - Memory session ended successfully
+2025-08-18 22:25:29,488 - root - INFO - Memory manager initialized
+2025-08-18 22:25:29,488 - root - ERROR - CLI bridge error for command 'health_check': 'MemoryManager' object has no attribute 'health_check'
+2025-08-18 22:25:29,830 - root - INFO - Memory manager initialized
+2025-08-18 22:25:49,274 - root - INFO - Memory manager initialized
+2025-08-18 22:25:49,281 - root - INFO - Memory system validation passed
+2025-08-18 22:25:49,281 - root - INFO - Starting new memory session
+2025-08-18 22:25:50,533 - root - INFO - Started new session: c1b51c58-f7f5-4b7c-97dc-9cedc92332e9
+2025-08-18 22:25:50,533 - root - INFO - Memory session started: c1b51c58-f7f5-4b7c-97dc-9cedc92332e9
+2025-08-18 22:25:52,714 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-18 22:25:52,725 - root - INFO - Ended session: c1b51c58-f7f5-4b7c-97dc-9cedc92332e9
+2025-08-18 22:25:52,725 - root - INFO - Memory session ended successfully
+2025-08-18 22:25:53,512 - root - INFO - Memory manager initialized
+2025-08-18 22:25:53,512 - root - ERROR - Failed to capture workflow event: 'MemoryDatabase' object has no attribute 'store_workflow_event'
+2025-08-19 12:07:02,034 - root - INFO - Memory manager initialized
+2025-08-19 12:07:02,036 - root - INFO - Memory system validation passed
+2025-08-19 12:07:02,038 - root - INFO - Starting new memory session
+2025-08-19 12:07:02,692 - root - INFO - Started new session: af9888b0-4577-4ead-87ce-59161867fad0
+2025-08-19 12:07:02,693 - root - INFO - Memory session started: af9888b0-4577-4ead-87ce-59161867fad0
+2025-08-19 12:07:03,454 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:07:03,459 - root - INFO - Ended session: af9888b0-4577-4ead-87ce-59161867fad0
+2025-08-19 12:07:03,459 - root - INFO - Memory session ended successfully
+2025-08-19 12:07:10,800 - root - INFO - Memory manager initialized
+2025-08-19 12:07:10,803 - root - INFO - Memory system validation passed
+2025-08-19 12:07:10,806 - root - INFO - Starting new memory session
+2025-08-19 12:07:11,614 - root - INFO - Started new session: be6f4766-2a91-4399-a8c4-c99ddac7b5ba
+2025-08-19 12:07:11,614 - root - INFO - Memory session started: be6f4766-2a91-4399-a8c4-c99ddac7b5ba
+2025-08-19 12:07:12,307 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:07:12,317 - root - INFO - Ended session: be6f4766-2a91-4399-a8c4-c99ddac7b5ba
+2025-08-19 12:07:12,317 - root - INFO - Memory session ended successfully
+2025-08-19 12:07:20,235 - root - INFO - Memory manager initialized
+2025-08-19 12:07:20,236 - root - INFO - Memory system validation passed
+2025-08-19 12:07:33,695 - root - INFO - Memory manager initialized
+2025-08-19 12:07:33,696 - root - INFO - Memory system validation passed
+2025-08-19 12:07:40,670 - root - INFO - Memory manager initialized
+2025-08-19 12:08:29,612 - root - INFO - Memory manager initialized
+2025-08-19 12:08:36,738 - root - INFO - Memory manager initialized
+2025-08-19 12:08:36,739 - root - INFO - Starting new memory session
+2025-08-19 12:08:37,526 - root - INFO - Started new session: 5dc211a4-1f03-4616-a6b7-85775cf74c4b
+2025-08-19 12:08:37,526 - root - INFO - Memory session started: 5dc211a4-1f03-4616-a6b7-85775cf74c4b
+2025-08-19 12:08:58,322 - root - INFO - Memory manager initialized
+2025-08-19 12:08:58,323 - root - INFO - Memory system validation passed
+2025-08-19 12:08:58,325 - root - INFO - Starting new memory session
+2025-08-19 12:08:59,648 - root - INFO - Started new session: 1845536c-94a0-4f15-a28f-19fddd31360b
+2025-08-19 12:08:59,649 - root - INFO - Memory session started: 1845536c-94a0-4f15-a28f-19fddd31360b
+2025-08-19 12:09:00,441 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:09:00,451 - root - INFO - Ended session: 1845536c-94a0-4f15-a28f-19fddd31360b
+2025-08-19 12:09:00,451 - root - INFO - Memory session ended successfully
+2025-08-19 12:09:00,700 - root - INFO - Memory manager initialized
+2025-08-19 12:09:00,700 - root - ERROR - CLI bridge error for command 'health_check': 'MemoryManager' object has no attribute 'health_check'
+2025-08-19 12:09:01,084 - root - INFO - Memory manager initialized
+2025-08-19 12:13:35,875 - root - INFO - Memory manager initialized
+2025-08-19 12:13:35,875 - root - INFO - Starting new memory session
+2025-08-19 12:13:36,561 - root - INFO - Started new session: d5ff8bb6-bea9-4cae-9d97-ecf6645b1ddc
+2025-08-19 12:13:36,561 - root - INFO - Memory session started: d5ff8bb6-bea9-4cae-9d97-ecf6645b1ddc
+2025-08-19 12:13:49,918 - root - INFO - Memory manager initialized
+2025-08-19 12:13:49,920 - root - INFO - Memory system validation passed
+2025-08-19 12:13:49,921 - root - INFO - Starting new memory session
+2025-08-19 12:13:50,499 - root - INFO - Started new session: 300d6567-41a5-44c3-9051-094e1544f622
+2025-08-19 12:13:50,499 - root - INFO - Memory session started: 300d6567-41a5-44c3-9051-094e1544f622
+2025-08-19 12:13:51,195 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:13:51,200 - root - INFO - Ended session: 300d6567-41a5-44c3-9051-094e1544f622
+2025-08-19 12:13:51,200 - root - INFO - Memory session ended successfully
+2025-08-19 12:13:51,445 - root - INFO - Memory manager initialized
+2025-08-19 12:13:51,445 - root - ERROR - CLI bridge error for command 'health_check': 'MemoryManager' object has no attribute 'health_check'
+2025-08-19 12:13:51,791 - root - INFO - Memory manager initialized
+2025-08-19 12:14:03,002 - root - INFO - Memory manager initialized
+2025-08-19 12:14:03,004 - root - INFO - Memory system validation passed
+2025-08-19 12:14:03,006 - root - INFO - Starting new memory session
+2025-08-19 12:14:03,816 - root - INFO - Started new session: e9a5d64b-7514-44a1-8ab4-404a248b2693
+2025-08-19 12:14:03,816 - root - INFO - Memory session started: e9a5d64b-7514-44a1-8ab4-404a248b2693
+2025-08-19 12:14:04,439 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:14:04,447 - root - INFO - Ended session: e9a5d64b-7514-44a1-8ab4-404a248b2693
+2025-08-19 12:14:04,447 - root - INFO - Memory session ended successfully
+2025-08-19 12:14:04,783 - root - INFO - Memory manager initialized
+2025-08-19 12:14:04,783 - root - ERROR - CLI bridge error for command 'health_check': 'MemoryManager' object has no attribute 'health_check'
+2025-08-19 12:14:46,691 - root - INFO - Memory manager initialized
+2025-08-19 12:14:46,692 - root - INFO - Memory system validation passed
+2025-08-19 12:14:46,693 - root - INFO - Starting new memory session
+2025-08-19 12:14:47,974 - root - INFO - Started new session: 7b4d79e4-bf39-4a13-8895-cd3c48dc5090
+2025-08-19 12:14:47,974 - root - INFO - Memory session started: 7b4d79e4-bf39-4a13-8895-cd3c48dc5090
+2025-08-19 12:14:48,674 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:14:48,683 - root - INFO - Ended session: 7b4d79e4-bf39-4a13-8895-cd3c48dc5090
+2025-08-19 12:14:48,683 - root - INFO - Memory session ended successfully
+2025-08-19 12:15:14,153 - root - INFO - Memory manager initialized
+2025-08-19 12:15:14,154 - root - INFO - Memory system validation passed
+2025-08-19 12:15:14,155 - root - INFO - Starting new memory session
+2025-08-19 12:15:15,154 - root - INFO - Started new session: 43183f93-4f58-4e92-9d75-9ef2271ac6ff
+2025-08-19 12:15:15,154 - root - INFO - Memory session started: 43183f93-4f58-4e92-9d75-9ef2271ac6ff
+2025-08-19 12:15:16,429 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:15:16,440 - root - INFO - Ended session: 43183f93-4f58-4e92-9d75-9ef2271ac6ff
+2025-08-19 12:15:16,440 - root - INFO - Memory session ended successfully
+2025-08-19 12:15:16,658 - root - INFO - Memory manager initialized
+2025-08-19 12:16:28,323 - root - INFO - Memory manager initialized
+2025-08-19 12:16:28,324 - root - INFO - Memory system validation passed
+2025-08-19 12:16:28,326 - root - INFO - Starting new memory session
+2025-08-19 12:16:29,013 - root - INFO - Started new session: a64f4fd8-7989-48f8-ad5e-1eec2f933f1a
+2025-08-19 12:16:29,013 - root - INFO - Memory session started: a64f4fd8-7989-48f8-ad5e-1eec2f933f1a
+2025-08-19 12:16:29,818 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:16:29,827 - root - INFO - Ended session: a64f4fd8-7989-48f8-ad5e-1eec2f933f1a
+2025-08-19 12:16:29,827 - root - INFO - Memory session ended successfully
+2025-08-19 12:16:30,117 - root - INFO - Memory manager initialized
+2025-08-19 12:16:30,118 - root - INFO - Memory system validation passed
+2025-08-19 12:16:41,075 - root - INFO - Memory manager initialized
+2025-08-19 12:16:41,076 - root - INFO - Memory system validation passed
+2025-08-19 12:16:41,077 - root - INFO - Starting new memory session
+2025-08-19 12:16:41,829 - root - INFO - Started new session: 002f9ce2-7ffe-4489-9899-838bf774a931
+2025-08-19 12:16:41,829 - root - INFO - Memory session started: 002f9ce2-7ffe-4489-9899-838bf774a931
+2025-08-19 12:16:42,607 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:16:42,614 - root - INFO - Ended session: 002f9ce2-7ffe-4489-9899-838bf774a931
+2025-08-19 12:16:42,614 - root - INFO - Memory session ended successfully
+2025-08-19 12:16:43,053 - root - INFO - Memory manager initialized
+2025-08-19 12:16:43,054 - root - INFO - Memory system validation passed
+2025-08-19 12:16:43,062 - root - INFO - Memory manager initialized
+2025-08-19 12:16:43,072 - root - INFO - Ended session: d5ff8bb6-bea9-4cae-9d97-ecf6645b1ddc
+2025-08-19 12:16:43,073 - root - INFO - Memory session ended successfully
+2025-08-19 12:16:43,656 - root - INFO - Memory manager initialized
+2025-08-19 12:16:43,657 - root - INFO - Memory system validation passed
+2025-08-19 12:16:43,659 - root - INFO - Starting new memory session
+2025-08-19 12:16:44,429 - root - INFO - Started new session: 6eef5d82-094d-43a3-9ed1-c42a619fb71a
+2025-08-19 12:16:44,429 - root - INFO - Memory session started: 6eef5d82-094d-43a3-9ed1-c42a619fb71a
+2025-08-19 12:16:45,262 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:16:45,270 - root - INFO - Ended session: 6eef5d82-094d-43a3-9ed1-c42a619fb71a
+2025-08-19 12:16:45,270 - root - INFO - Memory session ended successfully
+2025-08-19 12:16:45,287 - root - INFO - Memory manager initialized
+2025-08-19 12:16:45,299 - root - INFO - Memory manager initialized
+2025-08-19 12:16:45,635 - root - INFO - Memory manager initialized
+2025-08-19 12:16:45,648 - root - INFO - Memory manager initialized
+2025-08-19 12:16:45,657 - root - INFO - Memory manager initialized
+2025-08-19 12:16:45,658 - root - INFO - Memory system validation passed
+2025-08-19 12:30:52,741 - root - INFO - Memory manager initialized
+2025-08-19 12:30:52,741 - root - INFO - Memory system validation passed
+2025-08-19 12:30:52,741 - root - INFO - Starting new memory session
+2025-08-19 12:30:53,623 - root - INFO - Started new session: 67e920de-d597-4163-82af-62af8bf96c35
+2025-08-19 12:30:53,623 - root - INFO - Memory session started: 67e920de-d597-4163-82af-62af8bf96c35
+2025-08-19 12:30:54,258 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:30:54,262 - root - INFO - Ended session: 67e920de-d597-4163-82af-62af8bf96c35
+2025-08-19 12:30:54,262 - root - INFO - Memory session ended successfully
+2025-08-19 12:30:54,593 - root - INFO - Memory manager initialized
+2025-08-19 12:30:54,595 - root - INFO - Memory system validation passed
+2025-08-19 12:30:54,602 - root - INFO - Memory manager initialized
+2025-08-19 12:30:54,602 - root - WARNING - No active session to end
+2025-08-19 12:30:54,816 - root - INFO - Memory manager initialized
+2025-08-19 12:30:54,816 - root - INFO - Memory system validation passed
+2025-08-19 12:30:54,818 - root - INFO - Starting new memory session
+2025-08-19 12:30:55,531 - root - INFO - Started new session: 7426016c-e5ce-4a8f-b04c-2612079d997e
+2025-08-19 12:30:55,531 - root - INFO - Memory session started: 7426016c-e5ce-4a8f-b04c-2612079d997e
+2025-08-19 12:30:56,308 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:30:56,313 - root - INFO - Ended session: 7426016c-e5ce-4a8f-b04c-2612079d997e
+2025-08-19 12:30:56,313 - root - INFO - Memory session ended successfully
+2025-08-19 12:30:56,323 - root - INFO - Memory manager initialized
+2025-08-19 12:30:56,333 - root - INFO - Memory manager initialized
+2025-08-19 12:30:56,774 - root - INFO - Memory manager initialized
+2025-08-19 12:30:56,785 - root - INFO - Memory manager initialized
+2025-08-19 12:30:56,793 - root - INFO - Memory manager initialized
+2025-08-19 12:30:56,793 - root - INFO - Memory system validation passed
+2025-08-19 12:31:37,012 - root - INFO - Memory manager initialized
+2025-08-19 12:31:49,269 - root - INFO - Memory manager initialized
+2025-08-19 12:32:15,440 - root - INFO - Memory manager initialized
+2025-08-19 12:32:15,441 - root - INFO - Memory system validation passed
+2025-08-19 12:32:15,443 - root - INFO - Starting new memory session
+2025-08-19 12:32:16,107 - root - INFO - Started new session: ce6b7a6e-9596-465f-9227-3d1c22123e47
+2025-08-19 12:32:16,107 - root - INFO - Memory session started: ce6b7a6e-9596-465f-9227-3d1c22123e47
+2025-08-19 12:32:16,994 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:32:16,999 - root - INFO - Ended session: ce6b7a6e-9596-465f-9227-3d1c22123e47
+2025-08-19 12:32:16,999 - root - INFO - Memory session ended successfully
+2025-08-19 12:32:38,597 - root - INFO - Memory manager initialized
+2025-08-19 12:32:38,597 - root - INFO - Starting new memory session
+2025-08-19 12:32:39,312 - root - INFO - Started new session: 9f2ccf81-35e4-495c-9bcf-032320d68f56
+2025-08-19 12:32:39,313 - root - INFO - Memory session started: 9f2ccf81-35e4-495c-9bcf-032320d68f56
+2025-08-19 12:34:12,479 - root - INFO - Memory manager initialized
+2025-08-19 12:34:12,480 - root - INFO - Memory system validation passed
+2025-08-19 12:34:12,481 - root - INFO - Starting new memory session
+2025-08-19 12:34:13,179 - root - INFO - Started new session: 6a195e05-1013-4337-baea-a1bea3148232
+2025-08-19 12:34:13,180 - root - INFO - Memory session started: 6a195e05-1013-4337-baea-a1bea3148232
+2025-08-19 12:34:13,947 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 12:34:13,952 - root - INFO - Ended session: 6a195e05-1013-4337-baea-a1bea3148232
+2025-08-19 12:34:13,952 - root - INFO - Memory session ended successfully
+2025-08-19 12:34:14,130 - root - INFO - Memory manager initialized
+2025-08-19 12:34:14,131 - root - INFO - Memory system validation passed
+2025-08-19 12:34:14,444 - root - INFO - Memory manager initialized
+2025-08-19 12:34:14,734 - root - INFO - Memory manager initialized
+2025-08-19 12:37:07,856 - root - INFO - Memory manager initialized
+2025-08-19 12:40:22,353 - root - INFO - Memory manager initialized
+2025-08-19 12:40:32,657 - root - INFO - Memory manager initialized
+2025-08-19 12:46:17,926 - root - INFO - Memory manager initialized
+2025-08-19 12:46:18,271 - root - INFO - Created checkpoint: feature_phase_1_complete
+2025-08-19 12:46:18,271 - root - INFO - Updated project memory
+2025-08-19 12:46:50,824 - root - INFO - Memory manager initialized
+2025-08-19 12:46:50,824 - root - INFO - Updated project memory
+2025-08-19 12:49:19,870 - root - INFO - Memory manager initialized
+2025-08-19 12:49:34,662 - root - INFO - Memory manager initialized
+2025-08-19 12:49:34,996 - root - INFO - Created checkpoint: feature_memory_cli_fixed
+2025-08-19 12:49:34,996 - root - INFO - Updated project memory
+2025-08-19 12:49:49,527 - root - INFO - Memory manager initialized
+2025-08-19 12:49:49,527 - root - INFO - Updated project memory
+2025-08-19 12:50:12,379 - root - INFO - Memory manager initialized
+2025-08-19 12:50:12,379 - root - INFO - Updated project memory
+2025-08-19 12:50:24,253 - root - INFO - Memory manager initialized
+2025-08-19 12:58:59,566 - root - INFO - Memory manager initialized
+2025-08-19 12:58:59,977 - root - INFO - Created checkpoint: feature_documentation_created
+2025-08-19 12:58:59,978 - root - INFO - Updated project memory
+2025-08-19 12:59:33,586 - root - INFO - Memory manager initialized
+2025-08-19 12:59:33,935 - root - INFO - Created checkpoint: feature_documentation_created
+2025-08-19 12:59:33,935 - root - INFO - Updated project memory
+2025-08-19 12:59:47,935 - root - INFO - Memory manager initialized
+2025-08-19 12:59:47,937 - root - INFO - Updated project memory
+2025-08-19 13:23:52,663 - root - INFO - Memory manager initialized
+2025-08-19 13:23:52,970 - root - INFO - Created checkpoint: feature_slash_commands_complete
+2025-08-19 13:23:52,971 - root - INFO - Updated project memory
+2025-08-19 13:25:56,554 - root - INFO - Memory manager initialized
+2025-08-19 13:27:30,253 - root - INFO - Memory manager initialized
+2025-08-19 13:27:49,995 - root - INFO - Memory manager initialized
+2025-08-19 13:28:19,813 - root - INFO - Memory manager initialized
+2025-08-19 13:29:18,835 - root - INFO - Memory manager initialized
+2025-08-19 13:29:19,268 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-19 13:29:40,881 - root - INFO - Memory manager initialized
+2025-08-19 13:29:41,215 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-19 13:30:05,002 - root - INFO - Memory manager initialized
+2025-08-19 13:30:15,142 - root - INFO - Memory manager initialized
+2025-08-19 13:30:54,243 - root - INFO - Memory manager initialized
+2025-08-19 13:33:20,963 - root - INFO - Memory manager initialized
+2025-08-19 13:34:07,363 - root - INFO - Memory manager initialized
+2025-08-19 13:34:07,716 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-19 13:34:17,758 - root - INFO - Memory manager initialized
+2025-08-19 13:35:12,697 - root - INFO - Memory manager initialized
+2025-08-19 13:37:56,623 - root - INFO - Memory manager initialized
+2025-08-19 13:37:56,623 - root - INFO - Starting new memory session
+2025-08-19 13:38:30,864 - root - INFO - Started new session: 8c9adc68-66ca-4005-a3d8-4ee526977d7f
+2025-08-19 13:38:30,864 - root - INFO - Memory session started: 8c9adc68-66ca-4005-a3d8-4ee526977d7f
+2025-08-19 13:39:57,874 - root - INFO - Memory manager initialized
+2025-08-19 13:39:57,875 - root - INFO - Memory system validation passed
+2025-08-19 13:40:38,346 - root - INFO - Memory manager initialized
+2025-08-19 13:42:12,156 - root - INFO - Memory manager initialized
+2025-08-19 13:42:12,391 - root - INFO - Memory manager initialized
+2025-08-19 13:42:12,392 - root - INFO - Memory system validation passed
+2025-08-19 13:42:12,393 - root - INFO - Starting new memory session
+2025-08-19 13:42:13,173 - root - INFO - Started new session: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be
+2025-08-19 13:42:13,173 - root - INFO - Memory session started: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be
+2025-08-19 13:42:13,833 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-19 13:42:13,844 - root - INFO - Ended session: b7c22a93-4c35-4d7f-b3c5-cf2da81dc6be
+2025-08-19 13:42:13,844 - root - INFO - Memory session ended successfully
+2025-08-19 13:42:23,995 - root - INFO - Memory manager initialized
+2025-08-19 13:44:40,070 - root - INFO - Memory manager initialized
+2025-08-19 13:44:40,071 - root - INFO - Starting new memory session
+2025-08-19 13:45:01,709 - root - INFO - Started new session: 74371a32-8b56-461e-a306-0d465d90f67c
+2025-08-19 13:45:01,709 - root - INFO - Memory session started: 74371a32-8b56-461e-a306-0d465d90f67c
+2025-08-19 13:46:27,051 - root - INFO - Memory manager initialized
+2025-08-19 13:46:35,972 - root - INFO - Memory manager initialized
+2025-08-19 13:46:36,915 - root - INFO - Memory manager initialized
+2025-08-19 13:46:45,698 - root - INFO - Memory manager initialized
+2025-08-19 13:46:46,309 - root - INFO - Memory manager initialized
+2025-08-19 13:49:23,905 - root - INFO - Memory manager initialized
+2025-08-19 13:49:24,411 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-19 13:49:32,458 - root - INFO - Memory manager initialized
+2025-08-19 13:49:32,890 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-19 13:49:41,068 - root - INFO - Memory manager initialized
+2025-08-19 13:49:41,904 - root - INFO - Memory manager initialized
+2025-08-19 13:50:24,591 - root - INFO - Memory manager initialized
+2025-08-19 13:50:38,653 - root - INFO - Memory manager initialized
+2025-08-19 13:50:39,255 - root - INFO - Memory manager initialized
+2025-08-19 13:50:43,499 - root - INFO - Memory manager initialized
+2025-08-19 13:50:57,094 - root - INFO - Memory manager initialized
+2025-08-19 13:51:08,195 - root - INFO - Memory manager initialized
+2025-08-19 13:51:27,773 - root - INFO - Memory manager initialized
+2025-08-19 13:51:42,946 - root - INFO - Memory manager initialized
+2025-08-19 13:51:43,404 - root - INFO - Created checkpoint: auto_checkpoint_multiedit
+2025-08-19 13:51:53,722 - root - INFO - Memory manager initialized
+2025-08-19 13:51:54,735 - root - INFO - Memory manager initialized
+2025-08-19 13:52:22,366 - root - INFO - Memory manager initialized
+2025-08-19 13:53:07,722 - root - INFO - Memory manager initialized
+2025-08-19 13:53:08,189 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-19 13:53:18,734 - root - INFO - Memory manager initialized
+2025-08-19 13:53:19,466 - root - INFO - Memory manager initialized
+2025-08-19 13:53:32,601 - root - INFO - Memory manager initialized
+2025-08-19 13:53:33,317 - root - INFO - Memory manager initialized
+2025-08-19 13:54:56,902 - root - INFO - Memory manager initialized
+2025-08-19 13:54:57,630 - root - INFO - Memory manager initialized
+2025-08-19 14:01:39,326 - root - INFO - Memory manager initialized
+2025-08-19 14:02:02,785 - root - INFO - Memory manager initialized
+2025-08-19 14:06:09,555 - root - INFO - Memory manager initialized
+2025-08-24 13:25:27,918 - root - INFO - Memory manager initialized
+2025-08-24 13:25:27,919 - root - INFO - Starting new memory session
+2025-08-24 13:25:48,163 - root - INFO - Started new session: c3262576-65a1-4a68-8e06-46ba52f8f1bc
+2025-08-24 13:25:48,163 - root - INFO - Memory session started: c3262576-65a1-4a68-8e06-46ba52f8f1bc
+2025-08-24 13:32:03,203 - root - INFO - Memory manager initialized
+2025-08-24 13:32:22,717 - root - INFO - Memory manager initialized
+2025-08-24 13:32:32,617 - root - INFO - Memory manager initialized
+2025-08-24 13:32:45,769 - root - INFO - Memory manager initialized
+2025-08-24 13:32:53,608 - root - INFO - Memory manager initialized
+2025-08-24 13:34:17,886 - root - INFO - Memory manager initialized
+2025-08-24 13:34:31,764 - root - INFO - Memory manager initialized
+2025-08-24 13:34:38,668 - root - INFO - Memory manager initialized
+2025-08-24 13:41:32,975 - root - INFO - Memory manager initialized
+2025-08-24 13:48:43,152 - root - INFO - Memory manager initialized
+2025-08-24 13:49:02,150 - root - INFO - Memory manager initialized
+2025-08-24 13:49:13,895 - root - INFO - Memory manager initialized
+2025-08-24 13:49:30,164 - root - INFO - Memory manager initialized
+2025-08-24 13:50:29,368 - root - INFO - Memory manager initialized
+2025-08-24 13:50:37,110 - root - INFO - Memory manager initialized
+2025-08-24 13:51:02,660 - root - INFO - Memory manager initialized
+2025-08-24 13:51:14,724 - root - INFO - Memory manager initialized
+2025-08-24 13:51:24,178 - root - INFO - Memory manager initialized
+2025-08-24 13:51:27,516 - root - INFO - Memory manager initialized
+2025-08-24 13:51:36,714 - root - INFO - Memory manager initialized
+2025-08-24 13:51:40,863 - root - INFO - Memory manager initialized
+2025-08-24 13:51:48,995 - root - INFO - Memory manager initialized
+2025-08-24 13:51:49,331 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:51:56,451 - root - INFO - Memory manager initialized
+2025-08-24 13:51:56,781 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:52:00,639 - root - INFO - Memory manager initialized
+2025-08-24 13:52:08,975 - root - INFO - Memory manager initialized
+2025-08-24 13:52:15,247 - root - INFO - Memory manager initialized
+2025-08-24 13:52:15,591 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:52:23,454 - root - INFO - Memory manager initialized
+2025-08-24 13:52:30,926 - root - INFO - Memory manager initialized
+2025-08-24 13:52:31,290 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:56:10,242 - root - INFO - Memory manager initialized
+2025-08-24 13:56:14,500 - root - INFO - Memory manager initialized
+2025-08-24 13:56:24,441 - root - INFO - Memory manager initialized
+2025-08-24 13:56:24,799 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:56:33,721 - root - INFO - Memory manager initialized
+2025-08-24 13:56:51,078 - root - INFO - Memory manager initialized
+2025-08-24 13:56:59,330 - root - INFO - Memory manager initialized
+2025-08-24 13:56:59,331 - root - INFO - Memory system validation passed
+2025-08-24 13:56:59,334 - root - INFO - Starting new memory session
+2025-08-24 13:56:59,822 - root - INFO - Started new session: 226622c2-9eed-48b2-86ad-7bdfe7b35f3b
+2025-08-24 13:56:59,822 - root - INFO - Memory session started: 226622c2-9eed-48b2-86ad-7bdfe7b35f3b
+2025-08-24 13:57:00,282 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 13:57:00,287 - root - INFO - Ended session: 226622c2-9eed-48b2-86ad-7bdfe7b35f3b
+2025-08-24 13:57:00,287 - root - INFO - Memory session ended successfully
+2025-08-24 13:57:01,050 - root - INFO - Memory manager initialized
+2025-08-24 13:57:13,985 - root - INFO - Memory manager initialized
+2025-08-24 13:57:13,987 - root - INFO - Memory system validation passed
+2025-08-24 13:57:13,988 - root - INFO - Starting new memory session
+2025-08-24 13:57:14,494 - root - INFO - Started new session: 7232d508-9c38-4782-a375-dd6310421430
+2025-08-24 13:57:14,494 - root - INFO - Memory session started: 7232d508-9c38-4782-a375-dd6310421430
+2025-08-24 13:57:14,978 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 13:57:14,983 - root - INFO - Ended session: 7232d508-9c38-4782-a375-dd6310421430
+2025-08-24 13:57:14,983 - root - INFO - Memory session ended successfully
+2025-08-24 13:57:28,094 - root - INFO - Memory manager initialized
+2025-08-24 13:57:37,218 - root - INFO - Memory manager initialized
+2025-08-24 13:57:41,270 - root - INFO - Memory manager initialized
+2025-08-24 13:57:49,836 - root - INFO - Memory manager initialized
+2025-08-24 13:57:50,195 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:58:21,652 - root - INFO - Memory manager initialized
+2025-08-24 13:58:59,495 - root - INFO - Memory manager initialized
+2025-08-24 13:58:59,841 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 13:59:20,964 - root - INFO - Memory manager initialized
+2025-08-24 13:59:20,965 - root - INFO - Memory system validation passed
+2025-08-24 13:59:21,668 - root - INFO - Memory manager initialized
+2025-08-24 13:59:29,162 - root - INFO - Memory manager initialized
+2025-08-24 13:59:29,165 - root - INFO - Memory system validation passed
+2025-08-24 13:59:29,613 - root - INFO - Memory manager initialized
+2025-08-24 13:59:36,690 - root - INFO - Memory manager initialized
+2025-08-24 13:59:37,232 - root - INFO - Memory manager initialized
+2025-08-24 14:00:13,460 - root - INFO - Memory manager initialized
+2025-08-24 14:00:14,001 - root - INFO - Memory manager initialized
+2025-08-24 14:00:20,555 - root - INFO - Memory manager initialized
+2025-08-24 14:00:21,505 - root - INFO - Memory manager initialized
+2025-08-24 14:03:55,477 - root - INFO - Memory manager initialized
+2025-08-24 14:04:06,133 - root - INFO - Memory manager initialized
+2025-08-24 14:04:06,135 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc9d' in position 32: surrogates not allowed
+2025-08-24 14:04:06,140 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:06,140 - root - WARNING - No active session to update
+2025-08-24 14:04:31,388 - root - INFO - Memory manager initialized
+2025-08-24 14:04:31,389 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:31,389 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:04:31,390 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:31,390 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:04:31,391 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:31,391 - root - WARNING - No active session to update
+2025-08-24 14:04:31,391 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:31,391 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:04:45,113 - root - INFO - Memory manager initialized
+2025-08-24 14:04:45,114 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:45,115 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:04:45,116 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:45,116 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:04:45,117 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:45,117 - root - WARNING - No active session to update
+2025-08-24 14:04:45,118 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:45,118 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:04:52,611 - root - INFO - Memory manager initialized
+2025-08-24 14:04:52,611 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:52,612 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:04:52,612 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:52,612 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:04:52,613 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:52,613 - root - WARNING - No active session to update
+2025-08-24 14:04:52,614 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:04:52,614 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:05:01,769 - root - INFO - Memory manager initialized
+2025-08-24 14:05:01,770 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:01,770 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:01,770 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:01,770 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:05:01,771 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:01,771 - root - WARNING - No active session to update
+2025-08-24 14:05:01,772 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:01,772 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:05:10,487 - root - INFO - Memory manager initialized
+2025-08-24 14:05:10,487 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:10,487 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:10,488 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:10,488 - root - WARNING - No active session to update
+2025-08-24 14:05:22,378 - root - INFO - Memory manager initialized
+2025-08-24 14:05:22,379 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:22,379 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:22,379 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:22,379 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:05:22,380 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:22,380 - root - WARNING - No active session to update
+2025-08-24 14:05:22,381 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:22,381 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:05:30,637 - root - INFO - Memory manager initialized
+2025-08-24 14:05:30,638 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:31,146 - root - INFO - Memory manager initialized
+2025-08-24 14:05:31,147 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:31,147 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:31,147 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:31,148 - root - WARNING - No active session to update
+2025-08-24 14:05:43,334 - root - INFO - Memory manager initialized
+2025-08-24 14:05:43,335 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:43,335 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:43,335 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:43,336 - root - WARNING - No active session to update
+2025-08-24 14:05:53,060 - root - INFO - Memory manager initialized
+2025-08-24 14:05:53,061 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:53,061 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:53,062 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:53,062 - root - WARNING - No active session to update
+2025-08-24 14:05:57,283 - root - INFO - Memory manager initialized
+2025-08-24 14:05:57,284 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:57,284 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:05:57,284 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:05:57,284 - root - WARNING - No active session to update
+2025-08-24 14:06:01,177 - root - INFO - Memory manager initialized
+2025-08-24 14:06:01,179 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:01,179 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:01,180 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:01,180 - root - WARNING - No active session to update
+2025-08-24 14:06:12,482 - root - INFO - Memory manager initialized
+2025-08-24 14:06:12,484 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:12,484 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:12,485 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:12,485 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:06:12,487 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:12,487 - root - WARNING - No active session to update
+2025-08-24 14:06:12,488 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:12,488 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:06:25,608 - root - INFO - Memory manager initialized
+2025-08-24 14:06:25,609 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:25,609 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:25,610 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:25,610 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:06:25,611 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:25,611 - root - WARNING - No active session to update
+2025-08-24 14:06:25,612 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:25,612 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:06:29,675 - root - INFO - Memory manager initialized
+2025-08-24 14:06:29,676 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:29,676 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:29,677 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:29,677 - root - WARNING - No active session to update
+2025-08-24 14:06:36,931 - root - INFO - Memory manager initialized
+2025-08-24 14:06:36,932 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:36,932 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:36,932 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:36,933 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:06:36,933 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:36,933 - root - WARNING - No active session to update
+2025-08-24 14:06:36,934 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:36,934 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:06:55,366 - root - INFO - Memory manager initialized
+2025-08-24 14:06:55,367 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:55,367 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:55,368 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:55,368 - root - WARNING - No active session to update
+2025-08-24 14:06:59,491 - root - INFO - Memory manager initialized
+2025-08-24 14:06:59,493 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:59,493 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:06:59,494 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:06:59,494 - root - WARNING - No active session to update
+2025-08-24 14:07:12,189 - root - INFO - Memory manager initialized
+2025-08-24 14:07:12,190 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:12,190 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:07:12,191 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:12,191 - root - WARNING - No active session to update
+2025-08-24 14:07:21,949 - root - INFO - Memory manager initialized
+2025-08-24 14:07:21,950 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:21,950 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:07:21,951 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:21,951 - root - WARNING - No active session to update
+2025-08-24 14:07:31,619 - root - INFO - Memory manager initialized
+2025-08-24 14:07:31,619 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:31,620 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:07:31,620 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:31,620 - root - WARNING - No active session to update
+2025-08-24 14:07:53,616 - root - INFO - Memory manager initialized
+2025-08-24 14:07:53,617 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:53,617 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:07:53,618 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:53,618 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:07:53,619 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:53,619 - root - WARNING - No active session to update
+2025-08-24 14:07:53,620 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:07:53,620 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:08:06,471 - root - INFO - Memory manager initialized
+2025-08-24 14:08:06,472 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:06,472 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:08:06,473 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:06,473 - root - WARNING - No active session to update
+2025-08-24 14:08:16,539 - root - INFO - Memory manager initialized
+2025-08-24 14:08:16,540 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:16,540 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:08:16,541 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:16,541 - root - WARNING - No active session to update
+2025-08-24 14:08:22,246 - root - INFO - Memory manager initialized
+2025-08-24 14:08:22,247 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:22,248 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:08:22,248 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:22,249 - root - WARNING - No active session to update
+2025-08-24 14:08:33,816 - root - INFO - Memory manager initialized
+2025-08-24 14:08:33,817 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:33,817 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:08:33,818 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:33,818 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:08:33,819 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:33,819 - root - WARNING - No active session to update
+2025-08-24 14:08:33,820 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:33,820 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:08:37,562 - root - INFO - Memory manager initialized
+2025-08-24 14:08:37,563 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:37,563 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:08:37,564 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:37,564 - root - WARNING - No active session to update
+2025-08-24 14:08:48,728 - root - INFO - Memory manager initialized
+2025-08-24 14:08:48,729 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:48,730 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:08:48,730 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:48,730 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:08:48,731 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:48,731 - root - WARNING - No active session to update
+2025-08-24 14:08:48,732 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:08:48,732 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:09:08,238 - root - INFO - Memory manager initialized
+2025-08-24 14:09:08,241 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:08,242 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:08,243 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:08,244 - root - WARNING - No active session to update
+2025-08-24 14:09:12,118 - root - INFO - Memory manager initialized
+2025-08-24 14:09:12,119 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:12,119 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:12,119 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:12,119 - root - WARNING - No active session to update
+2025-08-24 14:09:21,192 - root - INFO - Memory manager initialized
+2025-08-24 14:09:21,193 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:21,193 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:21,194 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:21,194 - root - WARNING - No active session to update
+2025-08-24 14:09:25,822 - root - INFO - Memory manager initialized
+2025-08-24 14:09:25,824 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:25,824 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:25,825 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:25,825 - root - WARNING - No active session to update
+2025-08-24 14:09:35,179 - root - INFO - Memory manager initialized
+2025-08-24 14:09:35,180 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:35,180 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:35,181 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:35,181 - root - WARNING - No active session to update
+2025-08-24 14:09:45,173 - root - INFO - Memory manager initialized
+2025-08-24 14:09:45,175 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:45,175 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:45,176 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:45,176 - root - WARNING - No active session to update
+2025-08-24 14:09:53,951 - root - INFO - Memory manager initialized
+2025-08-24 14:09:53,953 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:53,953 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:53,954 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:53,954 - root - WARNING - No active session to update
+2025-08-24 14:09:59,108 - root - INFO - Memory manager initialized
+2025-08-24 14:09:59,109 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:59,109 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:09:59,109 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:09:59,109 - root - WARNING - No active session to update
+2025-08-24 14:10:11,332 - root - INFO - Memory manager initialized
+2025-08-24 14:10:11,333 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:11,333 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:10:11,334 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:11,334 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:10:11,335 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:11,335 - root - WARNING - No active session to update
+2025-08-24 14:10:11,336 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:11,336 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:10:21,376 - root - INFO - Memory manager initialized
+2025-08-24 14:10:21,377 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:21,377 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:10:21,377 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:21,377 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:10:21,378 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:21,378 - root - WARNING - No active session to update
+2025-08-24 14:10:21,379 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:21,379 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:10:31,031 - root - INFO - Memory manager initialized
+2025-08-24 14:10:31,032 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:31,032 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:10:31,033 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:31,033 - root - WARNING - No active session to update
+2025-08-24 14:10:35,575 - root - INFO - Memory manager initialized
+2025-08-24 14:10:35,576 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:35,576 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:10:35,576 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:35,576 - root - WARNING - No active session to update
+2025-08-24 14:10:39,496 - root - INFO - Memory manager initialized
+2025-08-24 14:10:39,497 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:39,498 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:10:39,499 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:39,499 - root - WARNING - No active session to update
+2025-08-24 14:10:53,871 - root - INFO - Memory manager initialized
+2025-08-24 14:10:53,872 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:53,873 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:10:53,874 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:53,874 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:10:53,875 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:53,876 - root - WARNING - No active session to update
+2025-08-24 14:10:53,877 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:10:53,877 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:11:12,389 - root - INFO - Memory manager initialized
+2025-08-24 14:11:12,390 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:12,390 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:11:12,391 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:12,391 - root - WARNING - No active session to update
+2025-08-24 14:11:22,712 - root - INFO - Memory manager initialized
+2025-08-24 14:11:22,713 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:22,713 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:11:22,714 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:22,714 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:11:22,715 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:22,715 - root - WARNING - No active session to update
+2025-08-24 14:11:22,716 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:22,716 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:11:30,951 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:30,951 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:30,951 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:30,951 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:30,952 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:30,952 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:30,952 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:11:31,499 - root - INFO - Memory manager initialized
+2025-08-24 14:11:31,500 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:31,500 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:11:31,500 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:31,500 - root - WARNING - No active session to update
+2025-08-24 14:11:51,348 - root - INFO - Memory manager initialized
+2025-08-24 14:11:51,350 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:51,350 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:11:51,351 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:11:51,351 - root - WARNING - No active session to update
+2025-08-24 14:12:00,312 - root - INFO - Memory manager initialized
+2025-08-24 14:12:00,314 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:00,314 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:12:00,315 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:00,315 - root - WARNING - No active session to update
+2025-08-24 14:12:04,454 - root - INFO - Memory manager initialized
+2025-08-24 14:12:04,456 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:04,456 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:12:04,458 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:04,458 - root - WARNING - No active session to update
+2025-08-24 14:12:15,092 - root - INFO - Memory manager initialized
+2025-08-24 14:12:15,094 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:15,094 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:12:15,095 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:15,095 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:12:15,096 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:15,096 - root - WARNING - No active session to update
+2025-08-24 14:12:15,096 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:15,097 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:12:27,891 - root - INFO - Memory manager initialized
+2025-08-24 14:12:27,893 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:27,893 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:12:27,895 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:27,895 - root - WARNING - No active session to update
+2025-08-24 14:12:37,715 - root - INFO - Memory manager initialized
+2025-08-24 14:12:37,716 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:37,716 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:12:37,716 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:37,716 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:12:37,717 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:37,717 - root - WARNING - No active session to update
+2025-08-24 14:12:37,718 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:12:37,718 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:13:15,920 - root - INFO - Memory manager initialized
+2025-08-24 14:13:15,921 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:15,921 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:13:15,922 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:15,922 - root - WARNING - No active session to update
+2025-08-24 14:13:38,793 - root - INFO - Memory manager initialized
+2025-08-24 14:13:38,794 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:38,794 - root - WARNING - No active session for tool usage logging
+2025-08-24 14:13:38,795 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:38,795 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:13:38,795 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:38,795 - root - WARNING - No active session to update
+2025-08-24 14:13:38,796 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:38,796 - root - WARNING - No active session for checkpoint creation
+2025-08-24 14:13:55,814 - root - INFO - Memory manager initialized
+2025-08-24 14:13:55,815 - root - INFO - Memory system validation passed
+2025-08-24 14:13:55,817 - root - INFO - Starting new memory session
+2025-08-24 14:13:56,059 - root - ERROR - Failed to load JSON from D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 154 column 20 (char 68672)
+2025-08-24 14:13:56,295 - root - INFO - Started new session: d2a752b2-f74a-40ff-8ea4-16e56f195ad4
+2025-08-24 14:13:56,295 - root - INFO - Memory session started: d2a752b2-f74a-40ff-8ea4-16e56f195ad4
+2025-08-24 14:13:56,822 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:13:56,827 - root - INFO - Ended session: d2a752b2-f74a-40ff-8ea4-16e56f195ad4
+2025-08-24 14:13:56,827 - root - INFO - Memory session ended successfully
+2025-08-24 14:13:57,319 - root - INFO - Memory manager initialized
+2025-08-24 14:14:06,541 - root - INFO - Memory manager initialized
+2025-08-24 14:14:06,542 - root - INFO - Memory system validation passed
+2025-08-24 14:14:07,311 - root - INFO - Memory manager initialized
+2025-08-24 14:14:16,195 - root - INFO - Memory manager initialized
+2025-08-24 14:14:16,198 - root - INFO - Memory system validation passed
+2025-08-24 14:14:17,080 - root - INFO - Memory manager initialized
+2025-08-24 14:14:24,139 - root - INFO - Memory manager initialized
+2025-08-24 14:14:24,823 - root - INFO - Memory manager initialized
+2025-08-24 14:14:33,010 - root - INFO - Memory manager initialized
+2025-08-24 14:14:33,011 - root - INFO - Memory system validation passed
+2025-08-24 14:14:33,755 - root - INFO - Memory manager initialized
+2025-08-24 14:15:02,951 - root - INFO - Memory manager initialized
+2025-08-24 14:15:12,676 - root - INFO - Memory manager initialized
+2025-08-24 14:15:22,468 - root - INFO - Memory manager initialized
+2025-08-24 14:15:22,470 - root - INFO - Memory system validation passed
+2025-08-24 14:15:22,473 - root - INFO - Starting new memory session
+2025-08-24 14:15:22,951 - root - INFO - Started new session: da3c1df1-4313-46d1-ab72-873d8a7f745c
+2025-08-24 14:15:22,951 - root - INFO - Memory session started: da3c1df1-4313-46d1-ab72-873d8a7f745c
+2025-08-24 14:15:23,465 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:15:23,471 - root - INFO - Ended session: da3c1df1-4313-46d1-ab72-873d8a7f745c
+2025-08-24 14:15:23,471 - root - INFO - Memory session ended successfully
+2025-08-24 14:19:04,156 - root - INFO - Memory manager initialized
+2025-08-24 14:19:23,997 - root - INFO - Memory manager initialized
+2025-08-24 14:19:48,495 - root - INFO - Memory manager initialized
+2025-08-24 14:19:53,776 - root - INFO - Memory manager initialized
+2025-08-24 14:26:37,322 - root - INFO - Memory manager initialized
+2025-08-24 14:26:37,677 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:27:41,596 - root - INFO - Memory manager initialized
+2025-08-24 14:27:41,597 - root - INFO - Starting new memory session
+2025-08-24 14:27:42,363 - root - INFO - Started new session: 36c88a45-f18b-40bf-81bd-ec77e07a105f
+2025-08-24 14:27:42,364 - root - INFO - Memory session started: 36c88a45-f18b-40bf-81bd-ec77e07a105f
+2025-08-24 14:27:58,022 - root - INFO - Memory manager initialized
+2025-08-24 14:27:58,359 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:28:18,731 - root - INFO - Memory manager initialized
+2025-08-24 14:28:26,514 - root - INFO - Memory manager initialized
+2025-08-24 14:28:35,665 - root - INFO - Memory manager initialized
+2025-08-24 14:28:39,217 - root - INFO - Memory manager initialized
+2025-08-24 14:28:42,661 - root - INFO - Memory manager initialized
+2025-08-24 14:28:50,156 - root - INFO - Memory manager initialized
+2025-08-24 14:29:15,413 - root - INFO - Memory manager initialized
+2025-08-24 14:29:15,763 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:29:27,779 - root - INFO - Memory manager initialized
+2025-08-24 14:29:36,289 - root - INFO - Memory manager initialized
+2025-08-24 14:29:39,783 - root - INFO - Memory manager initialized
+2025-08-24 14:30:13,077 - root - INFO - Memory manager initialized
+2025-08-24 14:30:13,437 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:30:31,580 - root - INFO - Memory manager initialized
+2025-08-24 14:30:47,790 - root - INFO - Memory manager initialized
+2025-08-24 14:30:48,433 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:30:52,194 - root - INFO - Memory manager initialized
+2025-08-24 14:31:00,161 - root - INFO - Memory manager initialized
+2025-08-24 14:31:00,516 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:31:18,618 - root - INFO - Memory manager initialized
+2025-08-24 14:31:18,621 - root - INFO - Memory system validation passed
+2025-08-24 14:31:18,624 - root - INFO - Starting new memory session
+2025-08-24 14:31:19,121 - root - INFO - Started new session: 4e7af83f-b7db-4bd0-9290-355d7f0a8bca
+2025-08-24 14:31:19,121 - root - INFO - Memory session started: 4e7af83f-b7db-4bd0-9290-355d7f0a8bca
+2025-08-24 14:31:19,604 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:31:19,609 - root - INFO - Ended session: 4e7af83f-b7db-4bd0-9290-355d7f0a8bca
+2025-08-24 14:31:19,609 - root - INFO - Memory session ended successfully
+2025-08-24 14:31:44,533 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:44,533 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:44,535 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:44,535 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:44,535 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:44,535 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:44,536 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:31:47,692 - root - INFO - Memory manager initialized
+2025-08-24 14:31:47,694 - root - INFO - Memory system validation passed
+2025-08-24 14:31:47,695 - root - INFO - Starting new memory session
+2025-08-24 14:31:48,370 - root - INFO - Started new session: 49f8e514-d5df-49f0-84ad-a8575d5970d6
+2025-08-24 14:31:48,370 - root - INFO - Memory session started: 49f8e514-d5df-49f0-84ad-a8575d5970d6
+2025-08-24 14:31:49,106 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:31:49,110 - root - INFO - Ended session: 49f8e514-d5df-49f0-84ad-a8575d5970d6
+2025-08-24 14:31:49,111 - root - INFO - Memory session ended successfully
+2025-08-24 14:31:49,371 - root - INFO - Memory manager initialized
+2025-08-24 14:31:49,597 - root - INFO - Memory manager initialized
+2025-08-24 14:31:50,154 - root - INFO - Memory manager initialized
+2025-08-24 14:31:50,709 - root - INFO - Memory manager initialized
+2025-08-24 14:31:50,710 - root - INFO - Memory system validation passed
+2025-08-24 14:31:50,905 - root - INFO - Memory manager initialized
+2025-08-24 14:31:51,106 - root - INFO - Memory manager initialized
+2025-08-24 14:31:51,111 - root - INFO - Memory system validation passed
+2025-08-24 14:31:51,339 - root - INFO - Memory manager initialized
+2025-08-24 14:31:51,339 - root - INFO - Starting new memory session
+2025-08-24 14:31:51,867 - root - INFO - Started new session: f030e66d-dc06-43fb-b4a6-16c00764dc01
+2025-08-24 14:31:51,867 - root - INFO - Memory session started: f030e66d-dc06-43fb-b4a6-16c00764dc01
+2025-08-24 14:31:52,064 - root - INFO - Memory manager initialized
+2025-08-24 14:31:52,069 - root - INFO - Ended session: f030e66d-dc06-43fb-b4a6-16c00764dc01
+2025-08-24 14:31:52,070 - root - INFO - Memory session ended successfully
+2025-08-24 14:31:52,262 - root - INFO - Memory manager initialized
+2025-08-24 14:31:52,564 - root - INFO - Created checkpoint: checkpoint_20250824_143152
+2025-08-24 14:31:52,761 - root - INFO - Memory manager initialized
+2025-08-24 14:31:53,264 - root - INFO - Memory manager initialized
+2025-08-24 14:31:53,267 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}
+2025-08-24 14:31:53,267 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}
+2025-08-24 14:31:53,588 - root - INFO - Memory manager initialized
+2025-08-24 14:31:53,591 - root - INFO - Memory system validation passed
+2025-08-24 14:31:53,593 - root - INFO - Starting new memory session
+2025-08-24 14:31:54,127 - root - INFO - Started new session: edaf2c77-e712-47c9-83cb-f302e3d7f97a
+2025-08-24 14:31:54,127 - root - INFO - Memory session started: edaf2c77-e712-47c9-83cb-f302e3d7f97a
+2025-08-24 14:31:54,636 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:31:54,647 - root - INFO - Ended session: edaf2c77-e712-47c9-83cb-f302e3d7f97a
+2025-08-24 14:31:54,647 - root - INFO - Memory session ended successfully
+2025-08-24 14:31:54,736 - root - INFO - Memory manager initialized
+2025-08-24 14:31:54,750 - root - INFO - Memory manager initialized
+2025-08-24 14:31:54,989 - root - INFO - Memory manager initialized
+2025-08-24 14:31:54,990 - root - INFO - Memory system validation passed
+2025-08-24 14:31:54,997 - root - INFO - Memory manager initialized
+2025-08-24 14:31:55,239 - root - INFO - Memory manager initialized
+2025-08-24 14:31:55,246 - root - INFO - Memory manager initialized
+2025-08-24 14:31:55,247 - root - INFO - Memory system validation passed
+2025-08-24 14:31:55,586 - root - INFO - Memory manager initialized
+2025-08-24 14:31:55,587 - root - INFO - Memory system validation passed
+2025-08-24 14:31:55,593 - root - INFO - Memory manager initialized
+2025-08-24 14:31:55,876 - root - INFO - Memory manager initialized
+2025-08-24 14:31:55,877 - root - INFO - Memory system validation passed
+2025-08-24 14:31:55,879 - root - INFO - Starting new memory session
+2025-08-24 14:31:56,337 - root - INFO - Started new session: ad7e58eb-c8c8-4d51-83f6-7e482cd91e20
+2025-08-24 14:31:56,337 - root - INFO - Memory session started: ad7e58eb-c8c8-4d51-83f6-7e482cd91e20
+2025-08-24 14:31:56,891 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:31:56,896 - root - INFO - Ended session: ad7e58eb-c8c8-4d51-83f6-7e482cd91e20
+2025-08-24 14:31:56,896 - root - INFO - Memory session ended successfully
+2025-08-24 14:31:57,001 - root - INFO - Memory manager initialized
+2025-08-24 14:31:57,016 - root - INFO - Memory manager initialized
+2025-08-24 14:31:57,473 - root - INFO - Memory manager initialized
+2025-08-24 14:31:57,717 - root - INFO - Memory manager initialized
+2025-08-24 14:31:57,718 - root - INFO - Memory system validation passed
+2025-08-24 14:31:58,182 - root - INFO - Memory manager initialized
+2025-08-24 14:31:58,183 - root - INFO - Memory system validation passed
+2025-08-24 14:31:58,184 - root - INFO - Starting new memory session
+2025-08-24 14:31:58,696 - root - INFO - Started new session: 7b0aeb5f-cd22-4a56-8492-16d85d699dc9
+2025-08-24 14:31:58,697 - root - INFO - Memory session started: 7b0aeb5f-cd22-4a56-8492-16d85d699dc9
+2025-08-24 14:31:59,163 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:31:59,173 - root - INFO - Ended session: 7b0aeb5f-cd22-4a56-8492-16d85d699dc9
+2025-08-24 14:31:59,173 - root - INFO - Memory session ended successfully
+2025-08-24 14:31:59,378 - root - INFO - Memory manager initialized
+2025-08-24 14:31:59,608 - root - INFO - Memory manager initialized
+2025-08-24 14:32:00,006 - root - INFO - Memory manager initialized
+2025-08-24 14:32:00,009 - root - INFO - Memory system validation passed
+2025-08-24 14:32:00,221 - root - INFO - Memory manager initialized
+2025-08-24 14:32:00,411 - root - INFO - Memory manager initialized
+2025-08-24 14:32:00,412 - root - INFO - Memory system validation passed
+2025-08-24 14:32:00,985 - root - INFO - Memory manager initialized
+2025-08-24 14:32:26,324 - root - INFO - Memory manager initialized
+2025-08-24 14:32:26,682 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:32:35,454 - root - INFO - Memory manager initialized
+2025-08-24 14:32:35,785 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:32:45,029 - root - INFO - Memory manager initialized
+2025-08-24 14:32:55,052 - root - INFO - Memory manager initialized
+2025-08-24 14:32:55,425 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:33:06,217 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,217 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,217 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,218 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,218 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,218 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,219 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:06,787 - root - INFO - Memory manager initialized
+2025-08-24 14:33:14,134 - root - INFO - Memory manager initialized
+2025-08-24 14:33:14,515 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:33:28,965 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:28,965 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:28,965 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:28,965 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:28,966 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:28,966 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:28,966 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:33:29,510 - root - INFO - Memory manager initialized
+2025-08-24 14:33:36,041 - root - INFO - Memory manager initialized
+2025-08-24 14:33:36,407 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:34:24,688 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:24,688 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:24,688 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:24,688 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:24,689 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:24,689 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:24,689 - root - WARNING - Transformers not available, using keyword-based filtering
+2025-08-24 14:34:27,988 - root - INFO - Memory manager initialized
+2025-08-24 14:35:59,294 - root - INFO - Memory manager initialized
+2025-08-24 14:35:59,294 - root - INFO - Starting new memory session
+2025-08-24 14:36:23,717 - root - INFO - Started new session: 95c9c007-4d95-4254-a263-e5f12189dbb0
+2025-08-24 14:36:23,717 - root - INFO - Memory session started: 95c9c007-4d95-4254-a263-e5f12189dbb0
+2025-08-24 14:38:04,154 - root - INFO - Memory manager initialized
+2025-08-24 14:38:12,674 - root - INFO - Memory manager initialized
+2025-08-24 14:38:16,571 - root - INFO - Memory manager initialized
+2025-08-24 14:38:33,713 - root - INFO - Memory manager initialized
+2025-08-24 14:38:33,714 - root - INFO - Memory system validation passed
+2025-08-24 14:38:33,715 - root - INFO - Starting new memory session
+2025-08-24 14:38:34,169 - root - INFO - Started new session: b4010407-3a87-4927-a122-2f414c1730b2
+2025-08-24 14:38:34,169 - root - INFO - Memory session started: b4010407-3a87-4927-a122-2f414c1730b2
+2025-08-24 14:38:34,691 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:38:34,696 - root - INFO - Ended session: b4010407-3a87-4927-a122-2f414c1730b2
+2025-08-24 14:38:34,696 - root - INFO - Memory session ended successfully
+2025-08-24 14:38:34,905 - root - INFO - Memory manager initialized
+2025-08-24 14:38:35,104 - root - INFO - Memory manager initialized
+2025-08-24 14:38:35,527 - root - INFO - Memory manager initialized
+2025-08-24 14:38:35,988 - root - INFO - Memory manager initialized
+2025-08-24 14:38:35,989 - root - INFO - Memory system validation passed
+2025-08-24 14:38:36,171 - root - INFO - Memory manager initialized
+2025-08-24 14:38:36,357 - root - INFO - Memory manager initialized
+2025-08-24 14:38:36,359 - root - INFO - Memory system validation passed
+2025-08-24 14:38:36,538 - root - INFO - Memory manager initialized
+2025-08-24 14:38:36,538 - root - INFO - Starting new memory session
+2025-08-24 14:38:37,032 - root - INFO - Started new session: 4b6245f4-14be-4b76-93bf-d32320103caa
+2025-08-24 14:38:37,032 - root - INFO - Memory session started: 4b6245f4-14be-4b76-93bf-d32320103caa
+2025-08-24 14:38:37,219 - root - INFO - Memory manager initialized
+2025-08-24 14:38:37,226 - root - INFO - Ended session: 4b6245f4-14be-4b76-93bf-d32320103caa
+2025-08-24 14:38:37,226 - root - INFO - Memory session ended successfully
+2025-08-24 14:38:37,421 - root - INFO - Memory manager initialized
+2025-08-24 14:38:37,632 - root - INFO - Created checkpoint: checkpoint_20250824_143837
+2025-08-24 14:38:37,877 - root - INFO - Memory manager initialized
+2025-08-24 14:38:38,368 - root - INFO - Memory manager initialized
+2025-08-24 14:38:38,370 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}
+2025-08-24 14:38:38,370 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}
+2025-08-24 14:38:38,652 - root - INFO - Memory manager initialized
+2025-08-24 14:38:38,654 - root - INFO - Memory system validation passed
+2025-08-24 14:38:38,657 - root - INFO - Starting new memory session
+2025-08-24 14:38:39,234 - root - INFO - Started new session: 0bd92ded-19d4-414a-a2ac-2786c4a26c6a
+2025-08-24 14:38:39,234 - root - INFO - Memory session started: 0bd92ded-19d4-414a-a2ac-2786c4a26c6a
+2025-08-24 14:38:39,729 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:38:39,735 - root - INFO - Ended session: 0bd92ded-19d4-414a-a2ac-2786c4a26c6a
+2025-08-24 14:38:39,735 - root - INFO - Memory session ended successfully
+2025-08-24 14:38:39,868 - root - INFO - Memory manager initialized
+2025-08-24 14:38:39,881 - root - INFO - Memory manager initialized
+2025-08-24 14:38:40,139 - root - INFO - Memory manager initialized
+2025-08-24 14:38:40,140 - root - INFO - Memory system validation passed
+2025-08-24 14:38:40,146 - root - INFO - Memory manager initialized
+2025-08-24 14:38:40,404 - root - INFO - Memory manager initialized
+2025-08-24 14:38:40,411 - root - INFO - Memory manager initialized
+2025-08-24 14:38:40,412 - root - INFO - Memory system validation passed
+2025-08-24 14:38:40,699 - root - INFO - Memory manager initialized
+2025-08-24 14:38:40,700 - root - INFO - Memory system validation passed
+2025-08-24 14:38:40,706 - root - INFO - Memory manager initialized
+2025-08-24 14:38:41,023 - root - INFO - Memory manager initialized
+2025-08-24 14:38:41,027 - root - INFO - Memory system validation passed
+2025-08-24 14:38:41,029 - root - INFO - Starting new memory session
+2025-08-24 14:38:41,502 - root - INFO - Started new session: a8bf266d-7fcf-4c81-ba7c-84db46aadd81
+2025-08-24 14:38:41,502 - root - INFO - Memory session started: a8bf266d-7fcf-4c81-ba7c-84db46aadd81
+2025-08-24 14:38:42,018 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:38:42,024 - root - INFO - Ended session: a8bf266d-7fcf-4c81-ba7c-84db46aadd81
+2025-08-24 14:38:42,024 - root - INFO - Memory session ended successfully
+2025-08-24 14:38:42,116 - root - INFO - Memory manager initialized
+2025-08-24 14:38:42,127 - root - INFO - Memory manager initialized
+2025-08-24 14:38:42,528 - root - INFO - Memory manager initialized
+2025-08-24 14:38:42,771 - root - INFO - Memory manager initialized
+2025-08-24 14:38:42,775 - root - INFO - Memory system validation passed
+2025-08-24 14:38:43,274 - root - INFO - Memory manager initialized
+2025-08-24 14:38:43,275 - root - INFO - Memory system validation passed
+2025-08-24 14:38:43,276 - root - INFO - Starting new memory session
+2025-08-24 14:38:43,726 - root - INFO - Started new session: 112ba413-af0c-4e73-bb6c-1b96bd88db72
+2025-08-24 14:38:43,726 - root - INFO - Memory session started: 112ba413-af0c-4e73-bb6c-1b96bd88db72
+2025-08-24 14:38:44,219 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:38:44,224 - root - INFO - Ended session: 112ba413-af0c-4e73-bb6c-1b96bd88db72
+2025-08-24 14:38:44,224 - root - INFO - Memory session ended successfully
+2025-08-24 14:38:44,423 - root - INFO - Memory manager initialized
+2025-08-24 14:38:44,616 - root - INFO - Memory manager initialized
+2025-08-24 14:38:45,082 - root - INFO - Memory manager initialized
+2025-08-24 14:38:45,083 - root - INFO - Memory system validation passed
+2025-08-24 14:38:45,267 - root - INFO - Memory manager initialized
+2025-08-24 14:38:45,448 - root - INFO - Memory manager initialized
+2025-08-24 14:38:45,450 - root - INFO - Memory system validation passed
+2025-08-24 14:38:46,019 - root - INFO - Memory manager initialized
+2025-08-24 14:41:58,387 - root - INFO - Memory manager initialized
+2025-08-24 14:42:03,085 - root - INFO - Memory manager initialized
+2025-08-24 14:42:06,831 - root - INFO - Memory manager initialized
+2025-08-24 14:42:20,041 - root - INFO - Memory manager initialized
+2025-08-24 14:43:58,489 - root - INFO - Memory manager initialized
+2025-08-24 14:44:07,214 - root - INFO - Memory manager initialized
+2025-08-24 14:44:10,613 - root - INFO - Memory manager initialized
+2025-08-24 14:44:38,821 - root - INFO - Memory manager initialized
+2025-08-24 14:44:39,172 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:45:08,115 - root - INFO - Memory manager initialized
+2025-08-24 14:45:08,472 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:45:42,278 - root - INFO - Memory manager initialized
+2025-08-24 14:45:42,279 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 7750: surrogates not allowed
+2025-08-24 14:45:42,282 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 122 column 19 (char 66764)
+2025-08-24 14:45:42,283 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_144542
+2025-08-24 14:45:42,283 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:45:42,648 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:46:02,632 - root - INFO - Memory manager initialized
+2025-08-24 14:46:02,963 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:46:15,387 - root - INFO - Memory manager initialized
+2025-08-24 14:46:15,729 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:46:19,879 - root - INFO - Memory manager initialized
+2025-08-24 14:46:36,074 - root - INFO - Memory manager initialized
+2025-08-24 14:46:36,423 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:46:48,233 - root - INFO - Memory manager initialized
+2025-08-24 14:46:48,584 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:47:30,027 - root - INFO - Memory manager initialized
+2025-08-24 14:47:30,028 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 2102: surrogates not allowed
+2025-08-24 14:47:30,031 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 75 column 19 (char 23193)
+2025-08-24 14:47:30,032 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_144730
+2025-08-24 14:47:30,032 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:47:30,409 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:48:04,072 - root - INFO - Memory manager initialized
+2025-08-24 14:48:04,437 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:48:14,873 - root - INFO - Memory manager initialized
+2025-08-24 14:48:14,874 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 111: surrogates not allowed
+2025-08-24 14:48:14,879 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 31 column 22 (char 9544)
+2025-08-24 14:48:14,879 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_144814
+2025-08-24 14:48:14,879 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:48:15,226 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:48:29,589 - root - INFO - Memory manager initialized
+2025-08-24 14:48:29,590 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc9d' in position 47: surrogates not allowed
+2025-08-24 14:48:29,592 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 19 column 22 (char 572)
+2025-08-24 14:48:29,593 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_144829
+2025-08-24 14:48:29,593 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:48:29,930 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:48:36,578 - root - INFO - Memory manager initialized
+2025-08-24 14:48:36,877 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:49:19,010 - root - INFO - Memory manager initialized
+2025-08-24 14:49:19,345 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 14:49:29,285 - root - INFO - Memory manager initialized
+2025-08-24 14:49:29,620 - root - INFO - Memory manager initialized
+2025-08-24 14:49:29,620 - root - INFO - Starting new memory session
+2025-08-24 14:49:30,074 - root - INFO - Started new session: d7fc8f29-8eb7-4977-9ad6-0effe15bc354
+2025-08-24 14:49:30,074 - root - INFO - Memory session started: d7fc8f29-8eb7-4977-9ad6-0effe15bc354
+2025-08-24 14:49:31,325 - root - INFO - Memory manager initialized
+2025-08-24 14:49:41,044 - root - INFO - Memory manager initialized
+2025-08-24 14:49:41,044 - root - INFO - Starting new memory session
+2025-08-24 14:49:41,564 - root - INFO - Started new session: 75806571-025e-49d3-b276-c307b06fd98f
+2025-08-24 14:49:41,564 - root - INFO - Memory session started: 75806571-025e-49d3-b276-c307b06fd98f
+2025-08-24 14:49:53,867 - root - INFO - Memory manager initialized
+2025-08-24 14:49:53,869 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 430: surrogates not allowed
+2025-08-24 14:49:53,873 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 169 column 22 (char 13596)
+2025-08-24 14:49:53,874 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_144953
+2025-08-24 14:49:53,874 - root - WARNING - No active session for file interaction logging
+2025-08-24 14:49:54,210 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 14:50:03,159 - root - INFO - Memory manager initialized
+2025-08-24 14:50:03,159 - root - INFO - Starting new memory session
+2025-08-24 14:50:03,631 - root - INFO - Started new session: c389e9fc-220e-461d-8d3b-258c0de23256
+2025-08-24 14:50:03,631 - root - INFO - Memory session started: c389e9fc-220e-461d-8d3b-258c0de23256
+2025-08-24 14:50:04,618 - root - INFO - Memory manager initialized
+2025-08-24 14:50:11,995 - root - INFO - Memory manager initialized
+2025-08-24 14:50:26,235 - root - INFO - Memory manager initialized
+2025-08-24 14:50:26,236 - root - INFO - Memory system validation passed
+2025-08-24 14:50:26,238 - root - INFO - Starting new memory session
+2025-08-24 14:50:26,856 - root - INFO - Started new session: 250db0fd-affd-4653-b4b2-ae52e772aac4
+2025-08-24 14:50:26,856 - root - INFO - Memory session started: 250db0fd-affd-4653-b4b2-ae52e772aac4
+2025-08-24 14:50:27,352 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:50:27,358 - root - INFO - Ended session: 250db0fd-affd-4653-b4b2-ae52e772aac4
+2025-08-24 14:50:27,358 - root - INFO - Memory session ended successfully
+2025-08-24 14:50:27,568 - root - INFO - Memory manager initialized
+2025-08-24 14:50:27,805 - root - INFO - Memory manager initialized
+2025-08-24 14:50:28,267 - root - INFO - Memory manager initialized
+2025-08-24 14:50:28,690 - root - INFO - Memory manager initialized
+2025-08-24 14:50:28,691 - root - INFO - Memory system validation passed
+2025-08-24 14:50:28,920 - root - INFO - Memory manager initialized
+2025-08-24 14:50:29,103 - root - INFO - Memory manager initialized
+2025-08-24 14:50:29,103 - root - INFO - Memory system validation passed
+2025-08-24 14:50:29,287 - root - INFO - Memory manager initialized
+2025-08-24 14:50:29,289 - root - INFO - Starting new memory session
+2025-08-24 14:50:29,742 - root - INFO - Started new session: 9bb5a0f9-7658-41e6-9ea0-f36cf32a47e5
+2025-08-24 14:50:29,742 - root - INFO - Memory session started: 9bb5a0f9-7658-41e6-9ea0-f36cf32a47e5
+2025-08-24 14:50:29,989 - root - INFO - Memory manager initialized
+2025-08-24 14:50:29,995 - root - INFO - Ended session: 9bb5a0f9-7658-41e6-9ea0-f36cf32a47e5
+2025-08-24 14:50:29,995 - root - INFO - Memory session ended successfully
+2025-08-24 14:50:30,181 - root - INFO - Memory manager initialized
+2025-08-24 14:50:30,404 - root - INFO - Created checkpoint: checkpoint_20250824_145030
+2025-08-24 14:50:30,598 - root - INFO - Memory manager initialized
+2025-08-24 14:50:31,144 - root - INFO - Memory manager initialized
+2025-08-24 14:50:31,150 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}
+2025-08-24 14:50:31,150 - root - INFO - Cleanup completed: {'database_sessions_removed': 0, 'archive_files_removed': 0, 'checkpoint_files_removed': 0}
+2025-08-24 14:50:31,446 - root - INFO - Memory manager initialized
+2025-08-24 14:50:31,447 - root - INFO - Memory system validation passed
+2025-08-24 14:50:31,449 - root - INFO - Starting new memory session
+2025-08-24 14:50:32,006 - root - INFO - Started new session: 291df29c-6794-4df9-bb99-35b1a4d8e89e
+2025-08-24 14:50:32,007 - root - INFO - Memory session started: 291df29c-6794-4df9-bb99-35b1a4d8e89e
+2025-08-24 14:50:32,544 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:50:32,549 - root - INFO - Ended session: 291df29c-6794-4df9-bb99-35b1a4d8e89e
+2025-08-24 14:50:32,549 - root - INFO - Memory session ended successfully
+2025-08-24 14:50:32,652 - root - INFO - Memory manager initialized
+2025-08-24 14:50:32,660 - root - INFO - Memory manager initialized
+2025-08-24 14:50:32,921 - root - INFO - Memory manager initialized
+2025-08-24 14:50:32,928 - root - INFO - Memory system validation passed
+2025-08-24 14:50:32,934 - root - INFO - Memory manager initialized
+2025-08-24 14:50:33,245 - root - INFO - Memory manager initialized
+2025-08-24 14:50:33,251 - root - INFO - Memory manager initialized
+2025-08-24 14:50:33,252 - root - INFO - Memory system validation passed
+2025-08-24 14:50:33,545 - root - INFO - Memory manager initialized
+2025-08-24 14:50:33,549 - root - INFO - Memory system validation passed
+2025-08-24 14:50:33,558 - root - INFO - Memory manager initialized
+2025-08-24 14:50:33,841 - root - INFO - Memory manager initialized
+2025-08-24 14:50:33,842 - root - INFO - Memory system validation passed
+2025-08-24 14:50:33,843 - root - INFO - Starting new memory session
+2025-08-24 14:50:34,417 - root - INFO - Started new session: 13066738-b3f3-4c3a-8034-6255686093c4
+2025-08-24 14:50:34,418 - root - INFO - Memory session started: 13066738-b3f3-4c3a-8034-6255686093c4
+2025-08-24 14:50:34,924 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:50:34,929 - root - INFO - Ended session: 13066738-b3f3-4c3a-8034-6255686093c4
+2025-08-24 14:50:34,929 - root - INFO - Memory session ended successfully
+2025-08-24 14:50:35,060 - root - INFO - Memory manager initialized
+2025-08-24 14:50:35,068 - root - INFO - Memory manager initialized
+2025-08-24 14:50:35,531 - root - INFO - Memory manager initialized
+2025-08-24 14:50:35,793 - root - INFO - Memory manager initialized
+2025-08-24 14:50:35,795 - root - INFO - Memory system validation passed
+2025-08-24 14:50:36,347 - root - INFO - Memory manager initialized
+2025-08-24 14:50:36,350 - root - INFO - Memory system validation passed
+2025-08-24 14:50:36,353 - root - INFO - Starting new memory session
+2025-08-24 14:50:36,811 - root - INFO - Started new session: 3cb7712b-d8f3-48a5-9cb2-0ad18b9b0c22
+2025-08-24 14:50:36,811 - root - INFO - Memory session started: 3cb7712b-d8f3-48a5-9cb2-0ad18b9b0c22
+2025-08-24 14:50:37,377 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 14:50:37,382 - root - INFO - Ended session: 3cb7712b-d8f3-48a5-9cb2-0ad18b9b0c22
+2025-08-24 14:50:37,382 - root - INFO - Memory session ended successfully
+2025-08-24 14:50:37,576 - root - INFO - Memory manager initialized
+2025-08-24 14:50:37,767 - root - INFO - Memory manager initialized
+2025-08-24 14:50:38,210 - root - INFO - Memory manager initialized
+2025-08-24 14:50:38,212 - root - INFO - Memory system validation passed
+2025-08-24 14:50:38,435 - root - INFO - Memory manager initialized
+2025-08-24 14:50:38,623 - root - INFO - Memory manager initialized
+2025-08-24 14:50:38,625 - root - INFO - Memory system validation passed
+2025-08-24 14:50:39,402 - root - INFO - Memory manager initialized
+2025-08-24 14:50:39,402 - root - INFO - Starting new memory session
+2025-08-24 14:50:39,939 - root - INFO - Started new session: e8f037a3-7536-42da-8c78-a980018b3ea0
+2025-08-24 14:50:39,939 - root - INFO - Memory session started: e8f037a3-7536-42da-8c78-a980018b3ea0
+2025-08-24 14:50:41,261 - root - INFO - Memory manager initialized
+2025-08-24 14:53:16,248 - root - INFO - Memory manager initialized
+2025-08-24 14:53:16,248 - root - INFO - Starting new memory session
+2025-08-24 14:53:39,363 - root - INFO - Started new session: f155c262-62c1-43c7-8ab9-36594488b0d8
+2025-08-24 14:53:39,363 - root - INFO - Memory session started: f155c262-62c1-43c7-8ab9-36594488b0d8
+2025-08-24 14:54:26,096 - root - INFO - Memory manager initialized
+2025-08-24 14:54:26,096 - root - INFO - Starting new memory session
+2025-08-24 14:54:26,749 - root - INFO - Started new session: 48fc465a-630d-4055-9aeb-c86abe87aac6
+2025-08-24 14:54:26,749 - root - INFO - Memory session started: 48fc465a-630d-4055-9aeb-c86abe87aac6
+2025-08-24 14:54:57,575 - root - INFO - Memory manager initialized
+2025-08-24 14:54:58,390 - root - INFO - Memory manager initialized
+2025-08-24 14:55:10,652 - root - INFO - Memory manager initialized
+2025-08-24 14:55:14,091 - root - INFO - Memory manager initialized
+2025-08-24 14:56:17,522 - root - INFO - Memory manager initialized
+2025-08-24 14:56:31,018 - root - INFO - Memory manager initialized
+2025-08-24 14:56:39,829 - root - INFO - Memory manager initialized
+2025-08-24 14:56:39,829 - root - INFO - Starting new memory session
+2025-08-24 14:56:40,296 - root - INFO - Started new session: 1cdc43b9-35ac-4eac-b75d-8fcdb3c6ac16
+2025-08-24 14:56:40,296 - root - INFO - Memory session started: 1cdc43b9-35ac-4eac-b75d-8fcdb3c6ac16
+2025-08-24 14:56:41,216 - root - INFO - Memory manager initialized
+2025-08-24 14:57:24,839 - root - INFO - Memory manager initialized
+2025-08-24 14:59:57,654 - root - INFO - Memory manager initialized
+2025-08-24 15:00:08,921 - root - INFO - Memory manager initialized
+2025-08-24 15:00:25,737 - root - INFO - Memory manager initialized
+2025-08-24 15:00:26,375 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 15:02:12,497 - root - INFO - Memory manager initialized
+2025-08-24 15:02:21,857 - root - INFO - Memory manager initialized
+2025-08-24 15:02:21,857 - root - INFO - Starting new memory session
+2025-08-24 15:02:22,341 - root - INFO - Started new session: 0a0ecb98-0548-4622-b832-12bbc61ee37c
+2025-08-24 15:02:22,341 - root - INFO - Memory session started: 0a0ecb98-0548-4622-b832-12bbc61ee37c
+2025-08-24 15:02:23,448 - root - INFO - Memory manager initialized
+2025-08-24 15:02:31,732 - root - INFO - Memory manager initialized
+2025-08-24 15:02:32,380 - root - INFO - Memory manager initialized
+2025-08-24 15:03:26,080 - root - INFO - Memory manager initialized
+2025-08-24 15:03:33,252 - root - INFO - Memory manager initialized
+2025-08-24 15:03:33,616 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 15:03:37,763 - root - INFO - Memory manager initialized
+2025-08-24 15:03:47,446 - root - INFO - Memory manager initialized
+2025-08-24 15:05:21,691 - root - INFO - Memory manager initialized
+2025-08-24 15:05:26,412 - root - INFO - Memory manager initialized
+2025-08-24 15:05:31,394 - root - INFO - Memory manager initialized
+2025-08-24 15:05:54,943 - root - INFO - Memory manager initialized
+2025-08-24 15:05:55,271 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 15:57:54,851 - root - INFO - Memory manager initialized
+2025-08-24 15:57:54,851 - root - INFO - Starting new memory session
+2025-08-24 15:58:18,732 - root - INFO - Started new session: 8db4556c-8693-4b13-87fb-bf74d7de14bb
+2025-08-24 15:58:18,732 - root - INFO - Memory session started: 8db4556c-8693-4b13-87fb-bf74d7de14bb
+2025-08-24 17:06:51,207 - root - INFO - Memory manager initialized
+2025-08-24 17:06:51,207 - root - INFO - Starting new memory session
+2025-08-24 17:07:15,257 - root - INFO - Started new session: 45e0c3ee-c28b-4c5a-acba-e888073b197f
+2025-08-24 17:07:15,257 - root - INFO - Memory session started: 45e0c3ee-c28b-4c5a-acba-e888073b197f
+2025-08-24 17:10:39,896 - root - INFO - Memory manager initialized
+2025-08-24 17:10:44,977 - root - INFO - Memory manager initialized
+2025-08-24 17:10:51,587 - root - INFO - Memory manager initialized
+2025-08-24 17:11:19,342 - root - INFO - Memory manager initialized
+2025-08-24 17:11:19,684 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-24 17:13:30,597 - root - INFO - Memory manager initialized
+2025-08-24 17:13:30,599 - root - INFO - Starting new memory session
+2025-08-24 17:13:52,312 - root - INFO - Started new session: ff615829-7890-4946-a49e-c20f15cd2855
+2025-08-24 17:13:52,312 - root - INFO - Memory session started: ff615829-7890-4946-a49e-c20f15cd2855
+2025-08-24 17:15:03,281 - root - INFO - Memory manager initialized
+2025-08-24 17:15:16,535 - root - INFO - Memory manager initialized
+2025-08-24 17:15:25,651 - root - INFO - Memory manager initialized
+2025-08-24 17:15:35,737 - root - INFO - Memory manager initialized
+2025-08-24 17:15:58,785 - root - INFO - Memory manager initialized
+2025-08-24 17:16:23,037 - root - INFO - Memory manager initialized
+2025-08-24 17:16:49,078 - root - INFO - Memory manager initialized
+2025-08-24 17:19:01,342 - root - INFO - Memory manager initialized
+2025-08-24 17:19:36,785 - root - INFO - Memory manager initialized
+2025-08-24 17:19:37,139 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:20:28,681 - root - INFO - Memory manager initialized
+2025-08-24 17:20:28,681 - root - INFO - Starting new memory session
+2025-08-24 17:20:48,848 - root - INFO - Started new session: 94dd30ea-6805-49d8-9dae-1ca0f0a0e242
+2025-08-24 17:20:48,848 - root - INFO - Memory session started: 94dd30ea-6805-49d8-9dae-1ca0f0a0e242
+2025-08-24 17:22:20,852 - root - INFO - Memory manager initialized
+2025-08-24 17:22:36,918 - root - INFO - Memory manager initialized
+2025-08-24 17:23:12,777 - root - INFO - Memory manager initialized
+2025-08-24 17:23:16,223 - root - INFO - Memory manager initialized
+2025-08-24 17:23:26,252 - root - INFO - Memory manager initialized
+2025-08-24 17:23:34,362 - root - INFO - Memory manager initialized
+2025-08-24 17:23:42,076 - root - INFO - Memory manager initialized
+2025-08-24 17:23:50,209 - root - INFO - Memory manager initialized
+2025-08-24 17:23:59,069 - root - INFO - Memory manager initialized
+2025-08-24 17:24:08,146 - root - INFO - Memory manager initialized
+2025-08-24 17:24:16,318 - root - INFO - Memory manager initialized
+2025-08-24 17:30:23,022 - root - INFO - Memory manager initialized
+2025-08-24 17:30:41,290 - root - INFO - Memory manager initialized
+2025-08-24 17:30:41,616 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:31:36,946 - root - INFO - Memory manager initialized
+2025-08-24 17:31:36,947 - root - INFO - Starting new memory session
+2025-08-24 17:31:38,916 - root - INFO - Memory manager initialized
+2025-08-24 17:31:38,916 - root - INFO - Starting new memory session
+2025-08-24 17:31:58,935 - root - INFO - Started new session: 8385802e-98c5-4975-a472-95f9d1caccc5
+2025-08-24 17:31:58,935 - root - INFO - Memory session started: 8385802e-98c5-4975-a472-95f9d1caccc5
+2025-08-24 17:33:50,757 - root - INFO - Memory manager initialized
+2025-08-24 17:33:56,889 - root - INFO - Memory manager initialized
+2025-08-24 17:33:59,987 - root - INFO - Memory manager initialized
+2025-08-24 17:34:04,384 - root - INFO - Memory manager initialized
+2025-08-24 17:34:04,812 - root - INFO - Memory manager initialized
+2025-08-24 17:34:10,787 - root - INFO - Memory manager initialized
+2025-08-24 17:34:10,825 - root - INFO - Memory manager initialized
+2025-08-24 17:34:27,663 - root - INFO - Memory manager initialized
+2025-08-24 17:34:44,987 - root - INFO - Memory manager initialized
+2025-08-24 17:34:44,988 - root - INFO - Memory system validation passed
+2025-08-24 17:34:44,989 - root - INFO - Starting new memory session
+2025-08-24 17:34:45,431 - root - INFO - Started new session: 384baa97-731d-448c-a6b0-033695dfffd9
+2025-08-24 17:34:45,431 - root - INFO - Memory session started: 384baa97-731d-448c-a6b0-033695dfffd9
+2025-08-24 17:34:45,898 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 17:34:45,904 - root - INFO - Ended session: 384baa97-731d-448c-a6b0-033695dfffd9
+2025-08-24 17:34:45,904 - root - INFO - Memory session ended successfully
+2025-08-24 17:34:45,995 - root - INFO - Memory manager initialized
+2025-08-24 17:34:46,003 - root - INFO - Memory manager initialized
+2025-08-24 17:34:46,226 - root - INFO - Memory manager initialized
+2025-08-24 17:34:46,227 - root - INFO - Memory system validation passed
+2025-08-24 17:34:46,234 - root - INFO - Memory manager initialized
+2025-08-24 17:34:46,464 - root - INFO - Memory manager initialized
+2025-08-24 17:34:46,472 - root - INFO - Memory manager initialized
+2025-08-24 17:34:46,474 - root - INFO - Memory system validation passed
+2025-08-24 17:34:47,238 - root - INFO - Memory manager initialized
+2025-08-24 17:34:47,270 - root - INFO - Memory manager initialized
+2025-08-24 17:44:28,475 - root - INFO - Memory manager initialized
+2025-08-24 17:44:33,155 - root - INFO - Memory manager initialized
+2025-08-24 17:44:37,623 - root - INFO - Memory manager initialized
+2025-08-24 17:44:38,171 - root - INFO - Memory manager initialized
+2025-08-24 17:44:43,871 - root - INFO - Memory manager initialized
+2025-08-24 17:44:43,893 - root - INFO - Memory manager initialized
+2025-08-24 17:44:43,945 - root - INFO - Memory manager initialized
+2025-08-24 17:44:43,985 - root - INFO - Memory manager initialized
+2025-08-24 17:44:44,449 - root - INFO - Memory manager initialized
+2025-08-24 17:44:44,638 - root - INFO - Memory manager initialized
+2025-08-24 17:44:52,181 - root - INFO - Memory manager initialized
+2025-08-24 17:44:58,135 - root - INFO - Memory manager initialized
+2025-08-24 17:44:58,426 - root - INFO - Memory manager initialized
+2025-08-24 17:45:03,741 - root - INFO - Memory manager initialized
+2025-08-24 17:45:08,387 - root - INFO - Memory manager initialized
+2025-08-24 17:45:08,510 - root - INFO - Memory manager initialized
+2025-08-24 17:45:13,382 - root - INFO - Memory manager initialized
+2025-08-24 17:45:17,754 - root - INFO - Memory manager initialized
+2025-08-24 17:45:18,283 - root - INFO - Memory manager initialized
+2025-08-24 17:45:26,528 - root - INFO - Memory manager initialized
+2025-08-24 17:45:26,528 - root - INFO - Starting new memory session
+2025-08-24 17:45:26,961 - root - INFO - Started new session: cbc02b9f-57ac-4539-8ee1-2ffc0d48ab54
+2025-08-24 17:45:26,961 - root - INFO - Memory session started: cbc02b9f-57ac-4539-8ee1-2ffc0d48ab54
+2025-08-24 17:45:27,936 - root - INFO - Memory manager initialized
+2025-08-24 17:45:28,258 - root - INFO - Memory manager initialized
+2025-08-24 17:45:35,092 - root - INFO - Memory manager initialized
+2025-08-24 17:45:38,972 - root - INFO - Memory manager initialized
+2025-08-24 17:45:39,518 - root - INFO - Memory manager initialized
+2025-08-24 17:45:44,471 - root - INFO - Memory manager initialized
+2025-08-24 17:50:35,244 - root - INFO - Memory manager initialized
+2025-08-24 17:50:39,696 - root - INFO - Memory manager initialized
+2025-08-24 17:50:39,724 - root - INFO - Memory manager initialized
+2025-08-24 17:50:44,014 - root - INFO - Memory manager initialized
+2025-08-24 17:50:44,072 - root - INFO - Memory manager initialized
+2025-08-24 17:50:48,576 - root - INFO - Memory manager initialized
+2025-08-24 17:50:48,639 - root - INFO - Memory manager initialized
+2025-08-24 17:50:54,564 - root - INFO - Memory manager initialized
+2025-08-24 17:50:59,236 - root - INFO - Memory manager initialized
+2025-08-24 17:50:59,291 - root - INFO - Memory manager initialized
+2025-08-24 17:51:22,003 - root - INFO - Memory manager initialized
+2025-08-24 17:51:22,360 - root - INFO - Memory manager initialized
+2025-08-24 17:51:22,447 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:51:22,768 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:51:32,381 - root - INFO - Memory manager initialized
+2025-08-24 17:51:40,289 - root - INFO - Memory manager initialized
+2025-08-24 17:51:40,587 - root - INFO - Memory manager initialized
+2025-08-24 17:51:40,679 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:51:40,993 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:51:47,559 - root - INFO - Memory manager initialized
+2025-08-24 17:51:59,102 - root - INFO - Memory manager initialized
+2025-08-24 17:51:59,162 - root - INFO - Memory manager initialized
+2025-08-24 17:51:59,534 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:51:59,598 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:52:04,963 - root - INFO - Memory manager initialized
+2025-08-24 17:52:13,874 - root - INFO - Memory manager initialized
+2025-08-24 17:52:13,874 - root - INFO - Starting new memory session
+2025-08-24 17:52:14,341 - root - INFO - Started new session: 9959e1e8-4de0-4ab3-a4ce-b8d9ce0d9d10
+2025-08-24 17:52:14,342 - root - INFO - Memory session started: 9959e1e8-4de0-4ab3-a4ce-b8d9ce0d9d10
+2025-08-24 17:52:15,342 - root - INFO - Memory manager initialized
+2025-08-24 17:52:15,416 - root - INFO - Memory manager initialized
+2025-08-24 17:52:23,703 - root - INFO - Memory manager initialized
+2025-08-24 17:52:23,783 - root - INFO - Memory manager initialized
+2025-08-24 17:52:32,529 - root - INFO - Memory manager initialized
+2025-08-24 17:52:32,530 - root - INFO - Memory system validation passed
+2025-08-24 17:52:32,531 - root - INFO - Starting new memory session
+2025-08-24 17:52:32,992 - root - INFO - Started new session: 145160bf-4a4a-4645-9b12-9545dc4e32d3
+2025-08-24 17:52:32,992 - root - INFO - Memory session started: 145160bf-4a4a-4645-9b12-9545dc4e32d3
+2025-08-24 17:52:33,455 - root - INFO - Created checkpoint: test_checkpoint
+2025-08-24 17:52:33,460 - root - INFO - Ended session: 145160bf-4a4a-4645-9b12-9545dc4e32d3
+2025-08-24 17:52:33,460 - root - INFO - Memory session ended successfully
+2025-08-24 17:52:33,551 - root - INFO - Memory manager initialized
+2025-08-24 17:52:33,559 - root - INFO - Memory manager initialized
+2025-08-24 17:52:33,852 - root - INFO - Memory manager initialized
+2025-08-24 17:52:33,853 - root - INFO - Memory system validation passed
+2025-08-24 17:52:33,859 - root - INFO - Memory manager initialized
+2025-08-24 17:52:34,109 - root - INFO - Memory manager initialized
+2025-08-24 17:52:34,116 - root - INFO - Memory manager initialized
+2025-08-24 17:52:34,117 - root - INFO - Memory system validation passed
+2025-08-24 17:52:34,673 - root - INFO - Memory manager initialized
+2025-08-24 17:52:34,998 - root - INFO - Memory manager initialized
+2025-08-24 17:52:42,010 - root - INFO - Memory manager initialized
+2025-08-24 17:57:05,189 - root - INFO - Memory manager initialized
+2025-08-24 17:57:05,190 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 342: surrogates not allowed
+2025-08-24 17:57:05,193 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 78 column 22 (char 9543)
+2025-08-24 17:57:05,193 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_175705
+2025-08-24 17:57:05,193 - root - WARNING - No active session for file interaction logging
+2025-08-24 17:57:05,541 - root - INFO - Memory manager initialized
+2025-08-24 17:57:05,542 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 342: surrogates not allowed
+2025-08-24 17:57:05,549 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 20 column 22 (char 1257)
+2025-08-24 17:57:05,550 - root - ERROR - Failed to backup corrupted file: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_175705'
+2025-08-24 17:57:05,551 - root - WARNING - No active session for file interaction logging
+2025-08-24 17:57:05,552 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 20 column 22 (char 1257)
+2025-08-24 17:57:05,553 - root - ERROR - Failed to backup corrupted file: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_175705'
+2025-08-24 17:57:05,553 - root - WARNING - No active session to update
+2025-08-24 17:57:05,554 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 20 column 22 (char 1257)
+2025-08-24 17:57:05,554 - root - ERROR - Failed to backup corrupted file: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_175705'
+2025-08-24 17:57:05,554 - root - WARNING - No active session for checkpoint creation
+2025-08-24 17:57:05,573 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:57:13,605 - root - INFO - Memory manager initialized
+2025-08-24 17:57:13,606 - root - INFO - Starting new memory session
+2025-08-24 17:57:14,048 - root - INFO - Started new session: ca0cdd1e-79bc-405f-84ff-1fda91df16a9
+2025-08-24 17:57:14,048 - root - INFO - Memory session started: ca0cdd1e-79bc-405f-84ff-1fda91df16a9
+2025-08-24 17:57:21,770 - root - INFO - Memory manager initialized
+2025-08-24 17:57:21,772 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 342: surrogates not allowed
+2025-08-24 17:57:21,784 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 181 column 22 (char 13811)
+2025-08-24 17:57:21,785 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_175721
+2025-08-24 17:57:21,785 - root - WARNING - No active session for file interaction logging
+2025-08-24 17:57:21,798 - root - INFO - Memory manager initialized
+2025-08-24 17:57:21,800 - root - ERROR - Failed to save JSON to D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: 'utf-8' codec can't encode character '\udc8f' in position 342: surrogates not allowed
+2025-08-24 17:57:21,803 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 19 column 22 (char 579)
+2025-08-24 17:57:21,803 - root - ERROR - Failed to backup corrupted file: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_175721'
+2025-08-24 17:57:21,804 - root - WARNING - No active session for file interaction logging
+2025-08-24 17:57:21,804 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 19 column 22 (char 579)
+2025-08-24 17:57:21,804 - root - ERROR - Failed to backup corrupted file: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_175721'
+2025-08-24 17:57:21,804 - root - WARNING - No active session to update
+2025-08-24 17:57:21,804 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting value: line 19 column 22 (char 579)
+2025-08-24 17:57:21,805 - root - ERROR - Failed to backup corrupted file: [WinError 183] Cannot create a file when that file already exists: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_175721'
+2025-08-24 17:57:21,805 - root - WARNING - No active session for checkpoint creation
+2025-08-24 17:57:22,187 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 17:57:30,034 - root - INFO - Memory manager initialized
+2025-08-24 17:57:30,034 - root - INFO - Starting new memory session
+2025-08-24 17:57:30,461 - root - INFO - Started new session: f02444bf-1159-4645-9f6b-e02c4967ea41
+2025-08-24 17:57:30,461 - root - INFO - Memory session started: f02444bf-1159-4645-9f6b-e02c4967ea41
+2025-08-24 17:57:31,464 - root - INFO - Memory manager initialized
+2025-08-24 17:57:31,553 - root - INFO - Memory manager initialized
+2025-08-24 17:58:24,023 - root - INFO - Memory manager initialized
+2025-08-24 17:58:24,023 - root - INFO - Starting new memory session
+2025-08-24 17:58:29,971 - root - INFO - Memory manager initialized
+2025-08-24 17:58:29,971 - root - INFO - Starting new memory session
+2025-08-24 17:58:46,652 - root - INFO - Started new session: e6dca0ec-1b20-45c9-b492-5ead7d79c0ab
+2025-08-24 17:58:46,652 - root - INFO - Memory session started: e6dca0ec-1b20-45c9-b492-5ead7d79c0ab
+2025-08-24 17:59:53,596 - root - INFO - Memory manager initialized
+2025-08-24 17:59:53,656 - root - INFO - Memory manager initialized
+2025-08-24 18:00:01,223 - root - INFO - Memory manager initialized
+2025-08-24 18:00:01,576 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:00:01,748 - root - INFO - Memory manager initialized
+2025-08-24 18:00:02,176 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:00:16,496 - root - INFO - Memory manager initialized
+2025-08-24 18:00:16,516 - root - INFO - Memory manager initialized
+2025-08-24 18:00:36,560 - root - INFO - Memory manager initialized
+2025-08-24 18:00:36,565 - root - INFO - Memory manager initialized
+2025-08-24 18:00:37,100 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:00:37,403 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:00:46,371 - root - INFO - Memory manager initialized
+2025-08-24 18:00:46,589 - root - INFO - Memory manager initialized
+2025-08-24 18:00:46,903 - root - INFO - Memory manager initialized
+2025-08-24 18:00:46,972 - root - INFO - Memory manager initialized
+2025-08-24 18:00:47,336 - root - INFO - Memory manager initialized
+2025-08-24 18:00:47,336 - root - INFO - Starting new memory session
+2025-08-24 18:00:48,316 - root - INFO - Started new session: fe62facb-6af0-4fde-a030-7c2d108a6e04
+2025-08-24 18:00:48,316 - root - INFO - Memory session started: fe62facb-6af0-4fde-a030-7c2d108a6e04
+2025-08-24 18:00:49,581 - root - INFO - Memory manager initialized
+2025-08-24 18:00:49,594 - root - INFO - Memory manager initialized
+2025-08-24 18:00:53,994 - root - INFO - Memory manager initialized
+2025-08-24 18:00:54,275 - root - INFO - Memory manager initialized
+2025-08-24 18:02:07,781 - root - INFO - Memory manager initialized
+2025-08-24 18:02:07,782 - root - INFO - Starting new memory session
+2025-08-24 18:02:09,826 - root - INFO - Memory manager initialized
+2025-08-24 18:02:09,826 - root - INFO - Starting new memory session
+2025-08-24 18:02:28,516 - root - INFO - Started new session: 15859307-2121-4af6-a427-efe14d49355a
+2025-08-24 18:02:28,517 - root - INFO - Memory session started: 15859307-2121-4af6-a427-efe14d49355a
+2025-08-24 18:03:53,274 - root - INFO - Memory manager initialized
+2025-08-24 18:04:41,777 - root - INFO - Memory manager initialized
+2025-08-24 18:04:58,678 - root - INFO - Memory manager initialized
+2025-08-24 18:04:58,792 - root - INFO - Memory manager initialized
+2025-08-24 18:05:02,787 - root - INFO - Memory manager initialized
+2025-08-24 18:05:08,265 - root - INFO - Memory manager initialized
+2025-08-24 18:06:31,768 - root - INFO - Memory manager initialized
+2025-08-24 18:06:49,809 - root - INFO - Memory manager initialized
+2025-08-24 18:06:49,911 - root - INFO - Memory manager initialized
+2025-08-24 18:38:06,445 - root - INFO - Memory manager initialized
+2025-08-24 18:38:06,766 - root - INFO - Memory manager initialized
+2025-08-24 18:38:22,121 - root - INFO - Memory manager initialized
+2025-08-24 18:38:22,645 - root - INFO - Memory manager initialized
+2025-08-24 18:38:44,939 - root - INFO - Memory manager initialized
+2025-08-24 18:38:58,444 - root - INFO - Memory manager initialized
+2025-08-24 18:38:58,644 - root - INFO - Memory manager initialized
+2025-08-24 18:41:24,442 - root - INFO - Memory manager initialized
+2025-08-24 18:41:24,519 - root - INFO - Memory manager initialized
+2025-08-24 18:41:29,230 - root - INFO - Memory manager initialized
+2025-08-24 18:42:56,154 - root - INFO - Memory manager initialized
+2025-08-24 18:42:56,926 - root - INFO - Memory manager initialized
+2025-08-24 18:42:57,009 - root - INFO - Memory manager initialized
+2025-08-24 18:45:00,483 - root - INFO - Memory manager initialized
+2025-08-24 18:45:00,564 - root - INFO - Memory manager initialized
+2025-08-24 18:45:06,638 - root - INFO - Memory manager initialized
+2025-08-24 18:45:10,910 - root - INFO - Memory manager initialized
+2025-08-24 18:45:14,699 - root - INFO - Memory manager initialized
+2025-08-24 18:46:09,912 - root - INFO - Memory manager initialized
+2025-08-24 18:46:14,217 - root - INFO - Memory manager initialized
+2025-08-24 18:46:14,279 - root - INFO - Memory manager initialized
+2025-08-24 18:46:21,923 - root - INFO - Memory manager initialized
+2025-08-24 18:46:27,542 - root - INFO - Memory manager initialized
+2025-08-24 18:46:27,545 - root - INFO - Memory manager initialized
+2025-08-24 18:46:34,634 - root - INFO - Memory manager initialized
+2025-08-24 18:46:40,832 - root - INFO - Memory manager initialized
+2025-08-24 18:46:48,106 - root - INFO - Memory manager initialized
+2025-08-24 18:46:53,988 - root - INFO - Memory manager initialized
+2025-08-24 18:47:36,421 - root - INFO - Memory manager initialized
+2025-08-24 18:47:36,732 - root - INFO - Memory manager initialized
+2025-08-24 18:47:36,770 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:47:37,123 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:47:44,394 - root - INFO - Memory manager initialized
+2025-08-24 18:47:45,126 - root - INFO - Memory manager initialized
+2025-08-24 18:47:45,421 - root - INFO - Memory manager initialized
+2025-08-24 18:47:53,931 - root - INFO - Memory manager initialized
+2025-08-24 18:48:45,335 - root - INFO - Memory manager initialized
+2025-08-24 18:48:46,055 - root - INFO - Memory manager initialized
+2025-08-24 18:48:46,120 - root - INFO - Memory manager initialized
+2025-08-24 18:51:21,716 - root - INFO - Memory manager initialized
+2025-08-24 18:51:34,201 - root - INFO - Memory manager initialized
+2025-08-24 18:51:34,735 - root - INFO - Memory manager initialized
+2025-08-24 18:51:34,808 - root - INFO - Memory manager initialized
+2025-08-24 18:51:38,622 - root - INFO - Memory manager initialized
+2025-08-24 18:51:38,697 - root - INFO - Memory manager initialized
+2025-08-24 18:52:20,707 - root - INFO - Memory manager initialized
+2025-08-24 18:52:20,757 - root - INFO - Memory manager initialized
+2025-08-24 18:52:21,150 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:52:21,239 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:52:48,804 - root - INFO - Memory manager initialized
+2025-08-24 18:52:49,171 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:52:49,285 - root - INFO - Memory manager initialized
+2025-08-24 18:52:49,766 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:53:03,860 - root - INFO - Memory manager initialized
+2025-08-24 18:53:03,900 - root - INFO - Memory manager initialized
+2025-08-24 18:53:04,313 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:53:04,392 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:53:17,801 - root - INFO - Memory manager initialized
+2025-08-24 18:53:18,135 - root - INFO - Memory manager initialized
+2025-08-24 18:53:18,216 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:53:18,594 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:53:41,968 - root - INFO - Memory manager initialized
+2025-08-24 18:53:42,025 - root - INFO - Memory manager initialized
+2025-08-24 18:53:42,431 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:53:42,503 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:02,037 - root - INFO - Memory manager initialized
+2025-08-24 18:55:02,403 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:02,756 - root - INFO - Memory manager initialized
+2025-08-24 18:55:03,173 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:15,140 - root - INFO - Memory manager initialized
+2025-08-24 18:55:15,483 - root - INFO - Memory manager initialized
+2025-08-24 18:55:15,519 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:15,935 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:26,606 - root - INFO - Memory manager initialized
+2025-08-24 18:55:26,639 - root - INFO - Memory manager initialized
+2025-08-24 18:55:26,643 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting ',' delimiter: line 709 column 27764 (char 650010)
+2025-08-24 18:55:26,643 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250824_185526
+2025-08-24 18:55:26,643 - root - WARNING - No active session for tool usage logging
+2025-08-24 18:55:27,151 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:27,167 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:55:35,774 - root - INFO - Memory manager initialized
+2025-08-24 18:55:36,031 - root - INFO - Memory manager initialized
+2025-08-24 18:55:36,035 - root - ERROR - Failed to analyze session activity: 'str' object has no attribute 'get'
+2025-08-24 18:55:36,549 - root - INFO - Memory manager initialized
+2025-08-24 18:55:36,866 - root - INFO - Memory manager initialized
+2025-08-24 18:55:44,531 - root - INFO - Memory manager initialized
+2025-08-24 18:56:02,759 - root - INFO - Memory manager initialized
+2025-08-24 18:56:02,823 - root - INFO - Memory manager initialized
+2025-08-24 18:56:03,199 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:56:03,282 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:56:17,459 - root - INFO - Memory manager initialized
+2025-08-24 18:56:17,694 - root - INFO - Memory manager initialized
+2025-08-24 18:56:17,696 - root - ERROR - Failed to analyze session activity: 'str' object has no attribute 'get'
+2025-08-24 18:56:18,234 - root - INFO - Memory manager initialized
+2025-08-24 18:56:18,326 - root - INFO - Memory manager initialized
+2025-08-24 18:56:25,234 - root - INFO - Memory manager initialized
+2025-08-24 18:58:22,050 - root - INFO - Memory manager initialized
+2025-08-24 18:59:38,170 - root - INFO - Memory manager initialized
+2025-08-24 18:59:38,511 - root - INFO - Memory manager initialized
+2025-08-24 18:59:38,550 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:59:38,917 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 18:59:48,882 - root - INFO - Memory manager initialized
+2025-08-24 18:59:49,699 - root - INFO - Memory manager initialized
+2025-08-24 18:59:49,732 - root - INFO - Memory manager initialized
+2025-08-24 19:00:02,050 - root - INFO - Memory manager initialized
+2025-08-24 19:00:02,328 - root - INFO - Memory manager initialized
+2025-08-24 19:00:13,618 - root - INFO - Memory manager initialized
+2025-08-24 19:00:13,696 - root - INFO - Memory manager initialized
+2025-08-24 19:00:14,077 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:00:14,161 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:00:23,598 - root - INFO - Memory manager initialized
+2025-08-24 19:00:23,959 - root - INFO - Memory manager initialized
+2025-08-24 19:00:23,988 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:00:24,382 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:00:39,475 - root - INFO - Memory manager initialized
+2025-08-24 19:00:40,281 - root - INFO - Memory manager initialized
+2025-08-24 19:00:40,599 - root - INFO - Memory manager initialized
+2025-08-24 19:00:52,764 - root - INFO - Memory manager initialized
+2025-08-24 19:00:52,819 - root - INFO - Memory manager initialized
+2025-08-24 19:00:53,223 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:00:53,297 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:01:01,586 - root - INFO - Memory manager initialized
+2025-08-24 19:01:02,319 - root - INFO - Memory manager initialized
+2025-08-24 19:01:02,650 - root - INFO - Memory manager initialized
+2025-08-24 19:01:18,257 - root - INFO - Memory manager initialized
+2025-08-24 19:01:18,634 - root - INFO - Memory manager initialized
+2025-08-24 19:01:18,667 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting ',' delimiter: line 136 column 57206 (char 159925)
+2025-08-24 19:01:18,668 - root - ERROR - Failed to backup corrupted file: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json' -> 'D:\\Projects\\Dev\\Memory\\.prsist\\sessions\\active\\current-session.json.corrupted_20250824_190118'
+2025-08-24 19:01:18,668 - root - WARNING - No active session for checkpoint creation
+2025-08-24 19:01:18,668 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:01:37,201 - root - INFO - Memory manager initialized
+2025-08-24 19:01:37,656 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:01:37,782 - root - INFO - Memory manager initialized
+2025-08-24 19:01:38,316 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-24 19:01:44,995 - root - INFO - Memory manager initialized
+2025-08-24 19:03:08,956 - root - INFO - Memory manager initialized
+2025-08-24 19:03:09,745 - root - INFO - Memory manager initialized
+2025-08-24 19:03:10,078 - root - INFO - Memory manager initialized
+2025-08-24 19:04:31,233 - root - INFO - Memory manager initialized
+2025-08-24 19:04:38,226 - root - INFO - Memory manager initialized
+2025-08-24 19:05:21,431 - root - INFO - Memory manager initialized
+2025-08-24 19:05:21,432 - root - INFO - Starting new memory session
+2025-08-24 19:05:21,931 - root - INFO - Memory manager initialized
+2025-08-24 19:05:21,932 - root - INFO - Starting new memory session
+2025-08-24 19:05:22,344 - root - INFO - Started new session: ac405cb7-15ed-476c-b264-f1bb2e3547a8
+2025-08-24 19:05:22,344 - root - INFO - Memory session started: ac405cb7-15ed-476c-b264-f1bb2e3547a8
+2025-08-24 19:05:22,813 - root - INFO - Started new session: f2026af4-f855-4a71-8da1-1d0581c9bb18
+2025-08-24 19:05:22,813 - root - INFO - Memory session started: f2026af4-f855-4a71-8da1-1d0581c9bb18
+2025-08-24 19:05:29,185 - root - INFO - Memory manager initialized
+2025-08-24 19:05:33,937 - root - INFO - Memory manager initialized
+2025-08-24 19:05:33,994 - root - INFO - Memory manager initialized
+2025-08-24 19:05:39,249 - root - INFO - Memory manager initialized
+2025-08-24 19:05:39,377 - root - INFO - Memory manager initialized
+2025-08-24 19:05:46,125 - root - INFO - Memory manager initialized
+2025-08-24 19:05:46,184 - root - INFO - Memory manager initialized
+2025-08-24 19:11:07,748 - root - INFO - Memory manager initialized
+2025-08-24 19:11:07,748 - root - INFO - Starting new memory session
+2025-08-24 19:11:27,990 - root - INFO - Started new session: 90ca7370-80df-45ba-afaf-83ce01b5b9c7
+2025-08-24 19:11:27,990 - root - INFO - Memory session started: 90ca7370-80df-45ba-afaf-83ce01b5b9c7
+2025-08-24 19:28:51,536 - root - INFO - Memory manager initialized
+2025-08-24 19:28:55,850 - root - INFO - Memory manager initialized
+2025-08-24 19:28:59,629 - root - INFO - Memory manager initialized
+2025-08-24 19:29:03,833 - root - INFO - Memory manager initialized
+2025-08-24 19:29:06,850 - root - INFO - Memory manager initialized
+2025-08-24 19:29:10,332 - root - INFO - Memory manager initialized
+2025-08-24 19:29:13,764 - root - INFO - Memory manager initialized
+2025-08-24 19:29:17,188 - root - INFO - Memory manager initialized
+2025-08-24 19:29:46,644 - root - INFO - Memory manager initialized
+2025-08-24 19:29:46,765 - root - INFO - Memory manager initialized
+2025-08-24 19:30:15,212 - root - INFO - Memory manager initialized
+2025-08-24 19:30:15,253 - root - INFO - Memory manager initialized
+2025-08-24 19:30:35,238 - root - INFO - Memory manager initialized
+2025-08-24 19:30:35,271 - root - INFO - Memory manager initialized
+2025-08-24 19:31:02,487 - root - INFO - Memory manager initialized
+2025-08-24 19:31:02,613 - root - INFO - Memory manager initialized
+2025-08-24 19:31:09,191 - root - INFO - Memory manager initialized
+2025-08-24 19:31:13,033 - root - INFO - Memory manager initialized
+2025-08-24 19:31:13,149 - root - INFO - Memory manager initialized
+2025-08-24 19:31:17,414 - root - INFO - Memory manager initialized
+2025-08-24 19:31:17,624 - root - INFO - Memory manager initialized
+2025-08-24 19:31:21,262 - root - INFO - Memory manager initialized
+2025-08-24 19:31:21,382 - root - INFO - Memory manager initialized
+2025-08-24 19:31:33,919 - root - INFO - Memory manager initialized
+2025-08-24 19:31:41,510 - root - INFO - Memory manager initialized
+2025-08-24 19:31:56,446 - root - INFO - Memory manager initialized

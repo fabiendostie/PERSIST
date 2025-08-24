@@ -1,0 +1,67 @@
+memory_system:
+  version: "1.0"
+  enabled: true
+  
+storage:
+  format: "hybrid"  # JSON files + SQLite database
+  retention_days: 30
+  max_sessions: 100
+  auto_cleanup: true
+  backup_enabled: false
+  
+session:
+  auto_checkpoint: true
+  checkpoint_interval: 300  # 5 minutes in seconds
+  track_tool_usage: true
+  track_file_interactions: true
+  track_git_changes: true
+  
+context:
+  max_size_tokens: 50000
+  auto_inject: true
+  relevance_threshold: 0.3
+  include_recent_sessions: true
+  include_project_memory: true
+  include_decisions: true
+  
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file_enabled: true
+  console_enabled: true
+  max_log_size_mb: 10
+  
+security:
+  validate_paths: true
+  sanitize_inputs: true
+  max_file_size_mb: 100
+  allowed_file_types: ["py", "js", "ts", "md", "yaml", "json", "txt", "css", "html"]
+  
+performance:
+  hook_timeout_seconds: 2
+  max_memory_usage_mb: 50
+  database_vacuum_days: 7
+  
+features:
+  phase1:
+    - "session_tracking"
+    - "context_injection" 
+    - "tool_logging"
+    - "file_interaction_tracking"
+    - "basic_checkpoints"
+  
+  planned_phase2:
+    - "semantic_similarity"
+    - "advanced_context_scoring"
+    - "intelligent_summarization"
+    - "cross_session_learning"
+    
+integration:
+  claude_code:
+    hooks_enabled: true
+    context_injection_enabled: true
+    tool_tracking_enabled: true
+  
+  bmad_method:
+    compatible: true
+    agent_memory_sharing: false  # Future feature
+    workflow_integration: false  # Future feature

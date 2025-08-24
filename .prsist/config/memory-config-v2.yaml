@@ -1,0 +1,219 @@
+memory_system:
+  version: "2.0"
+  enabled: true
+  phase: "git_integration"
+  
+  git_integration:
+    enabled: true
+    hook_manager: "lefthook"
+    auto_documentation: true
+    commit_correlation: true
+    branch_context: true
+    sync_enabled: true
+    
+storage:
+  format: "hybrid"  # JSON files + SQLite database
+  retention_days: 30
+  max_sessions: 100
+  auto_cleanup: true
+  backup_enabled: false
+  
+  git_storage:
+    track_commits: true
+    track_file_changes: true
+    track_branch_context: true
+    correlation_data: true
+    sync_metadata: true
+    
+session:
+  auto_checkpoint: true
+  checkpoint_interval: 300  # 5 minutes in seconds
+  track_tool_usage: true
+  track_file_interactions: true
+  track_git_changes: true
+  
+  git_integration:
+    pre_commit_capture: true
+    post_commit_correlation: true
+    branch_context_switching: true
+    merge_handling: true
+    
+context:
+  max_size_tokens: 50000
+  auto_inject: true
+  relevance_threshold: 0.3
+  include_recent_sessions: true
+  include_project_memory: true
+  include_decisions: true
+  
+  git_context:
+    include_recent_commits: true
+    include_branch_history: true
+    include_merge_information: true
+    commit_limit: 10
+    branch_context_depth: 3
+    
+documentation:
+  auto_generate: true
+  ai_summaries: true
+  changelog_updates: true
+  cross_references: true
+  
+  generation_triggers:
+    high_impact_commits: true
+    breaking_changes: true
+    feature_commits: true
+    configuration_changes: true
+    merge_operations: true
+    
+  formats:
+    commit_summaries: true
+    changelog_entries: true
+    breaking_change_notices: true
+    merge_documentation: true
+    architecture_decisions: false  # Phase 3 feature
+    
+performance:
+  async_processing: true
+  background_sync: true
+  hook_timeout: 30  # seconds
+  batch_updates: true
+  
+  git_hooks:
+    pre_commit_timeout: 10
+    post_commit_timeout: 30
+    pre_push_timeout: 30
+    post_merge_timeout: 30
+    context_switch_timeout: 10
+    
+correlation:
+  commit_session_matching: true
+  change_impact_scoring: true
+  productivity_tracking: true
+  relationship_analysis: true
+  
+  algorithms:
+    time_correlation_weight: 0.3
+    file_correlation_weight: 0.4
+    tool_correlation_weight: 0.2
+    branch_correlation_weight: 0.1
+    
+  thresholds:
+    minimum_correlation: 0.3
+    strong_correlation: 0.7
+    direct_correlation: 0.8
+    
+branch_management:
+  auto_context_switching: true
+  context_inheritance: true
+  merge_conflict_resolution: true
+  
+  branch_types:
+    main: 
+      context_preservation: true
+      documentation_level: "high"
+    develop:
+      context_preservation: true
+      documentation_level: "medium"
+    feature:
+      context_inheritance: true
+      documentation_level: "medium"
+    bugfix:
+      context_inheritance: true
+      documentation_level: "high"
+    hotfix:
+      context_inheritance: true
+      documentation_level: "high"
+    release:
+      context_preservation: true
+      documentation_level: "high"
+      
+synchronization:
+  enabled: true
+  conflict_resolution: "merge"
+  cross_machine_sync: false  # Phase 3 feature
+  
+  validation:
+    consistency_checks: true
+    orphaned_session_detection: true
+    storage_size_monitoring: true
+    
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file_enabled: true
+  console_enabled: true
+  max_log_size_mb: 10
+  
+  git_operations:
+    log_hook_execution: true
+    log_correlation_results: true
+    log_context_switches: true
+    log_sync_operations: true
+    
+security:
+  validate_paths: true
+  sanitize_inputs: true
+  max_file_size_mb: 100
+  allowed_file_types: ["py", "js", "ts", "md", "yaml", "json", "txt", "css", "html", "go", "java", "cpp", "rs"]
+  
+  git_security:
+    validate_commit_data: true
+    sanitize_commit_messages: true
+    secure_hook_execution: true
+    
+features:
+  phase2_enabled:
+    - "git_integration"
+    - "commit_correlation"
+    - "branch_context_management"
+    - "automated_documentation"
+    - "memory_synchronization"
+    - "change_impact_analysis"
+    - "productivity_tracking"
+    
+  phase2_experimental:
+    - "advanced_merge_resolution"
+    - "predictive_context_loading"
+    - "intelligent_documentation"
+    
+  planned_phase3:
+    - "semantic_similarity"
+    - "ai_powered_analysis"
+    - "cross_project_correlation"
+    - "team_collaboration"
+    - "advanced_analytics"
+    
+integration:
+  claude_code:
+    hooks_enabled: true
+    context_injection_enabled: true
+    tool_tracking_enabled: true
+    git_awareness: true
+    
+  bmad_method:
+    compatible: true
+    agent_memory_sharing: false  # Future feature
+    workflow_integration: true
+    template_updates: true
+    
+  lefthook:
+    config_file: ".lefthook.yml"
+    auto_install: false
+    hook_validation: true
+    
+analytics:
+  productivity_metrics: true
+  change_pattern_analysis: true
+  commit_quality_tracking: true
+  development_velocity: true
+  
+  reporting:
+    daily_summaries: false
+    weekly_reports: false
+    trend_analysis: true
+    
+experimental:
+  ai_commit_analysis: false
+  predictive_branching: false
+  automated_code_review: false
+  intelligent_merge_suggestions: false

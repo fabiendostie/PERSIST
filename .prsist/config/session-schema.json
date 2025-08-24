@@ -1,0 +1,271 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Claude Code Memory Session Schema",
+  "description": "JSON schema for Claude Code memory session files",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique session identifier (UUID)",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "created_at": {
+      "type": "string",
+      "description": "Session creation timestamp in ISO format",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "Last update timestamp in ISO format",
+      "format": "date-time"
+    },
+    "ended_at": {
+      "type": "string",
+      "description": "Session end timestamp in ISO format (optional)",
+      "format": "date-time"
+    },
+    "project_path": {
+      "type": "string",
+      "description": "Absolute path to the project root directory"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current session status",
+      "enum": ["active", "completed", "archived", "error"]
+    },
+    "git_info": {
+      "type": "object",
+      "description": "Git repository information",
+      "properties": {
+        "branch": {
+          "type": "string",
+          "description": "Current git branch"
+        },
+        "hash": {
+          "type": "string",
+          "description": "Current commit hash (short)"
+        },
+        "dirty": {
+          "type": "boolean",
+          "description": "Whether working directory has uncommitted changes"
+        }
+      },
+      "additionalProperties": false
+    },
+    "context_data": {
+      "type": "object",
+      "description": "Session context and metadata",
+      "properties": {
+        "project_memory": {
+          "type": "string",
+          "description": "Project memory content"
+        },
+        "recent_decisions": {
+          "type": "array",
+          "description": "Recent project decisions",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "category": {"type": "string"},
+              "impact": {"type": "string"},
+              "date": {"type": "string", "format": "date-time"},
+              "timestamp": {"type": "number"}
+            },
+            "required": ["title", "description", "date"]
+          }
+        },
+        "user_preferences": {
+          "type": "object",
+          "description": "User preferences and settings"
+        }
+      },
+      "additionalProperties": true
+    },
+    "tool_usage": {
+      "type": "array",
+      "description": "Tools used during this session",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tool_name": {
+            "type": "string",
+            "description": "Name of the tool used"
+          },
+          "timestamp": {
+            "type": "string",
+            "description": "When the tool was used",
+            "format": "date-time"
+          },
+          "input_data": {
+            "description": "Input data provided to the tool (sanitized)"
+          },
+          "output_data": {
+            "description": "Output data from the tool (sanitized)"
+          },
+          "execution_time_ms": {
+            "type": "integer",
+            "description": "Tool execution time in milliseconds",
+            "minimum": 0
+          },
+          "success": {
+            "type": "boolean",
+            "description": "Whether the tool execution was successful"
+          }
+        },
+        "required": ["tool_name", "timestamp", "success"],
+        "additionalProperties": false
+      }
+    },
+    "file_interactions": {
+      "type": "array",
+      "description": "File interactions during this session",
+      "items": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "Path to the file that was interacted with"
+          },
+          "action_type": {
+            "type": "string",
+            "description": "Type of interaction",
+            "enum": ["read", "write", "edit", "create", "delete", "move", "copy"]
+          },
+          "timestamp": {
+            "type": "string",
+            "description": "When the interaction occurred",
+            "format": "date-time"
+          },
+          "content_hash": {
+            "type": "string",
+            "description": "SHA-256 hash of file content after interaction"
+          },
+          "line_changes": {
+            "type": "object",
+            "description": "Information about line changes",
+            "properties": {
+              "lines_added": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "lines_removed": {
+                "type": "integer", 
+                "minimum": 0
+              },
+              "lines_modified": {
+                "type": "integer",
+                "minimum": 0
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": ["file_path", "action_type", "timestamp"],
+        "additionalProperties": false
+      }
+    },
+    "checkpoints": {
+      "type": "array",
+      "description": "Session checkpoints created",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Checkpoint name"
+          },
+          "timestamp": {
+            "type": "string",
+            "description": "When the checkpoint was created",
+            "format": "date-time"
+          },
+          "file": {
+            "type": "string",
+            "description": "Path to the checkpoint file"
+          },
+          "description": {
+            "type": "string",
+            "description": "Optional checkpoint description"
+          }
+        },
+        "required": ["name", "timestamp", "file"],
+        "additionalProperties": false
+      }
+    },
+    "performance_metrics": {
+      "type": "object",
+      "description": "Session performance metrics",
+      "properties": {
+        "total_duration_seconds": {
+          "type": "number",
+          "description": "Total session duration",
+          "minimum": 0
+        },
+        "tools_used_count": {
+          "type": "integer",
+          "description": "Total number of tools used",
+          "minimum": 0
+        },
+        "files_modified_count": {
+          "type": "integer",
+          "description": "Total number of files modified",
+          "minimum": 0
+        },
+        "checkpoints_created": {
+          "type": "integer",
+          "description": "Number of checkpoints created",
+          "minimum": 0
+        },
+        "memory_usage_mb": {
+          "type": "number",
+          "description": "Peak memory usage in MB",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "error_log": {
+      "type": "array",
+      "description": "Errors encountered during the session",
+      "items": {
+        "type": "object",
+        "properties": {
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "error_type": {
+            "type": "string"
+          },
+          "error_message": {
+            "type": "string"
+          },
+          "component": {
+            "type": "string",
+            "description": "Which component encountered the error"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["low", "medium", "high", "critical"]
+          }
+        },
+        "required": ["timestamp", "error_type", "error_message"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "id",
+    "created_at", 
+    "updated_at",
+    "project_path",
+    "status",
+    "context_data",
+    "tool_usage",
+    "file_interactions",
+    "checkpoints"
+  ],
+  "additionalProperties": false
+}

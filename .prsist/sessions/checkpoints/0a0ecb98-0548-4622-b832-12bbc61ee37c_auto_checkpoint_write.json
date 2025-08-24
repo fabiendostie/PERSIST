@@ -1,0 +1,83 @@
+{
+  "name": "auto_checkpoint_write",
+  "timestamp": "2025-08-24T15:03:33.267243",
+  "session_id": "0a0ecb98-0548-4622-b832-12bbc61ee37c",
+  "git_info": {
+    "branch": "main",
+    "hash": "e1fde5cf",
+    "dirty": true
+  },
+  "session_state": {
+    "id": "0a0ecb98-0548-4622-b832-12bbc61ee37c",
+    "created_at": "2025-08-24T15:02:22.130737",
+    "updated_at": "2025-08-24T15:03:33.261228",
+    "project_path": "D:\\Projects\\Dev\\Memory",
+    "git_info": {
+      "branch": "main",
+      "hash": "e1fde5cf",
+      "dirty": true
+    },
+    "context_data": {
+      "last_tool_used": "Write",
+      "last_tool_time": "2025-08-24T15:03:33.261228",
+      "tool_count": 1
+    },
+    "status": "active",
+    "tool_usage": [
+      {
+        "tool_name": "Bash",
+        "timestamp": "2025-08-24T15:02:23.449785",
+        "input_data": {
+          "command": "cd \"D:\\Projects\\Dev\\Memory\" && python \".prsist/bin/claude-integration.py\"",
+          "description": "Test the integration script from project directory"
+        },
+        "output_data": "{'stdout': '[SUCCESS] Memory system ready\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
+        "execution_time_ms": 0,
+        "success": true
+      },
+      {
+        "tool_name": "Bash",
+        "timestamp": "2025-08-24T15:02:32.380896",
+        "input_data": {
+          "command": "python .prsist/bin/prsist.py -s",
+          "description": "Check current session status"
+        },
+        "output_data": "{'stdout': '[RUN] Prsist Memory: Running 1 command(s)\\r\\n--------------------------------------------------\\r\\n[STATUS] Session Status...\\r\\n  Active Session: 0a0ecb98...\\r\\n  Tools Used: 1\\r\\n  Files Modified: 0\\r\\n  Duration: 0 minutes\\r\\n--------------------------------------------------\\r\\n[DONE] 1/1 commands completed successfully\\r\\n2025-08-24 15:02:31,732 - root - INFO - Memory manager initialized\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
+        "execution_time_ms": 0,
+        "success": true
+      },
+      {
+        "tool_name": "Bash",
+        "timestamp": "2025-08-24T15:03:26.082769",
+        "input_data": {
+          "command": "ls -la \"C:\\Users\\fabie\\.claude\" 2>/dev/null || echo \"Directory not found\"",
+          "description": "Check the Windows path directly"
+        },
+        "output_data": "{'stdout': 'total 77\\ndrwxr-xr-x 1 fabien 197610   0 Aug 16 06:36 .\\ndrwxr-xr-x 1 fabien 197610   0 Aug 24 15:03 ..\\ndrwxr-xr-x 1 fabien 197610   0 Aug 16 06:36 .anthropic\\n-rw-r--r-- 1 fabien 197610 348 Aug 16 06:34 .credentials.json\\ndrwxr-xr-x 1 fabien 197610   0 Aug 16 06:19 downloads\\ndrwxr-xr-x 1 fabien 197610   0 Aug 19 14:05 ide\\ndrwxr-xr-x 1 fabien 197610   0 Aug 16 06:36 projects\\ndrwxr-xr-x 1 fabien 197610   0 Aug 24 14:54 shell-snapshots\\ndrwxr-xr-x 1 fabien 197610   0 Aug 11 11:13 statsig\\ndrwxr-xr-x 1 fabien 197610   0 Aug 24 15:02 todos\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
+        "execution_time_ms": 0,
+        "success": true
+      },
+      {
+        "tool_name": "Write",
+        "timestamp": "2025-08-24T15:03:33.253960",
+        "input_data": {
+          "file_path": "C:\\Users\\fabie\\.claude\\settings.json",
+          "content": "{\n  \"hooks\": {\n    \"session_start\": [\n      {\n        \"name\": \"prsist_memory_integration\",\n        \"command\": \"python \\\".prsist/bin/claude-integration.py\\\"\",\n        \"description\": \"Auto-start Prsist memory system for Claude Code sessions\",\n        \"timeout\": 10000,\n        \"continue_on_error\": true\n      }\n    ]\n  }\n}"
+        },
+        "output_data": "{'type': 'create', 'filePath': 'C:\\\\Users\\\\fabie\\\\.claude\\\\settings.json', 'content': '{\\n  \"hooks\": {\\n    \"session_start\": [\\n      {\\n        \"name\": \"prsist_memory_integration\",\\n        \"command\": \"python \\\\\".prsist/bin/claude-integration.py\\\\\"\",\\n        \"description\": \"Auto-start Prsist memory system for Claude Code sessions\",\\n        \"timeout\": 10000,\\n        \"continue_on_error\": true\\n      }\\n    ]\\n  }\\n}', 'structuredPatch': []}",
+        "execution_time_ms": 0,
+        "success": true
+      }
+    ],
+    "file_interactions": [
+      {
+        "file_path": "C:\\Users\\fabie\\.claude\\settings.json",
+        "action_type": "write",
+        "timestamp": "2025-08-24T15:03:33.257119",
+        "content_hash": "f42fc55e6e106fbfc7f25c7fe82759247c8c7c98ec8c3e791501a333c8db4f6f",
+        "line_changes": null
+      }
+    ],
+    "checkpoints": []
+  }
+}
