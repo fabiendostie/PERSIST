@@ -21,6 +21,7 @@ Single Letter Options:
   -z  Cleanup old data
   -l  List all commands
   -a  All checks (equivalent to -tschrmv)
+  -i  Force context injection (failsafe)
   
 Chain commands: prsist -tsc (test + status + context)
 Examples:
@@ -99,6 +100,46 @@ def show_context():
         return True
     except Exception as e:
         print(f"[ERROR] Context error: {e}")
+        return False
+
+def force_context_injection():
+    """Force inject project context (failsafe)"""
+    print("[FORCE-CONTEXT] Force injecting project context...")
+    try:
+        from memory_manager import MemoryManager
+        mm = MemoryManager()
+        
+        # Force rebuild context
+        context = mm.get_session_context()
+        print(f"  * Context loaded: {len(context)} characters")
+        
+        # Display current project info
+        print("  * Project Memory:")
+        context_file = Path(".prsist/context/claude-context.md")
+        if context_file.exists():
+            with open(context_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                lines = content.split('\n')[:10]
+                for line in lines:
+                    if line.strip():
+                        print(f"    {line[:80]}{'...' if len(line) > 80 else ''}")
+                        if 'Memory System Status' in line:
+                            break
+        
+        # Display session info
+        session_file = Path(".prsist/sessions/active/current-session.json")
+        if session_file.exists():
+            with open(session_file, 'r', encoding='utf-8') as f:
+                session_data = json.load(f)
+                print(f"  * Session: {session_data.get('session_id', 'Unknown')[:8]}")
+                print(f"  * Tools used: {session_data.get('tool_count', 0)}")
+        
+        print("  * Context injection complete - memory should now be available")
+        return True
+        
+    except Exception as e:
+        print(f"  * Context injection failed: {e}")
+        print("  Manual fallback: Read .prsist/context/claude-context.md")
         return False
 
 def recent_sessions():
@@ -660,7 +701,8 @@ COMMAND_MAP = {
     'k': create_checkpoint,
     'x': export_session,
     'z': cleanup_data,
-    'l': list_commands
+    'l': list_commands,
+    'i': force_context_injection
 }
 
 def main():

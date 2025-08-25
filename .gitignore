@@ -1,15 +1,16 @@
 # Prsist Memory System - Secure .gitignore
 
-# CRITICAL: Memory system sensitive data - NEVER COMMIT
-.prsist/sessions/active/
+# CRITICAL: Memory system sensitive data - Use git-memory-manager.py for safe commits
+.prsist/sessions/active/current-session.json
 .prsist/sessions/archived/
 .prsist/sessions/checkpoints/
 .prsist/storage/sessions.db
-.prsist/storage/memory.log
+.prsist/storage/memory.log  
 .prsist/storage/debug-hook-calls.log
 .prsist/logs/
 .prsist/context/claude-context.md
 .prsist/context/project-memory.md
+# Allow .prsist/sessions/active/ directory but ignore current session
 .prsist/tests/test_results.json
 .prsist/session_export_*.json
 session_export_*.json

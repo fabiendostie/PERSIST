@@ -13,7 +13,8 @@ Prsist solves the fundamental problem of AI memory loss between sessions. It pro
 - **Automatic Context Injection**: Loads relevant project history when sessions start
 - **Project Memory**: Stores long-term decisions, features, and project knowledge
 - **Tool Usage Tracking**: Records all tool interactions for complete activity history
-- **Git Integration**: Automatic tracking via lefthook for seamless workflow integration
+- **Git Memory Management**: Automatic pause/resume of memory system during git operations
+- **Safe Git Operations**: Force-add memory files and prevent conflicts during commits/merges
 - **SQLite Backend**: Efficient, portable database storage for all memory data
 
 ### Claude Code Integration
@@ -67,6 +68,13 @@ python mem.py feature "API Integration" "Completed REST API endpoints"
 
 # Decision logging
 python mem.py decision "Use PostgreSQL for better performance"
+
+# Git memory management
+python .prsist/bin/git-memory-manager.py status
+python .prsist/bin/git-memory-manager.py commit "Safe commit with memory management"
+
+# Force context injection (failsafe)
+python .prsist/bin/prsist.py -i
 ```
 
 ### Claude Code Commands
@@ -82,6 +90,7 @@ python mem.py decision "Use PostgreSQL for better performance"
 /mem-project-memory          # Add to persistent project memory
 /mem-export                   # Export session data
 /mem-validate                 # Validate system integrity
+/mem-force-context            # Force context injection (failsafe)
 ```
 
 ### Advanced Usage
@@ -107,6 +116,7 @@ node .prsist/bridge/prsist-bridge.js
 .prsist/
 ├── bin/                      # Core executables
 │   ├── prsist.py            # Main CLI interface
+│   ├── git-memory-manager.py # Git memory management
 │   └── claude-integration.py # Claude Code integration
 ├── hooks/                    # Event hooks
 │   ├── PostToolUse.py       # Tool usage tracking
@@ -142,7 +152,8 @@ node .prsist/bridge/prsist-bridge.js
 - Session tracking and management
 - Context injection and filtering
 - Project memory persistence
-- Git integration via lefthook
+- Git memory management with automatic pause/resume hooks
+- Safe git operations and conflict prevention
 - CLI tools and interfaces
 - Export and checkpoint functionality
 - Health monitoring and validation

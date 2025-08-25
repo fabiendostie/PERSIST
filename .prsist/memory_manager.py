@@ -30,6 +30,7 @@ class MemoryManager:
             memory_dir = Path(__file__).parent
         
         self.memory_dir = Path(memory_dir)
+        self.lock_file = self.memory_dir / "storage" / ".memory_lock"
         
         # Load configuration
         if config_path is None:
@@ -73,6 +74,19 @@ class MemoryManager:
             self.git_integration_enabled = False
         
         logging.info("Memory manager initialized")
+    
+    def is_locked(self) -> bool:
+        """Check if memory system is locked for git operations."""
+        return self.lock_file.exists()
+    
+    def wait_for_unlock(self, timeout: int = 5) -> bool:
+        """Wait for memory system to be unlocked."""
+        import time
+        elapsed = 0
+        while self.is_locked() and elapsed < timeout:
+            time.sleep(0.1)
+            elapsed += 0.1
+        return not self.is_locked()
     
     def start_session(self, context_data: Dict[str, Any] = None) -> Dict[str, Any]:
         """Start new memory session."""
