@@ -5000,3 +5000,140 @@
 2025-08-25 04:05:47,070 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
 2025-08-25 04:05:47,070 - root - INFO - Enhanced Git Integration initialized
 2025-08-25 04:05:47,070 - root - INFO - Memory manager initialized
+2025-08-25 04:06:03,009 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:06:03,009 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:06:03,009 - root - INFO - Memory manager initialized
+2025-08-25 04:06:03,153 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:06:03,154 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:06:03,154 - root - INFO - Memory manager initialized
+2025-08-25 04:06:10,905 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:06:10,906 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:06:10,906 - root - INFO - Memory manager initialized
+2025-08-25 04:07:10,113 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:07:10,113 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:07:10,113 - root - INFO - Memory manager initialized
+2025-08-25 04:07:15,452 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:07:15,452 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:07:15,452 - root - INFO - Memory manager initialized
+2025-08-25 04:07:23,194 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:07:23,195 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:07:23,195 - root - INFO - Memory manager initialized
+2025-08-25 04:07:59,813 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:07:59,813 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:07:59,813 - root - INFO - Memory manager initialized
+2025-08-25 04:07:59,923 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:07:59,923 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:07:59,923 - root - INFO - Memory manager initialized
+2025-08-25 04:08:00,569 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-25 04:08:00,719 - root - INFO - Created checkpoint: auto_checkpoint_write
+2025-08-25 04:08:06,563 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:06,563 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:06,563 - root - INFO - Memory manager initialized
+2025-08-25 04:08:11,478 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:11,478 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:11,478 - root - INFO - Memory manager initialized
+2025-08-25 04:08:11,546 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:11,547 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:11,547 - root - INFO - Memory manager initialized
+2025-08-25 04:08:18,924 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:18,925 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:18,925 - root - INFO - Memory manager initialized
+2025-08-25 04:08:26,830 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:26,830 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:26,830 - root - INFO - Memory manager initialized
+2025-08-25 04:08:26,845 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:26,845 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:26,845 - root - INFO - Memory manager initialized
+2025-08-25 04:08:26,849 - root - ERROR - JSON decode error in D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json: Expecting ',' delimiter: line 183 column 16560 (char 105493)
+2025-08-25 04:08:26,849 - root - INFO - Corrupted JSON file backed up to: D:\Projects\Dev\Memory\.prsist\sessions\active\current-session.json.corrupted_20250825_040826
+2025-08-25 04:08:26,849 - root - WARNING - No active session for checkpoint creation
+2025-08-25 04:08:27,399 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:08:34,544 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:34,545 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:34,545 - root - INFO - Memory manager initialized
+2025-08-25 04:08:40,933 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:40,933 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:40,933 - root - INFO - Memory manager initialized
+2025-08-25 04:08:48,078 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:48,078 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:48,078 - root - INFO - Memory manager initialized
+2025-08-25 04:08:54,956 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:08:54,956 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:08:54,956 - root - INFO - Memory manager initialized
+2025-08-25 04:09:01,750 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:09:01,750 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:09:01,750 - root - INFO - Memory manager initialized
+2025-08-25 04:09:09,198 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:09:09,199 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:09:09,199 - root - INFO - Memory manager initialized
+2025-08-25 04:09:22,526 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:09:22,526 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:09:22,526 - root - INFO - Memory manager initialized
+2025-08-25 04:09:22,688 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:09:22,688 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:09:22,688 - root - INFO - Memory manager initialized
+2025-08-25 04:09:22,995 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:09:23,159 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:09:32,483 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:09:32,483 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:09:32,483 - root - INFO - Memory manager initialized
+2025-08-25 04:09:32,618 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:09:32,619 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:09:32,619 - root - INFO - Memory manager initialized
+2025-08-25 04:09:32,997 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:09:33,150 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:10,630 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:10,630 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:10,630 - root - INFO - Memory manager initialized
+2025-08-25 04:10:11,149 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:11,150 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:11,150 - root - INFO - Memory manager initialized
+2025-08-25 04:10:11,380 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:11,777 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:18,302 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:18,303 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:18,303 - root - INFO - Memory manager initialized
+2025-08-25 04:10:24,888 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:24,889 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:24,889 - root - INFO - Memory manager initialized
+2025-08-25 04:10:25,169 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:25,169 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:25,169 - root - INFO - Memory manager initialized
+2025-08-25 04:10:25,405 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:25,695 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:32,394 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:32,395 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:32,395 - root - INFO - Memory manager initialized
+2025-08-25 04:10:32,625 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:32,625 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:32,625 - root - INFO - Memory manager initialized
+2025-08-25 04:10:32,825 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:33,056 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:10:38,982 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:10:38,982 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:10:38,983 - root - INFO - Memory manager initialized
+2025-08-25 04:11:07,356 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:11:07,357 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:11:07,357 - root - INFO - Memory manager initialized
+2025-08-25 04:11:07,727 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:11:07,727 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:11:07,727 - root - INFO - Memory manager initialized
+2025-08-25 04:11:08,108 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:11:08,237 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:11:14,571 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:11:14,572 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:11:14,572 - root - INFO - Memory manager initialized
+2025-08-25 04:11:14,698 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:11:14,698 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:11:14,698 - root - INFO - Memory manager initialized
+2025-08-25 04:11:15,046 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:11:15,177 - root - INFO - Created checkpoint: auto_checkpoint_edit
+2025-08-25 04:12:32,978 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:12:32,979 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:12:32,979 - root - INFO - Memory manager initialized
+2025-08-25 04:12:33,288 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:12:33,288 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:12:33,288 - root - INFO - Memory manager initialized
+2025-08-25 04:12:41,272 - root - INFO - Enhanced Git Integrator initialized for D:\Projects\Dev\Memory
+2025-08-25 04:12:41,272 - root - INFO - Enhanced Git Integration initialized
+2025-08-25 04:12:41,272 - root - INFO - Memory manager initialized
