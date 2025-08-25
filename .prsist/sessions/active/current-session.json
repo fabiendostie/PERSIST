@@ -1,12 +1,12 @@
 {
   "id": "61d2f357-9a4c-4c29-a517-2e0b1adf4413",
   "created_at": "2025-08-25 07:58:57",
-  "updated_at": "2025-08-25T04:24:19.849350",
+  "updated_at": "2025-08-25T04:25:10.482782",
   "project_path": "D:\\Projects\\Dev\\Memory",
   "git_info": {},
   "context_data": {
     "last_tool_used": "Bash",
-    "last_tool_time": "2025-08-25T04:24:19.847371",
+    "last_tool_time": "2025-08-25T04:25:10.479695",
     "tool_count": 1
   },
   "status": "active",
@@ -828,6 +828,28 @@
         "description": "Check if local README differs from remote main"
       },
       "output_data": "{'stdout': 'diff --git a/README.md b/README.md\\nindex d98ac61..517f33f 100644\\n--- a/README.md\\n+++ b/README.md\\n@@ -13,7 +13,8 @@ Prsist solves the fundamental problem of AI memory loss between sessions. It pro\\n - **Automatic Context Injection**: Loads relevant project history when sessions start\\n - **Project Memory**: Stores long-term decisions, features, and project knowledge\\n - **Tool Usage Tracking**: Records all tool interactions for complete activity history\\n-- **Git Integration**: Automatic tracking via lefthook for seamless workflow integration\\n+- **Git Memory Management**: Automatic pause/resume of memory system during git operations\\n+- **Safe Git Operations**: Force-add memory files and prevent conflicts during commits/merges\\n - **SQLite Backend**: Efficient, portable database storage for all memory data\\n \\n ### Claude Code Integration\\n@@ -67,6 +68,13 @@ python mem.py feature \"API Integration\" \"Completed REST API endpoints\"\\n \\n # Decision logging\\n python mem.py decision \"Use PostgreSQL for better performance\"\\n+\\n+# Git memory management\\n+python .prsist/bin/git-memory-manager.py status\\n+python .prsist/bin/git-memory-manager.py commit \"Safe commit with memory management\"\\n+\\n+# Force context injection (failsafe)\\n+python .prsist/bin/prsist.py -i\\n ```\\n \\n ### Claude Code Commands\\n@@ -82,6 +90,7 @@ python mem.py decision \"Use PostgreSQL for better performance\"\\n /mem-project-memory          # Add to persistent project memory\\n /mem-export                   # Export session data\\n /mem-validate                 # Validate system integrity\\n+/mem-force-context            # Force context injection (failsafe)\\n ```\\n \\n ### Advanced Usage\\n@@ -107,6 +116,7 @@ node .prsist/bridge/prsist-bridge.js\\n .prsist/\\n â”œâ”€â”€ bin/                      # Core executables\\n â”‚   â”œâ”€â”€ prsist.py            # Main CLI interface\\n+â”‚   â”œâ”€â”€ git-memory-manager.py # Git memory management\\n â”‚   â””â”€â”€ claude-integration.py # Claude Code integration\\n â”œâ”€â”€ hooks/                    # Event hooks\\n â”‚   â”œâ”€â”€ PostToolUse.py       # Tool usage tracking\\n@@ -142,7 +152,8 @@ node .prsist/bridge/prsist-bridge.js\\n - Session tracking and management\\n - Context injection and filtering\\n - Project memory persistence\\n-- Git integration via lefthook\\n+- Git memory management with automatic pause/resume hooks\\n+- Safe git operations and conflict prevention\\n - CLI tools and interfaces\\n - Export and checkpoint functionality\\n - Health monitoring and validation\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
+      "execution_time_ms": 0,
+      "success": true
+    },
+    {
+      "tool_name": "Bash",
+      "timestamp": "2025-08-25T04:25:10.352830",
+      "input_data": {
+        "command": "\"C:\\Python313\\python.exe\" .prsist/bin/git-memory-manager.py commit \"Update memory state - sync latest README and documentation\"",
+        "description": "Commit current memory state with latest README"
+      },
+      "output_data": "{'stdout': '[develop d11e8b2] feat: Update memory state - sync latest README and documentation\\n 4 files changed, 117 insertions(+), 5 deletions(-)\\n* Memory state committed to git\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
+      "execution_time_ms": 0,
+      "success": true
+    },
+    {
+      "tool_name": "Bash",
+      "timestamp": "2025-08-25T04:25:10.469686",
+      "input_data": {
+        "command": "\"C:\\Python313\\python.exe\" .prsist/bin/git-memory-manager.py commit \"Update memory state - sync latest README and documentation\"",
+        "description": "Commit current memory state with latest README"
+      },
+      "output_data": "{'stdout': '[develop d11e8b2] feat: Update memory state - sync latest README and documentation\\n 4 files changed, 117 insertions(+), 5 deletions(-)\\n* Memory state committed to git\\r', 'stderr': '', 'interrupted': False, 'isImage': False}",
       "execution_time_ms": 0,
       "success": true
     }
