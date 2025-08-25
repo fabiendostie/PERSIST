@@ -12,6 +12,7 @@ from typing import Dict, Any, Optional, List
 from database import MemoryDatabase
 from session_tracker import SessionTracker
 from context_builder import ContextBuilder
+from enhanced_git_integration import EnhancedGitIntegrator
 from utils import (
     setup_logging,
     load_yaml_config,
@@ -61,6 +62,16 @@ class MemoryManager:
         
         self.project_root = get_project_root()
         
+        # Initialize enhanced git integration
+        try:
+            self.git_integrator = EnhancedGitIntegrator(str(self.memory_dir), str(self.project_root))
+            self.git_integration_enabled = True
+            logging.info("Enhanced Git Integration initialized")
+        except Exception as e:
+            logging.warning(f"Git integration disabled: {e}")
+            self.git_integrator = None
+            self.git_integration_enabled = False
+        
         logging.info("Memory manager initialized")
     
     def start_session(self, context_data: Dict[str, Any] = None) -> Dict[str, Any]:
@@ -79,7 +90,18 @@ class MemoryManager:
             session_result = self.session_tracker.start_session(context_data)
             
             if session_result.get("memory_system_active"):
-                logging.info(f"Memory session started: {session_result['session_id']}")
+                session_id = session_result['session_id']
+                logging.info(f"Memory session started: {session_id}")
+                
+                # Auto-correlate with git if enabled
+                if self.git_integration_enabled and self.git_integrator:
+                    try:
+                        git_correlation = self.git_integrator.auto_correlate_session(session_id)
+                        session_result['git_correlation'] = git_correlation
+                        if git_correlation.get('correlated'):
+                            logging.info(f"Session {session_id} auto-correlated with git")
+                    except Exception as e:
+                        logging.warning(f"Git auto-correlation failed: {e}")
             else:
                 logging.error("Failed to start memory session")
             
@@ -393,6 +415,42 @@ class MemoryManager:
             elif command == 'validate':
                 validation = self.validate_system()
                 return {"status": "success", "data": validation}
+            
+            elif command == 'git_switch_branch':
+                if len(args) >= 3:
+                    from_branch, to_branch, session_id = args[0], args[1], args[2]
+                    if self.git_integration_enabled:
+                        result = self.git_integrator.switch_branch_context(from_branch, to_branch, session_id)
+                        return {"status": "success", "data": result}
+                    else:
+                        return {"status": "error", "message": "Git integration not available"}
+                return {"status": "error", "message": "from_branch, to_branch, and session_id required"}
+            
+            elif command == 'git_check_updates':
+                if self.git_integration_enabled:
+                    result = self.git_integrator.check_for_correlation_updates()
+                    return {"status": "success", "data": result}
+                else:
+                    return {"status": "error", "message": "Git integration not available"}
+            
+            elif command == 'git_report':
+                session_id = args[0] if args else None
+                branch_name = args[1] if len(args) > 1 else None
+                if self.git_integration_enabled:
+                    result = self.git_integrator.generate_git_memory_report(session_id, branch_name)
+                    return {"status": "success", "data": result}
+                else:
+                    return {"status": "error", "message": "Git integration not available"}
+            
+            elif command == 'git_track_merge':
+                if args and len(args) >= 2:
+                    merge_commit_sha, session_id = args[0], args[1]
+                    if self.git_integration_enabled:
+                        result = self.git_integrator.track_merge_operation(merge_commit_sha, session_id)
+                        return {"status": "success", "data": result}
+                    else:
+                        return {"status": "error", "message": "Git integration not available"}
+                return {"status": "error", "message": "merge_commit_sha and session_id required"}
             
             else:
                 return {"status": "error", "message": f"Unknown command: {command}"}

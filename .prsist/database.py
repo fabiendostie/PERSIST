@@ -1040,3 +1040,139 @@ class MemoryDatabase:
         except Exception as e:
             logging.error(f"Failed to cleanup expired relevance: {e}")
             return 0
+    
+    # Enhanced Git Integration methods
+    
+    def record_branch_context(self, branch_name: str, commit_sha: str = None, 
+                             context_data: Dict = None, session_id: str = None) -> bool:
+        """Record branch context information."""
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                conn.execute("""
+                    INSERT OR REPLACE INTO git_branch_context 
+                    (branch_name, commit_sha, context_data, session_id, last_updated)
+                    VALUES (?, ?, ?, ?, datetime('now'))
+                """, (
+                    branch_name, commit_sha,
+                    json.dumps(context_data) if context_data else None,
+                    session_id
+                ))
+                return True
+        except Exception as e:
+            logging.error(f"Failed to record branch context for {branch_name}: {e}")
+            return False
+    
+    def get_branch_sessions(self, branch_name: str, limit: int = 10) -> List[Dict]:
+        """Get sessions associated with a branch."""
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                conn.row_factory = sqlite3.Row
+                cursor = conn.execute("""
+                    SELECT DISTINCT s.*, gc.branch_name 
+                    FROM sessions s
+                    JOIN git_commits gc ON s.id = gc.session_id
+                    WHERE gc.branch_name = ?
+                    ORDER BY s.updated_at DESC
+                    LIMIT ?
+                """, (branch_name, limit))
+                
+                sessions = []
+                for row in cursor.fetchall():
+                    result = dict(row)
+                    if result['context_data']:
+                        result['context_data'] = json.loads(result['context_data'])
+                    # Add days_ago calculation
+                    from datetime import datetime
+                    if result.get('updated_at'):
+                        try:
+                            updated = datetime.fromisoformat(result['updated_at'])
+                            days_ago = (datetime.now() - updated).days
+                            result['days_ago'] = days_ago
+                        except:
+                            result['days_ago'] = 'unknown'
+                    sessions.append(result)
+                return sessions
+        except Exception as e:
+            logging.error(f"Failed to get branch sessions for {branch_name}: {e}")
+            return []
+    
+    def get_commit_session_data(self, commit_sha: str) -> Optional[Dict]:
+        """Get session data associated with a commit."""
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                conn.row_factory = sqlite3.Row
+                cursor = conn.execute("""
+                    SELECT gc.*, s.context_data, s.status as session_status
+                    FROM git_commits gc
+                    LEFT JOIN sessions s ON gc.session_id = s.id
+                    WHERE gc.commit_sha = ?
+                """, (commit_sha,))
+                
+                row = cursor.fetchone()
+                if row:
+                    result = dict(row)
+                    if result['commit_metadata']:
+                        result['commit_metadata'] = json.loads(result['commit_metadata'])
+                    if result['context_data']:
+                        result['context_data'] = json.loads(result['context_data'])
+                    return result
+                return None
+        except Exception as e:
+            logging.error(f"Failed to get commit session data for {commit_sha}: {e}")
+            return None
+    
+    def get_session_git_commits(self, session_id: str) -> List[Dict]:
+        """Get git commits associated with a session."""
+        try:
+            with sqlite3.connect(self.db_path) as conn:
+                conn.row_factory = sqlite3.Row
+                cursor = conn.execute("""
+                    SELECT * FROM git_commits 
+                    WHERE session_id = ?
+                    ORDER BY commit_timestamp DESC
+                """, (session_id,))
+                
+                commits = []
+                for row in cursor.fetchall():
+                    result = dict(row)
+                    if result['commit_metadata']:
+                        result['commit_metadata'] = json.loads(result['commit_metadata'])
+                    commits.append(result)
+                return commits
+        except Exception as e:
+            logging.error(f"Failed to get session git commits for {session_id}: {e}")
+            return []
+    
+    def store_git_correlation(self, session_id: str, commit_hash: str, branch_name: str, timestamp: str) -> str:
+        """Store git correlation data and return correlation ID."""
+        try:
+            import uuid
+            correlation_id = str(uuid.uuid4())
+            
+            with sqlite3.connect(self.db_path) as conn:
+                conn.execute("""
+                    INSERT INTO git_correlations 
+                    (id, session_id, commit_hash, branch_name, timestamp)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (correlation_id, session_id, commit_hash, branch_name, timestamp))
+                return correlation_id
+        except Exception as e:
+            logging.error(f"Failed to store git correlation: {e}")
+            return None
+    
+    def store_workflow_event(self, event_type: str, workflow: str, event_data: Dict, timestamp: str) -> str:
+        """Store workflow event and return event ID."""
+        try:
+            import uuid
+            event_id = str(uuid.uuid4())
+            
+            with sqlite3.connect(self.db_path) as conn:
+                conn.execute("""
+                    INSERT INTO workflow_events 
+                    (id, event_type, workflow, event_data, timestamp)
+                    VALUES (?, ?, ?, ?, ?)
+                """, (event_id, event_type, workflow, json.dumps(event_data), timestamp))
+                return event_id
+        except Exception as e:
+            logging.error(f"Failed to store workflow event: {e}")
+            return None
