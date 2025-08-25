@@ -1,0 +1,112 @@
+# Prsist Memory System - Secure .gitignore
+
+# CRITICAL: Memory system sensitive data - NEVER COMMIT
+.prsist/sessions/active/
+.prsist/sessions/archived/
+.prsist/sessions/checkpoints/
+.prsist/storage/sessions.db
+.prsist/storage/memory.log
+.prsist/storage/debug-hook-calls.log
+.prsist/logs/
+.prsist/context/claude-context.md
+.prsist/context/project-memory.md
+.prsist/tests/test_results.json
+.prsist/session_export_*.json
+session_export_*.json
+*.corrupted*
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+bun.lock
+deno.lock
+pnpm-workspace.yaml
+package-lock.json
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+*~
+npm-debug.log*
+
+# Build output
+build/*.txt
+web-bundles/
+dist/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+config/secrets.yaml
+config/keys/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor configs
+.vscode/
+.cursor/
+.windsurf/
+.trae/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+*.egg-info/
+*.egg
+*.whl
+
+# Test and coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.mypy_cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Development artifacts  
+test-file-tracking.txt
+et
+nul
+
+# Legacy/cleanup (remove these from BMAD)
+.bmad-core
+.bmad-creator-tools
+test-project-install/*
+sample-project/*
+flattened-codebase.xml
+bmad-core/
+expansion-packs/
+tools/
+common/
+docs/
+
